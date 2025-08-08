@@ -4,3 +4,4 @@ brevo_auth_check.js
 venv/
 package.json
 package-lock.json
+node_modules/
