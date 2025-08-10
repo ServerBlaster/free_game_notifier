@@ -85,15 +85,27 @@ def get_humble_from_reddit():
     try:
         url = "https://www.reddit.com/r/FreeGameFindings/.json"
         headers = {"User-Agent": "Mozilla/5.0"}
-        r = requests.get(url, headers=headers, timeout=20).json()
-        posts = r.get("data", {}).get("children", [])
+        r = requests.get(url, headers=headers, timeout=20)
+
+        # Ensure valid JSON
+        if r.status_code != 200 or not r.text.strip():
+            print(f"Humble Reddit: Invalid response (status {r.status_code})")
+            return []
+
+        try:
+            data = r.json()
+        except Exception as json_err:
+            print("Humble Reddit JSON parse error:", json_err)
+            return []
+
+        posts = data.get("data", {}).get("children", [])
         out = []
         for p in posts:
-            t_val = p.get("data", {}).get("title", "")
-            t = str(t_val) if isinstance(t_val, str) else ""
+            t = str(p.get("data", {}).get("title", "") or "")
             if "humble" in t.lower() and "free" in t.lower():
                 out.append({"platform": "Humble", "title": t, "status": "Fresh Drop", "banner": ""})
         return out[:4]
+
     except Exception as e:
         print("Reddit Humble error:", e)
         return []
@@ -110,37 +122,51 @@ def get_ubisoft():
 
 def get_prime_free():
     results = []
+
+    # Prime Gaming public page
     try:
         url = "https://gaming.amazon.com/home"
         html = requests.get(url, headers=HEADERS, timeout=20).text
-        soup = BeautifulSoup(html, "html.parser")
-        for img in soup.select("img"):
-            alt_raw = img.get("alt")
-            alt = str(alt_raw).strip() if alt_raw else ""
-            src = str(img.get("src") or "").strip() if img.has_attr("src") else ""
-            if alt and ("prime" in alt.lower() or "free" in alt.lower()):
-                results.append({"platform": "Prime", "title": alt, "status": "Fresh Drop", "banner": src})
+        if html.strip():
+            soup = BeautifulSoup(html, "html.parser")
+            for img in soup.select("img"):
+                alt = str(img.get("alt") or "").strip()
+                src = str(img.get("src") or "").strip()
+                if alt and ("prime" in alt.lower() or "free" in alt.lower()):
+                    results.append({"platform": "Prime", "title": alt, "status": "Fresh Drop", "banner": src})
+        else:
+            print("Prime Gaming page: Empty response")
     except Exception as e:
         print("Prime Gaming public page error:", e)
 
+    # Reddit check for Prime Gaming
     try:
         reddit_url = "https://www.reddit.com/r/FreeGameFindings/.json"
-        r = requests.get(reddit_url, headers={"User-Agent": "Mozilla/5.0"}, timeout=20).json()
-        posts = r.get("data", {}).get("children", [])
-        for p in posts:
-            title_val = p.get("data", {}).get("title", "")
-            title = str(title_val).strip() if title_val else ""
-            if "prime" in title.lower() and "free" in title.lower():
-                results.append({"platform": "Prime", "title": title, "status": "Fresh Drop", "banner": ""})
+        r = requests.get(reddit_url, headers={"User-Agent": "Mozilla/5.0"}, timeout=20)
+
+        if r.status_code != 200 or not r.text.strip():
+            print(f"Prime Reddit: Invalid response (status {r.status_code})")
+        else:
+            try:
+                data = r.json()
+                posts = data.get("data", {}).get("children", [])
+                for p in posts:
+                    title = str(p.get("data", {}).get("title", "") or "").strip()
+                    if "prime" in title.lower() and "free" in title.lower():
+                        results.append({"platform": "Prime", "title": title, "status": "Fresh Drop", "banner": ""})
+            except Exception as json_err:
+                print("Prime Reddit JSON parse error:", json_err)
     except Exception as e:
         print("Prime Gaming Reddit error:", e)
 
+    # Deduplicate results
     unique_titles = set()
     unique_results = []
     for item in results:
         if item["title"].lower() not in unique_titles:
             unique_titles.add(item["title"].lower())
             unique_results.append(item)
+
     return unique_results
 
 # ------------------ UTILITIES ------------------
