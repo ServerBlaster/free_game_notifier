@@ -2,8 +2,10 @@ name: Free Game Notifier
 
 on:
   schedule:
-    - cron: '30 4 * * *'   # 10:00 IST daily (UTC 04:30)
-    - cron: '30 16 * * *'  # 22:00 IST daily (UTC 16:30)
+    # Times in UTC: IST is UTC+5:30
+    - cron: '45 2 * * *'   # 08:15 IST
+    - cron: '30 10 * * *'  # 16:00 IST
+    - cron: '30 16 * * *'  # 22:00 IST
   workflow_dispatch:
 
 jobs:
@@ -35,21 +37,28 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install nodemailer
-        run: npm install nodemailer
+      - name: Install Node dependencies
+        run: npm install
 
-      - name: Send emails (Node)
+      - name: Send emails (Node) if summary exists
+        if: ${{ success() && hashFiles('drop_summary.txt') != '' }}
         env:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           DASHBOARD_LINK: ${{ secrets.DASHBOARD_LINK }}
           MAX_SUBS: "250"
-        run: node mailer.js
-
-      - name: Commit dashboard & drops
         run: |
-          git config user.name "game-bot"
-          git config user.email "action@github.com"
-          git add dashboard/dashboard.html drops.json
-          git commit -m "Update dashboard and drops" || echo "No changes to commit"
+          if [ ! -s drop_summary.txt ]; then
+            echo "No drop_summary.txt or it's empty. Skipping emails."
+            exit 0
+          fi
+          node mailer.js
+
+      - name: Commit dashboard & JSON updates
+        if: success()
+        run: |
+          git config user.name "ServerGameLogger"
+          git config user.email "free-game-notifier-bot@github.com"
+          git add dashboard/dashboard.html drops.json game_data.json monthly_archive.json
+          git commit -m "Update dashboard, JSON data, and drops" || echo "No changes to commit"
           git push
