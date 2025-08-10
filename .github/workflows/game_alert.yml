@@ -1,28 +1,55 @@
-name: Game Notifier
+name: Free Game Notifier
+
 on:
   schedule:
-    - cron: '0 4,16 * * *'  # 10AM & 10PM IST
+    - cron: '30 4 * * *'   # 10:00 IST daily (UTC 04:30)
+    - cron: '30 16 * * *'  # 22:00 IST daily (UTC 16:30)
   workflow_dispatch:
+
 jobs:
-  notify:
+  run-and-email:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Setup Python & Run Main
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
-      - run: |
-          pip install -r requirements.txt || true
-          python main.py
 
-      - name: Setup Node & Send Emails
-        if: success()
-        uses: actions/setup-node@v3
+      - name: Install Python deps
+        run: pip install -r requirements.txt
+
+      - name: Run scrapers (Python)
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+          DASHBOARD_LINK: ${{ secrets.DASHBOARD_LINK }}
+        run: python main.py
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - run: |
-          npm install nodemailer
-          node mailer.js
+
+      - name: Install nodemailer
+        run: npm install nodemailer
+
+      - name: Send emails (Node)
         env:
-          BREVO_KEY: ${{ secrets.BREVO_KEY }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          DASHBOARD_LINK: ${{ secrets.DASHBOARD_LINK }}
+          MAX_SUBS: "250"
+        run: node mailer.js
+
+      - name: Commit dashboard & drops
+        run: |
+          git config user.name "game-bot"
+          git config user.email "action@github.com"
+          git add dashboard/dashboard.html drops.json
+          git commit -m "Update dashboard and drops" || echo "No changes to commit"
+          git push

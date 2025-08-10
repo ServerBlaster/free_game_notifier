@@ -1,77 +1,71 @@
+// mailer.js
 const fs = require("fs");
+const path = require("path");
 const nodemailer = require("nodemailer");
 
-const isWeekly = process.argv.includes("--weekly");
+const FROM_NAME = process.env.FROM_NAME || "Free Game Bot";
+const GMAIL_USER = process.env.GMAIL_USER; // e.g. your@gmail.com
+const GMAIL_APP_PASSWORD = process.env.GMAIL_APP_PASSWORD; // 16-char app password
+const DASHBOARD_LINK = process.env.DASHBOARD_LINK || "https://yourusername.github.io/free_game_notifier/dashboard/dashboard.html";
+const MAX_SUBS = parseInt(process.env.MAX_SUBS || "250", 10);
 
-const drops = JSON.parse(fs.readFileSync("drops.json"));
-const subs = JSON.parse(fs.readFileSync("subscribers.json"));
-
-if (!drops.length) {
-  console.log("No new drops – skipping email.");
-  process.exit();
+if (!GMAIL_USER || !GMAIL_APP_PASSWORD) {
+  console.error("ERROR: Set GMAIL_USER and GMAIL_APP_PASSWORD in env.");
+  process.exit(1);
 }
+
+const summaryPath = path.join(__dirname, "drop_summary.txt");
+if (!fs.existsSync(summaryPath) || !fs.readFileSync(summaryPath, "utf-8").trim()) {
+  console.log("No drop_summary.txt or it's empty. Nothing to send.");
+  process.exit(0);
+}
+const summaryText = fs.readFileSync(summaryPath, "utf-8").trim();
+
+let subs = [];
+try {
+  const subsRaw = JSON.parse(fs.readFileSync(path.join(__dirname, "subscribers.json"), "utf-8"));
+  subs = Array.isArray(subsRaw.emails) ? subsRaw.emails : [];
+} catch (e) {
+  console.error("Error reading subscribers.json:", e.message);
+  process.exit(1);
+}
+
 if (!subs.length) {
-  console.log("No subscribers – skipping email.");
-  process.exit();
+  console.log("No subscribers found in subscribers.json");
+  process.exit(0);
+}
+if (subs.length > MAX_SUBS) {
+  console.log(`Limiting recipients to MAX_SUBS=${MAX_SUBS}`);
+  subs = subs.slice(0, MAX_SUBS);
 }
 
 const transporter = nodemailer.createTransport({
-  host: "smtp-relay.brevo.com",
+  host: "smtp.gmail.com",
   port: 587,
-  auth: {
-    user: "your_email@example.com", // Replace with your Brevo verified sender
-    pass: process.env.BREVO_KEY,
-  },
+  secure: false,
+  auth: { user: GMAIL_USER, pass: GMAIL_APP_PASSWORD }
 });
 
-// Email content builder
-const buildEmailHTML = (email) => {
-  const freshDrops = drops.filter(d => d.status === "Fresh Drop");
-  const expiredDrops = drops.filter(d => d.status === "Expired");
+async function sendAll() {
+  for (const to of subs) {
+    try {
+      await transporter.sendMail({
+        from: `"${FROM_NAME}" <${GMAIL_USER}>`,
+        to,
+        subject: process.env.EMAIL_SUBJECT || "🎁 New Free Games Alert!",
+        text: summaryText + `\n\nView on dashboard: ${DASHBOARD_LINK}`,
+        html: `<div style="font-family:Segoe UI,Arial;padding:8px">
+                 ${summaryText.replace(/\n/g, "<br/>")}
+                 <hr/>
+                 <p><a href="${DASHBOARD_LINK}">View Dashboard</a></p>
+               </div>`
+      });
+      console.log(`✅ Sent to ${to}`);
+    } catch (err) {
+      console.error(`❌ Failed ${to}:`, err.message);
+    }
+  }
+  console.log("Done sending.");
+}
 
-  const makeBlock = (title, items) => items.length ? `
-    <h3>${title}</h3>
-    ${items.map(d => `
-      <div style="margin-bottom: 20px; font-family: Arial, sans-serif;">
-        <strong style="font-size: 16px;">${d.platform}</strong> – <span style="font-size:15px">${d.title}</span><br/>
-        <img src="${d.banner}" width="90%" style="border-radius: 12px; max-width: 500px;" />
-      </div>
-    `).join("")}
-  ` : "";
-
-  const style = `
-    <style>
-      body { font-family: 'Segoe UI', sans-serif; color: #333; }
-      a.unsubscribe { font-size: 12px; color: #999; text-decoration: none; }
-    </style>
-  `;
-
-  return `
-    <!DOCTYPE html>
-    <html>
-    <head><meta charset="UTF-8">${style}</head>
-    <body>
-      <h2 style="color: #4CAF50;">🎮 ${isWeekly ? 'This Week\'s Game Recap' : 'Fresh Game Drops'}!</h2>
-      ${makeBlock("🟢 Fresh Drops", freshDrops)}
-      ${isWeekly ? makeBlock("⚫ Expired This Week", expiredDrops) : ""}
-      <hr style="margin: 40px 0;">
-      <p style="font-size: 13px;">You’re receiving this because you subscribed on our game alert dashboard.</p>
-      <p><a class="unsubscribe" href="https://yourdashboard.vercel.app?email=${encodeURIComponent(email)}&unsubscribe=1">Unsubscribe</a></p>
-    </body>
-    </html>
-  `;
-};
-
-// Send all emails
-subs.forEach(email => {
-  const html = buildEmailHTML(email);
-  transporter.sendMail({
-    from: '🎮 Game Drop Bot <your_email@example.com>',
-    to: email,
-    subject: isWeekly ? "🗓️ Weekly Game Drop Recap!" : "🎁 New Free Games Alert!",
-    html: html,
-  }, (err, info) => {
-    if (err) console.error(`❌ ${email}:`, err.message);
-    else console.log(`✅ Sent to ${email}`);
-  });
-});
+sendAll().catch(e => console.error(e));

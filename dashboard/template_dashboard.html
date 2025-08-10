@@ -1,25 +1,28 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-  <title>🎮 Game Notifier</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <title>Free Game Tracker</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
     <h1>🎁 Free Game Tracker</h1>
-    <input type="range" min="0" max="9" id="theme-slider" />
-    <label><input type="checkbox" id="dark-toggle"> Dark Mode</label>
+    <p id="updated">Last updated: {{TIMESTAMP}}</p>
   </header>
 
-  <section>
+  <main id="content">
+    {{GAME_BLOCKS}}
+  </main>
+
+  <section class="subscribe">
+    <h3>Subscribe for email alerts</h3>
     <form id="subscribe-form">
-      <input type="email" id="email" placeholder="Enter your email">
+      <input id="emailInput" type="email" placeholder="you@example.com" required />
       <button type="submit">Subscribe</button>
     </form>
-    <p id="status"></p>
+    <p id="statusMsg"></p>
   </section>
-
-  <section id="drop-container"></section>
 
   <script src="dashboard.js"></script>
 </body>

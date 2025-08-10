@@ -2,6 +2,4 @@ test_email.js
 final_test.js
 brevo_auth_check.js
 venv/
-package.json
-package-lock.json
 node_modules/
