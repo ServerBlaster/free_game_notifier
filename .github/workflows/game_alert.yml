@@ -61,4 +61,7 @@ jobs:
           git config user.email "gsreejeeth@gmail.com"
           git add dashboard/dashboard.html drops.json game_data.json monthly_archive.json
           git commit -m "Update dashboard, JSON data, and drops" || echo "No changes to commit"
-           git push https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/ServerBlaster/free_game_notifier.git HEAD:main
+          # Set remote to use PAT explicitly
+          git remote set-url origin https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/ServerBlaster/free_game_notifier.git
+          # Push to main using PAT
+          git push origin HEAD:main
