@@ -17,5 +17,12 @@
   "Steam": [],
   "Humble": [],
   "Ubisoft": [],
-  "Prime": []
+  "Prime": [
+    {
+      "platform": "Prime",
+      "title": "[PSA] Sid Meier’s Civilization® III Complete (GOG), THIEF: Definitive Edition (GOG), The Academy: The First Riddle (Amazon Games) (Included With Prime Gaming)",
+      "status": "Fresh Drop",
+      "banner": ""
+    }
+  ]
 }
