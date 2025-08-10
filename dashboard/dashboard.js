@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
     status.innerText = "Subscribing…";
     // ======= Option A: serverless endpoint at /api/subscribe (see STEP 14) =======
     try {
-      const res = await fetch("https://freegamenotifier.vercel.app/", {
+      const res = await fetch("https://freegamenotifier.vercel.app/api/subscribe", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, action: "subscribe" })
