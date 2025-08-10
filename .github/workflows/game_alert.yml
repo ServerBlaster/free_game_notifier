@@ -57,8 +57,8 @@ jobs:
       - name: Commit dashboard & JSON updates
         if: success()
         run: |
-          git config user.name "ServerGameLogger"
-          git config user.email "free-game-notifier-bot@github.com"
+          git config user.name "ServerBlaster"
+          git config user.email "gsreejeeth@gmail.com"
           git add dashboard/dashboard.html drops.json game_data.json monthly_archive.json
           git commit -m "Update dashboard, JSON data, and drops" || echo "No changes to commit"
-          git push
+           git push https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/ServerBlaster/free_game_notifier.git HEAD:main
