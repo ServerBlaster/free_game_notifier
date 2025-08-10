@@ -1,1 +1,21 @@
-{}
+{
+  "EGS": [
+    {
+      "platform": "EGS",
+      "title": "112 Operator",
+      "status": "Fresh Drop",
+      "banner": "https://cdn1.epicgames.com/spt-assets/6036e5ea111a448ea1b41d5ab3800d99/112-operator-1smmi.jpg"
+    },
+    {
+      "platform": "EGS",
+      "title": "Road Redemption",
+      "status": "Fresh Drop",
+      "banner": "https://cdn1.epicgames.com/spt-assets/ee0cf0e1ab6a4e1c83e5de0681fea012/road-redemption-1upeb.png"
+    }
+  ],
+  "GOG": [],
+  "Steam": [],
+  "Humble": [],
+  "Ubisoft": [],
+  "Prime": []
+}
