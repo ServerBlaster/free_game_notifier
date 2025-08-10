@@ -2,6 +2,7 @@ import requests, json, os
 from datetime import datetime
 import pytz
 from bs4 import BeautifulSoup
+import feedparser
 
 # === CONFIG ===
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "PLACEHOLDER_BOT_TOKEN")
@@ -31,20 +32,30 @@ def now_str() -> str:
 
 # ------------------ SCRAPERS ------------------
 
-def fetch_reddit_json(url):
-    """Fetch Reddit JSON safely, handling errors & blocking."""
-    try:
-        r = requests.get(url, headers=HEADERS, timeout=20)
-        if r.status_code != 200:
-            print(f"Reddit fetch error: HTTP {r.status_code}")
-            return None
-        if "application/json" not in r.headers.get("Content-Type", ""):
-            print("Reddit fetch error: Non-JSON response")
-            return None
-        return r.json()
-    except Exception as e:
-        print("Reddit fetch exception:", e)
-        return None
+def fetch_reddit_rss(subreddit, limit=10, keyword_filter=None):
+    """
+    Fetch posts from a subreddit's RSS feed.
+    :param subreddit: Subreddit name (string)
+    :param limit: Max number of posts to fetch
+    :param keyword_filter: Optional list of lowercase keywords to filter titles
+    :return: List of dicts with 'title' and 'url'
+    """
+    url = f"https://www.reddit.com/r/{subreddit}/new/.rss"
+    feed = feedparser.parse(url)
+    results = []
+
+    for entry in feed.entries[:limit]:
+        title = entry.title
+        link = entry.link
+        if keyword_filter:
+            if not any(kw in title.lower() for kw in keyword_filter):
+                continue
+        results.append({"title": title, "url": link})
+    return results
+
+def fetch_reddit_json(subreddit, limit=10):
+    # New version using RSS
+    return fetch_reddit_rss(subreddit, limit=limit)
 
 def get_egs_free():
     try:
@@ -106,27 +117,13 @@ def get_steam_free():
         print("Steam error:", e)
         return []
 
-def get_humble_from_reddit():
-    try:
-        data = fetch_reddit_json("https://www.reddit.com/r/FreeGameFindings/.json")
-        if not data:
-            print("Humble Reddit: Invalid response")
-            return []
-        posts = data.get("data", {}).get("children", [])
-        out = []
-        for p in posts:
-            t = str(p.get("data", {}).get("title", "")).strip()
-            if "humble" in t.lower() and "free" in t.lower():
-                out.append({
-                    "platform": "Humble",
-                    "title": t,
-                    "status": "Fresh Drop",
-                    "banner": ""
-                })
-        return out[:4]
-    except Exception as e:
-        print("Reddit Humble error:", e)
-        return []
+def get_humble_from_reddit(limit=10):
+    # Humble-related posts from r/GameDeals
+    return fetch_reddit_rss(
+        "GameDeals",
+        limit=limit,
+        keyword_filter=["humble", "humblebundle.com"]
+    )
 
 def get_ubisoft():
     try:
@@ -138,10 +135,11 @@ def get_ubisoft():
         print("Ubisoft error:", e)
         return []
 
+
 def get_prime_free():
     results = []
 
-    # Prime Gaming public page scrape
+    # --- Prime Gaming public page scrape (unchanged) ---
     try:
         url = "https://gaming.amazon.com/home"
         html = requests.get(url, headers=HEADERS, timeout=20).text
@@ -159,32 +157,31 @@ def get_prime_free():
     except Exception as e:
         print("Prime Gaming public page error:", e)
 
-    # Prime Gaming Reddit scrape
+    # --- Prime Gaming Reddit RSS fetch ---
     try:
-        data = fetch_reddit_json("https://www.reddit.com/r/FreeGameFindings/.json")
-        if not data:
-            print("Prime Reddit: Invalid response")
-        else:
-            posts = data.get("data", {}).get("children", [])
-            for p in posts:
-                title = str(p.get("data", {}).get("title", "")).strip()
-                if "prime" in title.lower() and "free" in title.lower():
-                    results.append({
-                        "platform": "Prime",
-                        "title": title,
-                        "status": "Fresh Drop",
-                        "banner": ""
-                    })
+        prime_rss = fetch_reddit_rss(
+            "FreeGameFindings",
+            limit=15,
+            keyword_filter=["prime", "free"]
+        )
+        for post in prime_rss:
+            results.append({
+                "platform": "Prime",
+                "title": post["title"],
+                "status": "Fresh Drop",
+                "banner": ""  # could add preview image if desired
+            })
     except Exception as e:
-        print("Prime Gaming Reddit error:", e)
+        print("Prime Gaming Reddit RSS error:", e)
 
-    # Remove duplicates
+    # --- Remove duplicates ---
     unique_titles = set()
     unique_results = []
     for item in results:
         if item["title"].lower() not in unique_titles:
             unique_titles.add(item["title"].lower())
             unique_results.append(item)
+
     return unique_results
 
 # ------------------ UTILITIES ------------------
