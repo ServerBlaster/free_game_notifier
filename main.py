@@ -12,7 +12,11 @@ DATA_FILE = "game_data.json"
 DROPS_FILE = "drops.json"
 ARCHIVE_FILE = "monthly_archive.json"
 SUMMARY_FILE = "drop_summary.txt"
-HEADERS = {"User-Agent": "Mozilla/5.0"}
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                  "AppleWebKit/537.36 (KHTML, like Gecko) "
+                  "Chrome/115.0.0.0 Safari/537.36"
+}
 INDIAN_TZ = pytz.timezone("Asia/Kolkata")
 DASHBOARD_LINK = os.getenv("DASHBOARD_LINK", "https://yourusername.github.io/free_game_notifier/dashboard/dashboard.html")
 
@@ -20,6 +24,21 @@ def now_str() -> str:
     return datetime.now(INDIAN_TZ).strftime("%Y-%m-%d %H:%M:%S %Z")
 
 # ------------------ SCRAPERS ------------------
+
+def fetch_reddit_json(url):
+    """Fetch Reddit JSON safely, handling errors & blocking."""
+    try:
+        r = requests.get(url, headers=HEADERS, timeout=20)
+        if r.status_code != 200:
+            print(f"Reddit fetch error: HTTP {r.status_code}")
+            return None
+        if "application/json" not in r.headers.get("Content-Type", ""):
+            print("Reddit fetch error: Non-JSON response")
+            return None
+        return r.json()
+    except Exception as e:
+        print("Reddit fetch exception:", e)
+        return None
 
 def get_egs_free():
     try:
@@ -83,29 +102,22 @@ def get_steam_free():
 
 def get_humble_from_reddit():
     try:
-        url = "https://www.reddit.com/r/FreeGameFindings/.json"
-        headers = {"User-Agent": "Mozilla/5.0"}
-        r = requests.get(url, headers=headers, timeout=20)
-
-        # Ensure valid JSON
-        if r.status_code != 200 or not r.text.strip():
-            print(f"Humble Reddit: Invalid response (status {r.status_code})")
+        data = fetch_reddit_json("https://www.reddit.com/r/FreeGameFindings/.json")
+        if not data:
+            print("Humble Reddit: Invalid response")
             return []
-
-        try:
-            data = r.json()
-        except Exception as json_err:
-            print("Humble Reddit JSON parse error:", json_err)
-            return []
-
         posts = data.get("data", {}).get("children", [])
         out = []
         for p in posts:
-            t = str(p.get("data", {}).get("title", "") or "")
+            t = str(p.get("data", {}).get("title", "")).strip()
             if "humble" in t.lower() and "free" in t.lower():
-                out.append({"platform": "Humble", "title": t, "status": "Fresh Drop", "banner": ""})
+                out.append({
+                    "platform": "Humble",
+                    "title": t,
+                    "status": "Fresh Drop",
+                    "banner": ""
+                })
         return out[:4]
-
     except Exception as e:
         print("Reddit Humble error:", e)
         return []
@@ -123,50 +135,50 @@ def get_ubisoft():
 def get_prime_free():
     results = []
 
-    # Prime Gaming public page
+    # Prime Gaming public page scrape
     try:
         url = "https://gaming.amazon.com/home"
         html = requests.get(url, headers=HEADERS, timeout=20).text
-        if html.strip():
-            soup = BeautifulSoup(html, "html.parser")
-            for img in soup.select("img"):
-                alt = str(img.get("alt") or "").strip()
-                src = str(img.get("src") or "").strip()
-                if alt and ("prime" in alt.lower() or "free" in alt.lower()):
-                    results.append({"platform": "Prime", "title": alt, "status": "Fresh Drop", "banner": src})
-        else:
-            print("Prime Gaming page: Empty response")
+        soup = BeautifulSoup(html, "html.parser")
+        for img in soup.select("img"):
+            alt = str(img.get("alt") or "").strip()
+            src = str(img.get("src") or "").strip()
+            if alt and ("prime" in alt.lower() or "free" in alt.lower()):
+                results.append({
+                    "platform": "Prime",
+                    "title": alt,
+                    "status": "Fresh Drop",
+                    "banner": src
+                })
     except Exception as e:
         print("Prime Gaming public page error:", e)
 
-    # Reddit check for Prime Gaming
+    # Prime Gaming Reddit scrape
     try:
-        reddit_url = "https://www.reddit.com/r/FreeGameFindings/.json"
-        r = requests.get(reddit_url, headers={"User-Agent": "Mozilla/5.0"}, timeout=20)
-
-        if r.status_code != 200 or not r.text.strip():
-            print(f"Prime Reddit: Invalid response (status {r.status_code})")
+        data = fetch_reddit_json("https://www.reddit.com/r/FreeGameFindings/.json")
+        if not data:
+            print("Prime Reddit: Invalid response")
         else:
-            try:
-                data = r.json()
-                posts = data.get("data", {}).get("children", [])
-                for p in posts:
-                    title = str(p.get("data", {}).get("title", "") or "").strip()
-                    if "prime" in title.lower() and "free" in title.lower():
-                        results.append({"platform": "Prime", "title": title, "status": "Fresh Drop", "banner": ""})
-            except Exception as json_err:
-                print("Prime Reddit JSON parse error:", json_err)
+            posts = data.get("data", {}).get("children", [])
+            for p in posts:
+                title = str(p.get("data", {}).get("title", "")).strip()
+                if "prime" in title.lower() and "free" in title.lower():
+                    results.append({
+                        "platform": "Prime",
+                        "title": title,
+                        "status": "Fresh Drop",
+                        "banner": ""
+                    })
     except Exception as e:
         print("Prime Gaming Reddit error:", e)
 
-    # Deduplicate results
+    # Remove duplicates
     unique_titles = set()
     unique_results = []
     for item in results:
         if item["title"].lower() not in unique_titles:
             unique_titles.add(item["title"].lower())
             unique_results.append(item)
-
     return unique_results
 
 # ------------------ UTILITIES ------------------
