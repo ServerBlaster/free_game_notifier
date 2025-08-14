@@ -2,25 +2,20 @@
   "EGS": [
     {
       "platform": "EGS",
-      "title": "112 Operator",
+      "title": "Totally Reliable Delivery Service Standard Edition",
       "status": "Fresh Drop",
-      "banner": "https://cdn1.epicgames.com/spt-assets/6036e5ea111a448ea1b41d5ab3800d99/112-operator-1smmi.jpg"
+      "banner": "https://cdn1.epicgames.com/52b90f9a982a404781b189f6a7903226/offer/EGS_TotallyReliableDeliveryService_WereFiveGames_S1-2560x1440-47e6e9562d62705a75ea7b7096d0b8dc.jpg"
     },
     {
       "platform": "EGS",
-      "title": "Road Redemption",
+      "title": "Hidden Folks",
       "status": "Fresh Drop",
-      "banner": "https://cdn1.epicgames.com/spt-assets/ee0cf0e1ab6a4e1c83e5de0681fea012/road-redemption-1upeb.png"
+      "banner": "https://cdn1.epicgames.com/spt-assets/7bfd56b0586348dcb139945d9e59f988/hidden-folks-1b7hh.png"
     }
   ],
   "GOG": [],
   "Steam": [],
-  "Humble": [
-    {
-      "title": "[Humble] Point Blank Bundle ( Pay $7 for POSTAL: Brain Damaged, EMPTY SHELL | $10 adds Wild Bastards, SUPERHOT: MIND CONTROL DELETE, Rising Front | $15 adds High On Life, EXFIL)",
-      "url": "https://www.reddit.com/r/GameDeals/comments/1mpc1ml/humble_point_blank_bundle_pay_7_for_postal_brain/"
-    }
-  ],
+  "Humble": [],
   "Ubisoft": [],
   "Prime": []
 }
