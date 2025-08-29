@@ -32,31 +32,6 @@ def now_str() -> str:
 
 # ------------------ SCRAPERS ------------------
 
-def fetch_reddit_rss(subreddit, limit=10, keyword_filter=None):
-    """
-    Fetch posts from a subreddit's RSS feed.
-    :param subreddit: Subreddit name (string)
-    :param limit: Max number of posts to fetch
-    :param keyword_filter: Optional list of lowercase keywords to filter titles
-    :return: List of dicts with 'title' and 'url'
-    """
-    url = f"https://www.reddit.com/r/{subreddit}/new/.rss"
-    feed = feedparser.parse(url)
-    results = []
-
-    for entry in feed.entries[:limit]:
-        title = entry.title
-        link = entry.link
-        if keyword_filter:
-            if not any(kw in title.lower() for kw in keyword_filter):
-                continue
-        results.append({"title": title, "url": link})
-    return results
-
-def fetch_reddit_json(subreddit, limit=10):
-    # New version using RSS
-    return fetch_reddit_rss(subreddit, limit=limit)
-
 def get_egs_free():
     try:
         url = (
@@ -117,13 +92,43 @@ def get_steam_free():
         print("Steam error:", e)
         return []
 
-def get_humble_from_reddit(limit=10):
-    # Humble-related posts from r/GameDeals
-    return fetch_reddit_rss(
-        "GameDeals",
-        limit=limit,
-        keyword_filter=["humble", "humblebundle.com"]
-    )
+def get_humble_free():
+    results = []
+    try:
+        url = "https://www.humblebundle.com/store/search?sort=discount&filter=onsale"
+        html = requests.get(url, headers=HEADERS, timeout=20).text
+        soup = BeautifulSoup(html, "html.parser")
+
+        for card in soup.select(".entity-block-container"):
+            discount_elem = card.select_one(".discount-amount")
+            discount_text = discount_elem.get_text(strip=True) if discount_elem else ""
+            
+            if discount_text != "-100%":
+                continue
+
+            title_elem = card.select_one(".entity-title")
+            title = title_elem.get_text(strip=True) if title_elem else ""
+
+            img_elem = card.select_one("img")
+            banner = img_elem.get("src") if img_elem and img_elem.has_attr("src") else ""
+
+            expiry_elem = card.select_one(".promo-timer, .countdown")
+            expiry = expiry_elem.get_text(strip=True) if expiry_elem else None
+
+            if title:
+                status = "Fresh Drop"
+                if expiry:
+                    status += f" (Expires {expiry})"
+                results.append({
+                    "platform": "Humble",
+                    "title": title,
+                    "status": status,
+                    "banner": banner
+                })
+
+    except Exception as e:
+        print("Humble scrape error:", e)
+    return results
 
 def get_ubisoft():
     try:
@@ -138,43 +143,31 @@ def get_ubisoft():
 
 def get_prime_free():
     results = []
-
-    # --- Prime Gaming public page scrape (unchanged) ---
     try:
         url = "https://gaming.amazon.com/home"
         html = requests.get(url, headers=HEADERS, timeout=20).text
         soup = BeautifulSoup(html, "html.parser")
-        for img in soup.select("img"):
-            alt = str(img.get("alt") or "").strip()
-            src = str(img.get("src") or "").strip()
-            if alt and ("prime" in alt.lower() or "free" in alt.lower()):
+
+        offer_cards = soup.select(".item-card, .offer, .item-content")
+
+        for card in offer_cards:
+            title_elem = card.select_one("h3, .item-title, span")
+            title = title_elem.get_text(strip=True) if title_elem else ""
+
+            img_elem = card.select_one("img")
+            banner = img_elem.get("src") if img_elem and img_elem.has_attr("src") else ""
+
+            if title:
                 results.append({
                     "platform": "Prime",
-                    "title": alt,
+                    "title": title,
                     "status": "Fresh Drop",
-                    "banner": src
+                    "banner": banner
                 })
     except Exception as e:
-        print("Prime Gaming public page error:", e)
+        print("Prime Gaming scrape error:", e)
 
-    # --- Prime Gaming Reddit RSS fetch ---
-    try:
-        prime_rss = fetch_reddit_rss(
-            "FreeGameFindings",
-            limit=15,
-            keyword_filter=["prime", "free"]
-        )
-        for post in prime_rss:
-            results.append({
-                "platform": "Prime",
-                "title": post["title"],
-                "status": "Fresh Drop",
-                "banner": ""  # could add preview image if desired
-            })
-    except Exception as e:
-        print("Prime Gaming Reddit RSS error:", e)
-
-    # --- Remove duplicates ---
+    # Deduplicate
     unique_titles = set()
     unique_results = []
     for item in results:
@@ -256,7 +249,7 @@ def main():
         "EGS": get_egs_free(),
         "GOG": get_gog_free(),
         "Steam": get_steam_free(),
-        "Humble": get_humble_from_reddit(),
+        "Humble": get_humble_free(),
         "Ubisoft": get_ubisoft(),
         "Prime": get_prime_free()
     }
