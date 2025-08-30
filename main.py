@@ -322,8 +322,9 @@ def get_prime_free():
     """
     Playwright scraper for Prime Gaming.
     Returns (with_link_list, skipped_list).
-    Keeps expired offers with status="Expired" so they can
-    trigger Telegram 'Expired' messages on the next run.
+    - with_link_list: claimable entries with working links
+    - skipped_list: active entries without links (shown with CTA on dashboard)
+    - expired entries are dropped completely (not returned, not saved)
     """
     results = []
     skipped_entries = []
@@ -341,14 +342,11 @@ def get_prime_free():
             # Save raw for debugging
             with open("prime_debug.html", "w", encoding="utf-8") as f:
                 f.write(html)
-                f.flush()
-                os.fsync(f.fileno())
             browser.close()
     except Exception as e:
         print("Playwright Prime error:", e)
 
     if not html:
-        # Fallback if playwright failed
         try:
             html = requests.get("https://gaming.amazon.com/home", headers=HEADERS, timeout=20).text
         except Exception as e:
@@ -364,7 +362,7 @@ def get_prime_free():
                 continue
             title = title_tag.get_text(strip=True)
 
-            # Footer / expiry status
+            # Footer / expiry
             footer_text = card.select_one(".item-card-details__footer")
             status = "Fresh Drop"
             expired_flag = False
@@ -373,12 +371,13 @@ def get_prime_free():
                 if "Ends" in txt:
                     status = txt
                 if "Ended" in txt or "expired" in txt.lower():
-                    status = "Expired"
                     expired_flag = True
+
+            if expired_flag:
+                continue  # 🚫 drop expired completely
 
             # Primary claim link
             claim_link_tag = card.select_one("a[data-a-target='FGWPOffer']")
-            # Fallback "learn more" link
             fallback_link_tag = card.select_one("a[data-a-target='learn-more-card']")
 
             link = ""
@@ -395,16 +394,10 @@ def get_prime_free():
                 "banner": ""
             }
 
-            if expired_flag:
-                # Expired: keep, but non-clickable
-                entry["link"] = ""
-                entry = ensure_link_and_cta(entry, "Expired – no longer claimable")
-                skipped_entries.append(entry)
-            elif link:
+            if link:
                 results.append(entry)
             else:
-                # Active but no direct link
-                entry = ensure_link_and_cta(entry, "Claim directly on the Prime Gaming website")
+                entry = ensure_link_and_cta(entry, "Claim directly on Prime Gaming website")
                 skipped_entries.append(entry)
 
     # Deduplicate by title
@@ -419,12 +412,12 @@ def get_prime_free():
     results = dedupe(results)
     skipped_entries = dedupe(skipped_entries)
 
-    # Save the two explicit files
+    # Save only active items (expired ones dropped)
     save_json(PRIME_WITH_LINK, results)
     save_json(PRIME_SKIPPED, skipped_entries)
 
     print(
-        f"Prime Gaming total={len(results)+len(skipped_entries)} "
+        f"Prime Gaming active total={len(results)+len(skipped_entries)} "
         f"(with links={len(results)}, skipped={len(skipped_entries)})"
     )
     return results, skipped_entries
@@ -442,11 +435,13 @@ def main():
     ubi = get_ubisoft()
     prime_with_link, prime_skipped = get_prime_free()
 
-    # Group under platform names
+    # Group under platform names (only active offers, no expireds)
     grouped = {}
 
     def add_items(items):
         for it in items:
+            if it.get("status", "").lower() == "expired":
+                continue  # 🚫 drop expired from grouped/json/dashboard
             src = it.get("platform") or "Other"
             grouped.setdefault(src, []).append(it)
 
@@ -455,33 +450,33 @@ def main():
     add_items(steam)
     add_items(humble)
     add_items(ubi)
-    add_items(prime_with_link)
-    add_items(prime_skipped)
+    add_items(prime_with_link)     # ✅ normal Prime claim links
+    add_items(prime_skipped)       # ✅ skipped-but-active entries stay visible
 
-    # Flat list for drops.json
+    # Flat list for drops.json (dashboard.js consumes this)
     flat = []
     for v in grouped.values():
         flat.extend(v)
 
-    # Save both required outputs
-    save_json(DROPS_FILE, flat)      # used by dashboard.js
-    save_json(DATA_FILE, grouped)    # grouped snapshot
+    # Save outputs
+    save_json(DROPS_FILE, flat)         # dashboard.js reads this
+    save_json(DATA_FILE, grouped)       # grouped snapshot for comparison
+    save_json(PRIME_SKIPPED, prime_skipped)  # keep reference file (only active skipped)
 
-    # Build change summary (HTML)
+    # Build change summary (will include expired events since they're missing from new grouped)
     changes = compare_and_build(old_grouped, grouped)
     build_dashboard(grouped)
 
     if changes:
-        # Compose HTML message for Telegram
         msg = (
             "🗞 <b>Free Game Update</b> 🗞<br/><br/>"
             + "<br/>".join(changes)
             + f"<br/><br/>🌐 <a href=\"{DASHBOARD_LINK}\">Dashboard</a>"
         )
-        # Write a text summary too (we'll keep HTML tags; mailer can render HTML)
         with open(SUMMARY_FILE, "w", encoding="utf-8") as f:
             f.write(msg)
         send_telegram(msg)
+        # ❌ no send_email here, mailer.js handles emails
     else:
         print("No changes at", now_str())
 
