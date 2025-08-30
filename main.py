@@ -334,9 +334,20 @@ def get_prime_free():
         from playwright.sync_api import sync_playwright
 
         with sync_playwright() as p:
-            browser = p.firefox.launch(headless=True)
+            proxy_server = os.getenv("https_proxy")  # GitHub Action exports this
+            if proxy_server:
+                print(f"[DEBUG] Using Playwright proxy: {proxy_server}")
+                browser = p.firefox.launch(
+                    headless=True,
+                    proxy={"server": proxy_server}
+                )
+            else:
+                print("[DEBUG] No proxy set, launching without proxy")
+                browser = p.firefox.launch(headless=True)
+
             page = browser.new_page()
-            page.goto("https://gaming.amazon.com/home", timeout=60000)
+            page.goto("https://gaming.amazon.com/home")
+
             page.wait_for_timeout(5000)  # let dynamic stuff load
             html = page.content()
             # Save raw for debugging
