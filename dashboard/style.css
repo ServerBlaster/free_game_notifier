@@ -150,6 +150,13 @@ header p {
   max-width: 100%; /* Ensures it doesn't overflow the card's padding */
 }
 
+.cta-text {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  line-height: 1.4;
+  flex-shrink: 1; /* Allows text to wrap neatly if needed */
+}
+
 .card.disabled .badge {
   background: var(--border-color);
   color: var(--text-secondary);

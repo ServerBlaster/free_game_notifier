@@ -58,18 +58,26 @@ document.addEventListener("DOMContentLoaded", () => {
             card.classList.add('disabled');
           }
 
-          // --- MODIFIED PART: Conditional banner rendering ---
+          // --- MODIFIED PART: Conditional banner and new CTA layout ---
           const bannerHtml = game.banner
             ? `<img src="${game.banner}" alt="${game.title}" onerror="this.style.display='none'">`
             : '';
           
+          let ctaHtml = `<span class="badge">Claim Now</span>`;
+          if (!isClickable) {
+            ctaHtml = `
+              <span class="badge">Instructions</span>
+              <span class="cta-text">${game.cta || 'See official site for details'}</span>
+            `;
+          }
+
           card.innerHTML = `
             ${bannerHtml}
             <div class="card-content">
               <h4>${game.title}</h4>
               <p>${game.status || 'Free Now'}</p>
               <div class="cta">
-                <span class="badge">${isClickable ? 'Claim Now' : (game.cta || 'Unavailable')}</span>
+                ${ctaHtml}
               </div>
             </div>
           `;

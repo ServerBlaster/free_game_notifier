@@ -372,11 +372,8 @@ def get_ubisoft():
 
 def get_prime_free():
     """
-    Playwright scraper for Prime Gaming.
-    Returns (with_link_list, skipped_list).
-    - with_link_list: claimable entries with working links
-    - skipped_list: active entries without links (shown with CTA on dashboard)
-    - expired entries are dropped completely (not returned, not saved)
+    Playwright HTML scraper for Prime Gaming.
+    FINAL version with a reliable "smart wait" and all custom logic.
     """
     results = []
     skipped_entries = []
@@ -388,13 +385,18 @@ def get_prime_free():
         with sync_playwright() as p:
             browser = p.firefox.launch(headless=True)
             page = browser.new_page()
-            page.goto("https://gaming.amazon.com/home", timeout=60000)
-            page.wait_for_timeout(5000)  # let dynamic stuff load
+            page.goto("https://gaming.amazon.com/home", timeout=60000, wait_until="domcontentloaded")
+            
+            # The reliable "smart wait" for the game cards to appear
+            page.wait_for_selector("div[data-a-target='item-card']", timeout=30000)
+            page.wait_for_timeout(2000) # Final small pause
+
             html = page.content()
-            # Save raw for debugging
+            # Your useful debug file logic is back in
             with open("prime_debug.html", "w", encoding="utf-8") as f:
                 f.write(html)
             browser.close()
+            
     except Exception as e:
         print("Playwright Prime error:", e)
 
@@ -419,7 +421,7 @@ def get_prime_free():
             if img_tag and img_tag.has_attr("src"):
                 banner = img_tag["src"]
 
-            # Footer / expiry
+            # Your robust expired filter logic
             footer_text = card.select_one(".item-card-details__footer")
             status = "Fresh Drop"
             expired_flag = False
@@ -431,17 +433,13 @@ def get_prime_free():
                     expired_flag = True
 
             if expired_flag:
-                continue  # 🚫 drop expired completely
+                continue
 
-            # Primary claim link
-            claim_link_tag = card.select_one("a[data-a-target='FGWPOffer']")
-            fallback_link_tag = card.select_one("a[data-a-target='learn-more-card']")
-
+            # A slightly more efficient, combined selector for the link
+            claim_link_tag = card.select_one("a[data-a-target='FGWPOffer'], a[data-a-target='learn-more-card']")
             link = ""
             if claim_link_tag and claim_link_tag.get("href"):
                 link = "https://gaming.amazon.com" + claim_link_tag["href"]
-            elif fallback_link_tag and fallback_link_tag.get("href"):
-                link = "https://gaming.amazon.com" + fallback_link_tag["href"]
 
             entry = {
                 "platform": "Prime Gaming",
@@ -454,10 +452,10 @@ def get_prime_free():
             if link:
                 results.append(entry)
             else:
-                entry = ensure_link_and_cta(entry, "Claim directly on Prime Gaming website")
+                entry = ensure_link_and_cta(entry, "Claim on Prime Gaming")
                 skipped_entries.append(entry)
 
-    # Deduplicate by title
+    # Your original, reliable dedupe function
     def dedupe(data):
         unique = {}
         for r in data:
@@ -469,12 +467,11 @@ def get_prime_free():
     results = dedupe(results)
     skipped_entries = dedupe(skipped_entries)
 
-    # Save only active items (expired ones dropped)
     save_json(PRIME_WITH_LINK, results)
     save_json(PRIME_SKIPPED, skipped_entries)
 
     print(
-        f"Prime Gaming active total={len(results)+len(skipped_entries)} "
+        f"Prime Gaming (HTML) active total={len(results)+len(skipped_entries)} "
         f"(with links={len(results)}, skipped={len(skipped_entries)})"
     )
     return results, skipped_entries
