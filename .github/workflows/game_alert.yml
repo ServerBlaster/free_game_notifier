@@ -27,29 +27,13 @@ jobs:
           pip install -r requirements.txt
           playwright install firefox
 
-      - name: Pick random Indian proxy
-        run: |
-          echo "$INDIA_PROXIES" | shuf -n 1 > chosen_proxy.txt
-          PROXY=$(cat chosen_proxy.txt)
-          echo "🎯 Using proxy: $PROXY"
-          
-          # Save to environment for later steps
-          echo "http_proxy=http://$PROXY" >> $GITHUB_ENV
-          echo "https_proxy=http://$PROXY" >> $GITHUB_ENV
-
-          # Verify proxy
-          echo "Checking proxy location..."
-          curl -s --max-time 10 --proxy http://$PROXY http://ifconfig.me || echo "⚠️ Proxy check failed"
-        env:
-          INDIA_PROXIES: ${{ secrets.INDIA_PROXIES }}
-
       - name: Run scrapers (Python)
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
           DASHBOARD_LINK: ${{ secrets.DASHBOARD_LINK }}
         run: python main.py
-        
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
