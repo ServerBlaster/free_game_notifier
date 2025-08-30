@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
           let ctaHtml = `<span class="badge">Claim Now</span>`;
           if (!isClickable) {
             ctaHtml = `
-              <span class="badge">Instructions</span>
+              <span class="badge">🔒</span>
               <span class="cta-text">${game.cta || 'See official site for details'}</span>
             `;
           }
