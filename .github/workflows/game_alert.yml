@@ -39,7 +39,7 @@ jobs:
 
           # Verify proxy
           echo "Checking proxy location..."
-          curl -s --max-time 10 --proxy http://$PROXY ipinfo.io/json || echo "⚠️ Proxy check failed"
+          curl -s --max-time 10 --proxy http://$PROXY http://ifconfig.me || echo "⚠️ Proxy check failed"
         env:
           INDIA_PROXIES: ${{ secrets.INDIA_PROXIES }}
 
