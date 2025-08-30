@@ -425,64 +425,141 @@ def get_prime_free():
 # ------------------ MAIN ------------------
 
 def main():
+    # --- helpers ---
+    def is_expired(status: str) -> bool:
+        s = (status or "").strip().lower()
+        # catch common variants Amazon uses
+        return any(k in s for k in ["expired", "ended", "no longer", "unavailable"])
+
+    def dedupe_by_title(items):
+        seen = {}
+        for it in items or []:
+            title = (it.get("title") or "").strip().lower()
+            if title and title not in seen:
+                seen[title] = it
+        return list(seen.values())
+
+    # --- load previous snapshot for change detection ---
     old_grouped = load_json(DATA_FILE, {})  # dict grouped by platform
 
-    # Scrape all sources
+    # --- scrape all sources ---
     egs = get_egs_free()
     gog = get_gog_free()
     steam = get_steam_free()
     humble = get_humble_free()
     ubi = get_ubisoft()
-    prime_with_link, prime_skipped = get_prime_free()
 
-    # Debug: counts from scrapers
+    # Prime returns (but we will *not* trust these for saving to game_data.json)
+    prime_with_link_return, prime_skipped_return = get_prime_free()
+
+    # --- debug: raw scraper counts ---
     print(f"[SCRAPER] Epic Games: {len(egs)}")
     print(f"[SCRAPER] GOG: {len(gog)}")
     print(f"[SCRAPER] Steam: {len(steam)}")
     print(f"[SCRAPER] Humble: {len(humble)}")
     print(f"[SCRAPER] Ubisoft: {len(ubi)}")
-    print(f"[SCRAPER] Prime with link: {len(prime_with_link)}")
-    print(f"[SCRAPER] Prime skipped (no link): {len(prime_skipped)}")
+    print(f"[SCRAPER] Prime (returned) with link: {len(prime_with_link_return)}")
+    print(f"[SCRAPER] Prime (returned) skipped : {len(prime_skipped_return)}")
 
-    # Group under platform names (only active offers, no expireds)
+    # --- build grouped fresh (do NOT reuse old_grouped) ---
     grouped = {}
-    expired_count = 0
+    expired_filtered = 0
 
     def add_items(items):
-        nonlocal expired_count
-        for it in items:
-            if it.get("status", "").lower() == "expired":
-                expired_count += 1
-                continue  # 🚫 drop expired from grouped/json/dashboard
+        nonlocal expired_filtered
+        for it in items or []:
+            if is_expired(it.get("status", "")):
+                expired_filtered += 1
+                continue
             src = it.get("platform") or "Other"
             grouped.setdefault(src, []).append(it)
 
+    # Non-Prime platforms straight from scrapers
     add_items(egs)
     add_items(gog)
     add_items(steam)
     add_items(humble)
     add_items(ubi)
 
-    # 🔒 Prime Gaming is always EXACTLY union of with_link + skipped
-    add_items(prime_with_link)
-    add_items(prime_skipped)
+    # --- PRIME: enforce file-as-source-of-truth ---
+    # Load what get_prime_free() saved to disk and use *only* that for game_data.json
+    try:
+        prime_with_link_file = load_json(PRIME_WITH_LINK, [])
+    except Exception as e:
+        print("[WARN] Failed to load PRIME_WITH_LINK file; using returned list. Err:", e)
+        prime_with_link_file = prime_with_link_return
 
-    print(f"[FILTER] Expired entries removed: {expired_count}")
+    try:
+        prime_skipped_file = load_json(PRIME_SKIPPED, [])
+    except Exception as e:
+        print("[WARN] Failed to load PRIME_SKIPPED file; using returned list. Err:", e)
+        prime_skipped_file = prime_skipped_return
+
+    # Always ensure skipped file exists (even if empty)
+    save_json(PRIME_SKIPPED, prime_skipped_file or [])
+
+    # Dedupe both sets by title (defensive)
+    prime_with_link_file = dedupe_by_title(prime_with_link_file)
+    prime_skipped_file = dedupe_by_title(prime_skipped_file)
+
+    # Debug: compare returned vs file to spot "leaks"
+    def titles(items): return sorted((it.get("title") or "").strip() for it in items)
+
+    ret_w, ret_s = set(titles(prime_with_link_return)), set(titles(prime_skipped_return))
+    fil_w, fil_s = set(titles(prime_with_link_file)), set(titles(prime_skipped_file))
+
+    if ret_w != fil_w or ret_s != fil_s:
+        print("[DEBUG] PRIME mismatch between returned and file sets detected.")
+        only_in_return_with = sorted(ret_w - fil_w)
+        only_in_file_with = sorted(fil_w - ret_w)
+        only_in_return_skip = sorted(ret_s - fil_s)
+        only_in_file_skip = sorted(fil_s - ret_s)
+        if only_in_return_with:
+            print("  ↪ Only in RETURN (with-link):", only_in_return_with)
+        if only_in_file_with:
+            print("  ↪ Only in FILE   (with-link):", only_in_file_with)
+        if only_in_return_skip:
+            print("  ↪ Only in RETURN (skipped)  :", only_in_return_skip)
+        if only_in_file_skip:
+            print("  ↪ Only in FILE   (skipped)  :", only_in_file_skip)
+
+    # Union for Prime (from FILES only)
+    prime_union_file = prime_with_link_file + prime_skipped_file
+    # Filter expired (defensive), then add to grouped
+    prime_union_file_active = [it for it in prime_union_file if not is_expired(it.get("status", ""))]
+    add_items(prime_union_file_active)
+
+    # --- result debug ---
+    print(f"[FILTER] Expired entries removed: {expired_filtered}")
     print(f"[RESULT] Platforms in grouped: {list(grouped.keys())}")
     for src, items in grouped.items():
         print(f"[RESULT] {src}: {len(items)} items")
 
-    # Flat list for drops.json (dashboard.js consumes this)
+    # Extra Prime integrity check
+    prime_in_grouped = [it for it in grouped.get("Prime Gaming", [])]
+    expected_prime_count = len(prime_union_file_active)
+    if len(prime_in_grouped) != expected_prime_count:
+        print(
+            f"[ERROR] Prime count mismatch in grouped! grouped={len(prime_in_grouped)} "
+            f"expected={expected_prime_count}"
+        )
+        # Debug titles diff
+        grp_titles = set(titles(prime_in_grouped))
+        exp_titles = set(titles(prime_union_file_active))
+        print("  ↪ Only in grouped:", sorted(grp_titles - exp_titles))
+        print("  ↪ Only in expected:", sorted(exp_titles - grp_titles))
+
+    # --- prepare drops.json (flat list used by dashboard.js) ---
     flat = []
     for v in grouped.values():
         flat.extend(v)
 
-    # Save outputs
-    save_json(DROPS_FILE, flat)         # dashboard.js reads this
-    save_json(DATA_FILE, grouped)       # grouped snapshot for comparison
-    save_json(PRIME_SKIPPED, prime_skipped)  # always save skipped list (even if empty)
+    # --- save outputs ---
+    save_json(DROPS_FILE, flat)      # dashboard.js reads this
+    save_json(DATA_FILE, grouped)    # grouped snapshot for comparison
+    # PRIME_SKIPPED already saved above; keep as always-present file
 
-    # Build change summary (will include expired events since they're missing from new grouped)
+    # --- changes & dashboard ---
     changes = compare_and_build(old_grouped, grouped)
     build_dashboard(grouped)
 
@@ -495,7 +572,7 @@ def main():
         with open(SUMMARY_FILE, "w", encoding="utf-8") as f:
             f.write(msg)
         send_telegram(msg)
-        # ❌ no send_email here, mailer.js handles emails
+        # Email handled by mailer.js
     else:
         print("[INFO] No changes at", now_str())
 
