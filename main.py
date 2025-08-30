@@ -314,8 +314,8 @@ def get_prime_free():
     """
     Playwright scraper for Prime Gaming.
     Returns (with_link_list, skipped_list).
-    Filters out expired/ended offers so only active ones appear.
-    Also writes prime_gaming.json and prime_gaming_skipped.json.
+    Keeps expired offers with status="Expired" so they can
+    trigger Telegram 'Expired' messages on the next run.
     """
     results = []
     skipped_entries = []
@@ -359,12 +359,14 @@ def get_prime_free():
             # Footer / expiry status
             footer_text = card.select_one(".item-card-details__footer")
             status = "Fresh Drop"
+            expired_flag = False
             if footer_text:
                 txt = footer_text.get_text(" ", strip=True)
                 if "Ends" in txt:
                     status = txt
                 if "Ended" in txt or "expired" in txt.lower():
-                    continue  # 🚨 skip expired/ended offers
+                    status = "Expired"
+                    expired_flag = True
 
             # Primary claim link
             claim_link_tag = card.select_one("a[data-a-target='FGWPOffer']")
@@ -385,9 +387,15 @@ def get_prime_free():
                 "banner": ""
             }
 
-            if link:
+            if expired_flag:
+                # Expired: keep, but non-clickable
+                entry["link"] = ""
+                entry = ensure_link_and_cta(entry, "Expired – no longer claimable")
+                skipped_entries.append(entry)
+            elif link:
                 results.append(entry)
             else:
+                # Active but no direct link
                 entry = ensure_link_and_cta(entry, "Claim directly on the Prime Gaming website")
                 skipped_entries.append(entry)
 
