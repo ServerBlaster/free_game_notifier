@@ -312,14 +312,18 @@ def get_ubisoft():
 
 def get_prime_free():
     """
-    Playwright scraper, returns (with_link_list, skipped_list).
-    Also writes prime_gaming.json and prime_gaming_skipped.json as a side effect.
+    Playwright scraper for Prime Gaming.
+    Returns (with_link_list, skipped_list).
+    Filters out expired/ended offers so only active ones appear.
+    Also writes prime_gaming.json and prime_gaming_skipped.json.
     """
     results = []
     skipped_entries = []
     html = ""
 
     try:
+        from playwright.sync_api import sync_playwright
+
         with sync_playwright() as p:
             browser = p.firefox.launch(headless=True)
             page = browser.new_page()
@@ -336,7 +340,7 @@ def get_prime_free():
         print("Playwright Prime error:", e)
 
     if not html:
-        # Fallback (won't usually work for dynamic, but keep graceful)
+        # Fallback if playwright failed
         try:
             html = requests.get("https://gaming.amazon.com/home", headers=HEADERS, timeout=20).text
         except Exception as e:
@@ -352,9 +356,19 @@ def get_prime_free():
                 continue
             title = title_tag.get_text(strip=True)
 
-            # Primary claim link (button)
+            # Footer / expiry status
+            footer_text = card.select_one(".item-card-details__footer")
+            status = "Fresh Drop"
+            if footer_text:
+                txt = footer_text.get_text(" ", strip=True)
+                if "Ends" in txt:
+                    status = txt
+                if "Ended" in txt or "expired" in txt.lower():
+                    continue  # 🚨 skip expired/ended offers
+
+            # Primary claim link
             claim_link_tag = card.select_one("a[data-a-target='FGWPOffer']")
-            # Fallback link (card itself)
+            # Fallback "learn more" link
             fallback_link_tag = card.select_one("a[data-a-target='learn-more-card']")
 
             link = ""
@@ -362,14 +376,6 @@ def get_prime_free():
                 link = "https://gaming.amazon.com" + claim_link_tag["href"]
             elif fallback_link_tag and fallback_link_tag.get("href"):
                 link = "https://gaming.amazon.com" + fallback_link_tag["href"]
-
-            # Expiry/status text
-            footer_text = card.select_one(".item-card-details__footer")
-            status = "Fresh Drop"
-            if footer_text:
-                txt = footer_text.get_text(" ", strip=True)
-                if "Ends" in txt:
-                    status = txt
 
             entry = {
                 "platform": "Prime Gaming",
@@ -382,7 +388,6 @@ def get_prime_free():
             if link:
                 results.append(entry)
             else:
-                # Keep non-clickable but visible on dashboard
                 entry = ensure_link_and_cta(entry, "Claim directly on the Prime Gaming website")
                 skipped_entries.append(entry)
 
@@ -403,7 +408,8 @@ def get_prime_free():
     save_json(PRIME_SKIPPED, skipped_entries)
 
     print(
-        f"Prime Gaming: with links={len(results)}, skipped(no link)={len(skipped_entries)}"
+        f"Prime Gaming total={len(results)+len(skipped_entries)} "
+        f"(with links={len(results)}, skipped={len(skipped_entries)})"
     )
     return results, skipped_entries
 
