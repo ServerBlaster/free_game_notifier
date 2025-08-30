@@ -1,9 +1,202 @@
-body{font-family:Segoe UI,Arial;background:#f6f7fb;color:#222;margin:0;padding:16px}
-header{display:flex;justify-content:space-between;align-items:center}
-h1{margin:0}
-.platform{margin:16px 0}
-.cards{display:flex;flex-wrap:wrap;gap:12px}
-.card{background:white;padding:10px;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,0.06);width:220px}
-.card img{max-width:100%;border-radius:6px}
-.subscribe{margin-top:20px}
-#statusMsg{margin-top:8px;color:#2a7}
+/* --- A Glorious New Look for Free Game Notifier --- */
+
+/* 1. Google Font & Modern Reset */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+:root {
+  --background-dark: #1a1b1e;
+  --card-dark: #2a2b2e;
+  --border-dark: #404247;
+  --text-primary: #f0f0f0;
+  --text-secondary: #a0a2a7;
+  --accent-blue: #007bff;
+  --accent-blue-hover: #0056b3;
+  --success-green: #28a745;
+  --shadow-color: rgba(0, 0, 0, 0.5);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', Segoe UI, Arial, sans-serif;
+  background-color: var(--background-dark);
+  color: var(--text-primary);
+  padding: 24px;
+  line-height: 1.6;
+}
+
+/* 2. Header: Fixed to stack elements cleanly */
+header {
+  margin-bottom: 32px;
+  border-bottom: 1px solid var(--border-dark);
+  padding-bottom: 24px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  background: linear-gradient(90deg, #6e86ff, #a26eff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 8px;
+}
+
+header p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  max-width: 800px; /* Ensures your note wraps nicely */
+}
+
+/* 3. Main Content Area (The Cards) */
+#content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  display: block; /* Make the whole card a clickable link */
+  text-decoration: none;
+  background-color: var(--card-dark);
+  border: 1px solid var(--border-dark);
+  border-radius: 12px;
+  overflow: hidden; /* Keeps image corners rounded */
+  box-shadow: 0 4px 12px var(--shadow-color);
+  transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px var(--shadow-color);
+}
+
+.card img {
+  width: 100%;
+  height: 135px;
+  object-fit: cover;
+  display: block;
+  border-bottom: 1px solid var(--border-dark);
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.card h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 6px;
+  /* Truncate long titles */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card p {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+}
+
+.cta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.badge {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 6px;
+  background-color: var(--border-dark);
+  color: var(--text-primary);
+}
+
+.card.disabled {
+  cursor: default;
+  filter: grayscale(0.7);
+  opacity: 0.7;
+}
+.card.disabled:hover {
+  transform: none;
+  box-shadow: 0 4px 12px var(--shadow-color);
+}
+
+
+/* 4. Subscription Form Section */
+.subscribe {
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border-dark);
+  max-width: 500px;
+}
+
+.subscribe h3 {
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+}
+
+#subscribe-form {
+  display: flex;
+  gap: 12px;
+}
+
+#emailInput {
+  flex-grow: 1;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border-dark);
+  background-color: var(--card-dark);
+  color: var(--text-primary);
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+#emailInput:focus {
+  outline: none;
+  border-color: var(--accent-blue);
+}
+
+button[type="submit"] {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--accent-blue);
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: var(--accent-blue-hover);
+}
+
+#statusMsg {
+  margin-top: 12px;
+  font-weight: 600;
+  color: var(--success-green);
+}
+
+/* 5. A little extra polish: Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--background-dark);
+}
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #777;
+}
