@@ -152,12 +152,10 @@ def send_telegram(msg_html: str):
 
 # ------------------ SCRAPERS ------------------
 
-# In main.py, replace the old get_egs_free function
-
 def get_egs_free():
     """
     Epic Games Store free weekly games via official API.
-    UPDATED to be more robust at finding the product slug.
+    DEFINITIVE version: Searches multiple locations for the page slug.
     """
     out = []
     try:
@@ -177,34 +175,37 @@ def get_egs_free():
             title = g.get("title", "Unknown Game")
             banner = ""
             if g.get("keyImages"):
-                # Find the 'OfferImageWide' for a better banner if available
                 for img in g["keyImages"]:
                     if img.get("type") == "OfferImageWide":
                         banner = img.get("url", "")
                         break
-                if not banner:
+                if not banner and g["keyImages"]:
                     banner = g["keyImages"][0].get("url", "")
 
-            # --- NEW ROBUST SLUG FINDING LOGIC ---
-            slug = g.get("productSlug") or g.get("urlSlug")
+            # --- DEFINITIVE SLUG FINDING LOGIC ---
+            slug = None
             
-            # Fallback 1: Check for a slug in offerMappings
-            if not slug and g.get("offerMappings"):
+            # 1. Primary Method: Check 'offerMappings' for a pageSlug. This is the most reliable.
+            if g.get("offerMappings"):
                 for mapping in g["offerMappings"]:
                     if mapping.get("pageSlug"):
                         slug = mapping["pageSlug"]
                         break
             
-            # Fallback 2: Check for a slug in catalogNs.mappings (less common)
+            # 2. Fallback Method: Check 'catalogNs.mappings'
             if not slug and g.get("catalogNs", {}).get("mappings"):
                  for mapping in g["catalogNs"]["mappings"]:
                     if mapping.get("pageSlug"):
                         slug = mapping["pageSlug"]
                         break
+            
+            # 3. Last Resort Fallbacks: Use the less reliable top-level slugs
+            if not slug:
+                slug = g.get("productSlug") or g.get("urlSlug")
 
             # Clean the final slug and build the link
-            slug = (slug or "").strip().replace("/home", "")
-            link = f"https://store.epicgames.com/p/{slug}" if slug else ""
+            final_slug = (slug or "").strip().replace("/home", "")
+            link = f"https://store.epicgames.com/p/{final_slug}" if final_slug else ""
             
             item = {
                 "platform": "Epic Games Store",
