@@ -29,18 +29,19 @@ jobs:
 
       - name: Pick random Indian proxy
         run: |
-          # Pick one random proxy from the secret list
           echo "$INDIA_PROXIES" | shuf -n 1 > chosen_proxy.txt
           PROXY=$(cat chosen_proxy.txt)
           echo "🎯 Using proxy: $PROXY"
-
+          
           # Save to environment for later steps
           echo "http_proxy=http://$PROXY" >> $GITHUB_ENV
           echo "https_proxy=http://$PROXY" >> $GITHUB_ENV
 
-          # (Optional) Verify proxy works & geo is India
+          # Verify proxy
           echo "Checking proxy location..."
           curl -s --max-time 10 --proxy http://$PROXY ipinfo.io/json || echo "⚠️ Proxy check failed"
+        env:
+          INDIA_PROXIES: ${{ secrets.INDIA_PROXIES }}
 
       - name: Run scrapers (Python)
         env:
