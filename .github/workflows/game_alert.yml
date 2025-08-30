@@ -35,8 +35,8 @@ jobs:
           echo "🎯 Using proxy: $PROXY"
 
           # Save to environment for later steps
-          echo "http_proxy=http://$PROXY" >> $GITHUB_ENV
-          echo "https_proxy=http://$PROXY" >> $GITHUB_ENV
+          echo "http_proxy=$PROXY" >> $GITHUB_ENV
+          echo "https_proxy=$PROXY" >> $GITHUB_ENV
 
           # (Optional) Verify proxy works & geo is India
           echo "Checking proxy location..."
