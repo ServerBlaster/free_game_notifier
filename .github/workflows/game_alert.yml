@@ -30,7 +30,7 @@ jobs:
       - name: Pick random Indian proxy
         run: |
           # Pick one random proxy from the secret list
-          echo "$INDIA_PROXIES" | shuf -n 1 > chosen_proxy.txt
+          echo "${{ secrets.INDIA_PROXIES }}" | shuf -n 1 > chosen_proxy.txt
           PROXY=$(cat chosen_proxy.txt)
           echo "🎯 Using proxy: $PROXY"
 
