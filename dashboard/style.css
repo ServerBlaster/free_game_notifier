@@ -219,3 +219,26 @@ button[type="submit"]:hover {
   font-size: 1rem;
   color: var(--glow-cyan);
 }
+
+/* Styling for the new disclaimer note */
+.disclaimer-note {
+  max-width: 700px;
+  margin: 24px auto 0; /* Adds space above, centers it horizontally */
+  padding: 16px;
+  border-radius: 12px;
+  background: rgba(26, 28, 48, 0.5); /* Frosted glass effect */
+  border: 1px solid var(--border-color);
+  text-align: center;
+}
+
+.disclaimer-note h4 {
+  color: var(--glow-cyan); /* Use a neon accent for the title */
+  margin-bottom: 8px;
+  font-size: 1.2rem;
+}
+
+.disclaimer-note p {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
