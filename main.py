@@ -119,7 +119,7 @@ def build_dashboard(grouped: dict):
                 if link:
                     blocks += f"<li>{img}<a href='{link}' target='_blank'><strong>{title}</strong></a> — {status}</li>"
                 else:
-                    cta = it.get("cta") or f"Claim directly on the {src} website"
+                    cta = it.get("cta") or f"Claim on the {src} website"
                     blocks += f"<li>{img}<strong>{title}</strong> — {status} <em>({cta})</em></li>"
             blocks += "</ul>"
         with open(DASHBOARD_FILE, "w", encoding="utf-8") as f:
@@ -152,10 +152,12 @@ def send_telegram(msg_html: str):
 
 # ------------------ SCRAPERS ------------------
 
+# In main.py, replace the old get_egs_free function
+
 def get_egs_free():
     """
     Epic Games Store free weekly games via official API.
-    Ensure link consistency: if productSlug present, link to store page.
+    UPDATED to be more robust at finding the product slug.
     """
     out = []
     try:
@@ -165,23 +167,54 @@ def get_egs_free():
         )
         r = requests.get(url, headers=HEADERS, timeout=20).json()
         elements = r.get("data", {}).get("Catalog", {}).get("searchStore", {}).get("elements", [])
+        
         for g in elements:
             price = g.get("price", {}).get("totalPrice", {}).get("discountPrice", 1)
-            if price == 0:
-                title = (g.get("title") or g.get("productSlug") or "Unknown") or "Unknown"
-                banner = ""
-                if g.get("keyImages"):
-                    banner = (g["keyImages"][0].get("url") or "").strip()
-                slug = (g.get("productSlug") or "").strip().strip("/")
-                link = f"https://store.epicgames.com/p/{slug}" if slug else ""
-                item = {
-                    "platform": "Epic Games Store",
-                    "title": title,
-                    "status": "Fresh Drop",
-                    "banner": banner,
-                    "link": link
-                }
-                out.append(ensure_link_and_cta(item, "Claim directly on the Epic Games Store"))
+            # We only care about currently free games
+            if price != 0:
+                continue
+
+            title = g.get("title", "Unknown Game")
+            banner = ""
+            if g.get("keyImages"):
+                # Find the 'OfferImageWide' for a better banner if available
+                for img in g["keyImages"]:
+                    if img.get("type") == "OfferImageWide":
+                        banner = img.get("url", "")
+                        break
+                if not banner:
+                    banner = g["keyImages"][0].get("url", "")
+
+            # --- NEW ROBUST SLUG FINDING LOGIC ---
+            slug = g.get("productSlug") or g.get("urlSlug")
+            
+            # Fallback 1: Check for a slug in offerMappings
+            if not slug and g.get("offerMappings"):
+                for mapping in g["offerMappings"]:
+                    if mapping.get("pageSlug"):
+                        slug = mapping["pageSlug"]
+                        break
+            
+            # Fallback 2: Check for a slug in catalogNs.mappings (less common)
+            if not slug and g.get("catalogNs", {}).get("mappings"):
+                 for mapping in g["catalogNs"]["mappings"]:
+                    if mapping.get("pageSlug"):
+                        slug = mapping["pageSlug"]
+                        break
+
+            # Clean the final slug and build the link
+            slug = (slug or "").strip().replace("/home", "")
+            link = f"https://store.epicgames.com/p/{slug}" if slug else ""
+            
+            item = {
+                "platform": "Epic Games Store",
+                "title": title,
+                "status": "Fresh Drop",
+                "banner": banner,
+                "link": link
+            }
+            out.append(ensure_link_and_cta(item, "Claim on Epic Games Store"))
+
     except Exception as e:
         print("EGS error:", e)
     return out
@@ -214,27 +247,45 @@ def get_gog_free():
         print("GOG error:", e)
     return out
 
+# In main.py, replace the old get_steam_free function
+
+# In main.py, replace the existing get_steam_free function
+
 def get_steam_free():
     """
-    Steam free 100% off (SteamDB page). Often no direct claim link; keep card non-clickable.
+    Steam free 100% off (SteamDB page).
+    UPDATED to be more robust at finding the store page link.
     """
     out = []
     try:
         html = requests.get("https://steamdb.info/sales/?min_discount=100", headers=HEADERS, timeout=20).text
         soup = BeautifulSoup(html, "html.parser")
-        rows = soup.select("table.table-products tbody tr")[:10]
-        for r in rows:
-            name_tag = r.select_one("td:nth-child(2)")
-            title = name_tag.get_text(strip=True) if name_tag else ""
-            item = {
-                "platform": "Steam",
-                "title": title,
-                "status": "Fresh Drop",
-                "banner": "",
-                "link": ""  # keep non-clickable; CTA shown
-            }
+        # Select rows that are specifically for an app/game to avoid bundles
+        rows = soup.select("tr.app[data-appid]")
+        for r in rows[:10]:
+            title_cell = r.select_one("td:nth-of-type(3)") # Title is usually the 3rd cell
+            if not title_cell:
+                continue
+
+            title = title_cell.get_text(strip=True)
+            link_tag = title_cell.find("a", href=True)
+            link = ""
+
+            # Ensure the link is a valid Steam store URL
+            if link_tag and 'store.steampowered.com' in link_tag['href']:
+                link = link_tag['href']
+
             if title:
-                out.append(ensure_link_and_cta(item, "Claim directly on Steam"))
+                item = {
+                    "platform": "Steam",
+                    "title": title,
+                    "status": "Fresh Drop",
+                    "banner": "",
+                    "link": link
+                }
+                # The ensure_link_and_cta will correctly handle if the link is empty
+                out.append(ensure_link_and_cta(item, "Claim on Steam"))
+
     except Exception as e:
         print("Steam error:", e)
     return out
@@ -361,6 +412,11 @@ def get_prime_free():
             if not title_tag:
                 continue
             title = title_tag.get_text(strip=True)
+            
+            banner = ""
+            img_tag = card.select_one("img.item-card-image__image")
+            if img_tag and img_tag.has_attr("src"):
+                banner = img_tag["src"]
 
             # Footer / expiry
             footer_text = card.select_one(".item-card-details__footer")
@@ -391,7 +447,7 @@ def get_prime_free():
                 "title": title,
                 "link": link,
                 "status": status,
-                "banner": ""
+                "banner": banner
             }
 
             if link:

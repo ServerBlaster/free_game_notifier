@@ -144,6 +144,10 @@ header p {
   border-radius: 8px;
   background: var(--glow-magenta);
   color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%; /* Ensures it doesn't overflow the card's padding */
 }
 
 .card.disabled .badge {
