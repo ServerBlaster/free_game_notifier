@@ -1,19 +1,19 @@
-/* === NEON FUSION THEME === */
-/* An EPIC & POG Overhaul for the Free Game Notifier */
+/* === FOCUSED ROW LAYOUT === */
+/* A clean, decluttered, row-based design */
 
-/* 1. Font, Variables, and Animated Background */
+/* 1. Font, Variables, and Animated Background (Kept from Neon Fusion) */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 :root {
   --background-start: #0f1020;
   --background-end: #1c1d3a;
-  --card-background: rgba(26, 28, 48, 0.5); /* Semi-transparent for glass effect */
+  --card-background: rgba(26, 28, 48, 0.65);
   --text-primary: #e8eaf6;
   --text-secondary: #9fa8da;
   --glow-magenta: #e040fb;
   --glow-cyan: #00e5ff;
   --border-color: rgba(159, 168, 218, 0.2);
-  --shadow-color: rgba(0, 0, 0, 0.4);
+  --shadow-color: rgba(0, 0, 0, 0.5);
 }
 
 * {
@@ -31,7 +31,6 @@
 body {
   font-family: 'Poppins', Segoe UI, Arial, sans-serif;
   color: var(--text-primary);
-  /* The EPIC animated gradient background */
   background: linear-gradient(135deg, var(--background-start), var(--background-end));
   background-size: 200% 200%;
   animation: gradient-animation 15s ease infinite;
@@ -39,12 +38,11 @@ body {
   line-height: 1.6;
 }
 
-/* 2. A Cleaner, Bolder Header */
+/* 2. Header (Slightly adjusted for new layout) */
 header {
   text-align: center;
   margin-bottom: 48px;
 }
-
 header h1 {
   font-size: 3rem;
   font-weight: 700;
@@ -52,74 +50,91 @@ header h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 12px;
-  text-shadow: 0 0 10px rgba(224, 64, 251, 0.3);
 }
-
 header p {
   font-size: 1rem;
   color: var(--text-secondary);
   max-width: 700px;
-  margin: 0 auto; /* Center the paragraphs */
+  margin: 0 auto;
 }
 
-/* 3. "Frosted Glass" Card Grid */
-#content {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 24px; /* More space to feel less cluttered */
+/* 3. NEW: Platform Row Styling */
+.platform {
+  margin-bottom: 48px; /* Space between rows */
 }
 
+.platform-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  border-left: 4px solid var(--glow-cyan);
+}
+
+/* 4. NEW: Horizontally Scrolling Card Container */
+.cards {
+  display: flex;
+  overflow-x: auto; /* This enables horizontal scrolling! */
+  overflow-y: hidden;
+  gap: 20px;
+  padding: 10px;
+  /* For a "snap-to" feel when scrolling */
+  scroll-snap-type: x mandatory;
+  /* Hides the scrollbar visually but keeps it functional */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.cards::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
+
+
+/* 5. Card Styling (Adjusted for horizontal rows) */
 .card {
+  scroll-snap-align: start; /* Part of the scroll-snap feature */
+  flex: 0 0 260px; /* Each card has a fixed width, won't shrink */
   display: block;
   text-decoration: none;
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 8px 32px var(--shadow-color);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-  
-  /* The "Glassmorphism" effect */
   background: var(--card-background);
   backdrop-filter: blur(10px);
   border: 1px solid var(--border-color);
 }
 
 .card:hover {
-  transform: translateY(-10px) scale(1.02);
-  box-shadow: 0 0 25px var(--glow-magenta);
+  transform: scale(1.05); /* Simplified hover for rows */
   border-color: var(--glow-magenta);
+  box-shadow: 0 0 20px rgba(224, 64, 251, 0.6);
 }
 
 .card img {
   width: 100%;
-  height: 140px;
+  height: 145px;
   object-fit: cover;
   display: block;
 }
 
 .card-content {
-  padding: 20px;
+  padding: 16px;
 }
 
 .card h4 {
-  font-size: 1.15rem;
+  font-size: 1.1rem;
   font-weight: 600;
   color: var(--text-primary);
-  margin-bottom: 8px;
+  margin-bottom: 4px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .card p {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   color: var(--text-secondary);
-  margin-bottom: 16px;
-}
-
-.cta {
-  display: flex;
-  align-items: center;
-  gap: 8px;
+  margin-bottom: 12px;
 }
 
 .badge {
@@ -127,22 +142,16 @@ header p {
   font-weight: 600;
   padding: 4px 10px;
   border-radius: 8px;
-  background: var(--glow-cyan);
-  color: #0f1020;
+  background: var(--glow-magenta);
+  color: white;
 }
 
-.card.disabled {
-  cursor: default;
-  filter: grayscale(0.8);
-  opacity: 0.6;
-}
-.card.disabled:hover {
-  transform: none;
-  box-shadow: 0 8px 32px var(--shadow-color);
-  border-color: var(--border-color);
+.card.disabled .badge {
+  background: var(--border-color);
+  color: var(--text-secondary);
 }
 
-/* 4. Neon Subscription Form */
+/* 6. Subscription Form (Unchanged) */
 .subscribe {
   margin: 64px auto 0;
   padding-top: 32px;
@@ -150,6 +159,7 @@ header p {
   max-width: 550px;
   text-align: center;
 }
+/* ... (rest of subscription form CSS is the same) ... */
 
 .subscribe h3 {
   font-size: 1.8rem;

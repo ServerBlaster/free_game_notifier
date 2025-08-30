@@ -1,97 +1,132 @@
-// dashboard.js - front-end to show drops.json and handle subscription
+// dashboard.js
+
 document.addEventListener("DOMContentLoaded", () => {
-  const content = document.getElementById("content");
+  const contentArea = document.getElementById("content");
+  const updatedTimestamp = document.getElementById("updated");
 
-  function escapeHtml(str) {
-    return (str || "").replace(/[&<>"']/g, s => ({
-      "&": "&amp;",
-      "<": "&lt;",
-      ">": "&gt;",
-      '"': "&quot;",
-      "'": "&#39;"
-    }[s]));
-  }
+  async function fetchAndRenderGames() {
+    try {
+      // Fetch the flat list of all games
+      const response = await fetch("drops.json?cachebust=" + new Date().getTime());
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      const allGames = await response.json();
 
-  fetch("../drops.json")
-    .then(r => r.json())
-    .then(drops => {
-      if (!Array.isArray(drops) || drops.length === 0) {
-        content.innerHTML = "<p>No drops found.</p>";
+      // Group games by platform
+      const groupedByPlatform = allGames.reduce((acc, game) => {
+        const platform = game.platform || "Other";
+        if (!acc[platform]) {
+          acc[platform] = [];
+        }
+        acc[platform].push(game);
+        return acc;
+      }, {});
+
+      // Clear any old content
+      contentArea.innerHTML = '<p>Loading latest free games...</p>';
+
+      // Set a defined order for platforms
+      const platformOrder = ["Epic Games Store", "Prime Gaming", "Steam", "GOG", "Humble", "Ubisoft"];
+      const sortedPlatforms = Object.keys(groupedByPlatform).sort((a, b) => {
+        const indexA = platformOrder.indexOf(a);
+        const indexB = platformOrder.indexOf(b);
+        if (indexA === -1) return 1; // Put unknown platforms at the end
+        if (indexB === -1) return -1;
+        return indexA - indexB;
+      });
+
+      if (sortedPlatforms.length === 0) {
+        contentArea.innerHTML = '<p>No free games found at the moment. Check back later!</p>';
         return;
       }
+      
+      contentArea.innerHTML = ''; // Clear "Loading..." message
 
-      // Group by platform
-      const byPlatform = {};
-      drops.forEach(d => {
-        const p = d.platform || "Other";
-        byPlatform[p] = byPlatform[p] || [];
-        byPlatform[p].push(d);
-      });
+      // Build a section for each platform
+      for (const platform of sortedPlatforms) {
+        const games = groupedByPlatform[platform];
+        
+        const platformSection = document.createElement("section");
+        platformSection.className = "platform";
 
-      let html = "";
-      Object.keys(byPlatform).sort().forEach(platform => {
-        html += `<section class="platform"><h2>${escapeHtml(platform)}</h2><div class="cards">`;
+        const title = document.createElement("h2");
+        title.className = "platform-title";
+        title.textContent = platform;
+        platformSection.appendChild(title);
 
-        byPlatform[platform].forEach(item => {
-          const title = escapeHtml(item.title);
-          const status = escapeHtml(item.status || "");
-          const banner = item.banner ? `<img src="${escapeHtml(item.banner)}" alt="" />` : "";
-          const link = (item.link || "").trim();
-          const hasLink = /^https?:\/\//i.test(link);
-          const cta = escapeHtml(item.cta || `Claim directly on the ${platform} website`);
+        const cardsContainer = document.createElement("div");
+        cardsContainer.className = "cards";
 
-          // If link is real, make the entire card clickable; else disable click
-          if (hasLink) {
-            html += `
-              <a class="card" href="${escapeHtml(link)}" target="_blank" rel="noopener noreferrer">
-                ${banner}
-                <h4>${title}</h4>
-                <p>${status}</p>
-              </a>
-            `;
+        games.forEach(game => {
+          const isClickable = game.link && game.link.startsWith('http');
+          const cardTag = isClickable ? 'a' : 'div';
+          const card = document.createElement(cardTag);
+          card.className = 'card';
+          if(isClickable) {
+            card.href = game.link;
+            card.target = '_blank';
+            card.rel = 'noopener noreferrer';
           } else {
-            html += `
-              <div class="card disabled" tabindex="0" aria-disabled="true">
-                ${banner}
-                <h4>${title}</h4>
-                <p>${status}</p>
-                <div class="cta">
-                  <span class="badge">🔒 Claim unavailable</span>
-                  <span class="cta-text">${cta}</span>
-                </div>
-              </div>
-            `;
+            card.classList.add('disabled');
           }
+
+          card.innerHTML = `
+            <img src="${game.banner || 'placeholder.png'}" alt="${game.title}" onerror="this.onerror=null;this.src='placeholder.png';">
+            <div class="card-content">
+              <h4>${game.title}</h4>
+              <p>${game.status || 'Free Now'}</p>
+              <div class="cta">
+                <span class="badge">${isClickable ? 'Claim Now' : (game.cta || 'Unavailable')}</span>
+              </div>
+            </div>
+          `;
+          cardsContainer.appendChild(card);
         });
 
-        html += "</div></section>";
+        platformSection.appendChild(cardsContainer);
+        contentArea.appendChild(platformSection);
+      }
+
+    } catch (error) {
+      console.error("Failed to fetch or render games:", error);
+      contentArea.innerHTML = `<p style="color: #ff5555;">Could not load game data. Please try refreshing the page.</p>`;
+    }
+  }
+
+  // Handle subscription form
+  const form = document.getElementById("subscribe-form");
+  const emailInput = document.getElementById("emailInput");
+  const statusMsg = document.getElementById("statusMsg");
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const email = emailInput.value;
+    statusMsg.textContent = "Subscribing...";
+    statusMsg.style.color = "var(--text-secondary)";
+
+    try {
+      // NOTE: Replace with your actual subscription endpoint (e.g., Netlify Function, Cloudflare Worker)
+      const endpoint = "https://your-serverless-function-endpoint.netlify.app/subscribe";
+      const response = await fetch(endpoint, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email: email }),
       });
 
-      content.innerHTML = html;
-    })
-    .catch(() => {
-      content.innerText = "Failed to load drops.json";
-    });
-
-  // Simple subscribe handler (adjust to your deploy)
-  const form = document.getElementById("subscribe-form");
-  if (form) {
-    form.addEventListener("submit", async (e) => {
-      e.preventDefault();
-      const email = document.getElementById("emailInput").value.trim();
-      const status = document.getElementById("statusMsg");
-      status.innerText = "Subscribing…";
-      try {
-        const res = await fetch("https://freegamenotifier.vercel.app/api/subscribe", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ email, action: "subscribe" })
-        });
-        const j = await res.json();
-        status.innerText = j.message || "Subscribed (check email)";
-      } catch (err) {
-        status.innerText = "Subscribe failed (server not configured)";
+      if (response.ok) {
+        statusMsg.textContent = "Success! Check your inbox to confirm.";
+        statusMsg.style.color = "var(--glow-cyan)";
+        emailInput.value = "";
+      } else {
+        const result = await response.json();
+        throw new Error(result.error || "Subscription failed.");
       }
-    });
-  }
+    } catch (error) {
+      statusMsg.textContent = `Error: ${error.message}`;
+      statusMsg.style.color = "#ff5555";
+    }
+  });
+
+  fetchAndRenderGames();
 });
