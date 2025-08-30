@@ -1,18 +1,19 @@
-/* --- A Glorious New Look for Free Game Notifier --- */
+/* === NEON FUSION THEME === */
+/* An EPIC & POG Overhaul for the Free Game Notifier */
 
-/* 1. Google Font & Modern Reset */
+/* 1. Font, Variables, and Animated Background */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 :root {
-  --background-dark: #1a1b1e;
-  --card-dark: #2a2b2e;
-  --border-dark: #404247;
-  --text-primary: #f0f0f0;
-  --text-secondary: #a0a2a7;
-  --accent-blue: #007bff;
-  --accent-blue-hover: #0056b3;
-  --success-green: #28a745;
-  --shadow-color: rgba(0, 0, 0, 0.5);
+  --background-start: #0f1020;
+  --background-end: #1c1d3a;
+  --card-background: rgba(26, 28, 48, 0.5); /* Semi-transparent for glass effect */
+  --text-primary: #e8eaf6;
+  --text-secondary: #9fa8da;
+  --glow-magenta: #e040fb;
+  --glow-cyan: #00e5ff;
+  --border-color: rgba(159, 168, 218, 0.2);
+  --shadow-color: rgba(0, 0, 0, 0.4);
 }
 
 * {
@@ -21,86 +22,98 @@
   padding: 0;
 }
 
+@keyframes gradient-animation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
 body {
   font-family: 'Poppins', Segoe UI, Arial, sans-serif;
-  background-color: var(--background-dark);
   color: var(--text-primary);
-  padding: 24px;
+  /* The EPIC animated gradient background */
+  background: linear-gradient(135deg, var(--background-start), var(--background-end));
+  background-size: 200% 200%;
+  animation: gradient-animation 15s ease infinite;
+  padding: 32px;
   line-height: 1.6;
 }
 
-/* 2. Header: Fixed to stack elements cleanly */
+/* 2. A Cleaner, Bolder Header */
 header {
-  margin-bottom: 32px;
-  border-bottom: 1px solid var(--border-dark);
-  padding-bottom: 24px;
+  text-align: center;
+  margin-bottom: 48px;
 }
 
 header h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 700;
-  background: linear-gradient(90deg, #6e86ff, #a26eff);
+  background: linear-gradient(90deg, var(--glow-magenta), var(--glow-cyan));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
+  text-shadow: 0 0 10px rgba(224, 64, 251, 0.3);
 }
 
 header p {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: var(--text-secondary);
-  max-width: 800px; /* Ensures your note wraps nicely */
+  max-width: 700px;
+  margin: 0 auto; /* Center the paragraphs */
 }
 
-/* 3. Main Content Area (The Cards) */
+/* 3. "Frosted Glass" Card Grid */
 #content {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 24px; /* More space to feel less cluttered */
 }
 
 .card {
-  display: block; /* Make the whole card a clickable link */
+  display: block;
   text-decoration: none;
-  background-color: var(--card-dark);
-  border: 1px solid var(--border-dark);
-  border-radius: 12px;
-  overflow: hidden; /* Keeps image corners rounded */
-  box-shadow: 0 4px 12px var(--shadow-color);
-  transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px var(--shadow-color);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  
+  /* The "Glassmorphism" effect */
+  background: var(--card-background);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--border-color);
 }
 
 .card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 10px 20px var(--shadow-color);
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 0 25px var(--glow-magenta);
+  border-color: var(--glow-magenta);
 }
 
 .card img {
   width: 100%;
-  height: 135px;
+  height: 140px;
   object-fit: cover;
   display: block;
-  border-bottom: 1px solid var(--border-dark);
 }
 
 .card-content {
-  padding: 16px;
+  padding: 20px;
 }
 
 .card h4 {
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   font-weight: 600;
   color: var(--text-primary);
-  margin-bottom: 6px;
-  /* Truncate long titles */
+  margin-bottom: 8px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .card p {
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   color: var(--text-secondary);
-  margin-bottom: 12px;
+  margin-bottom: 16px;
 }
 
 .cta {
@@ -110,36 +123,38 @@ header p {
 }
 
 .badge {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   font-weight: 600;
-  padding: 4px 8px;
-  border-radius: 6px;
-  background-color: var(--border-dark);
-  color: var(--text-primary);
+  padding: 4px 10px;
+  border-radius: 8px;
+  background: var(--glow-cyan);
+  color: #0f1020;
 }
 
 .card.disabled {
   cursor: default;
-  filter: grayscale(0.7);
-  opacity: 0.7;
+  filter: grayscale(0.8);
+  opacity: 0.6;
 }
 .card.disabled:hover {
   transform: none;
-  box-shadow: 0 4px 12px var(--shadow-color);
+  box-shadow: 0 8px 32px var(--shadow-color);
+  border-color: var(--border-color);
 }
 
-
-/* 4. Subscription Form Section */
+/* 4. Neon Subscription Form */
 .subscribe {
-  margin-top: 48px;
-  padding-top: 24px;
-  border-top: 1px solid var(--border-dark);
-  max-width: 500px;
+  margin: 64px auto 0;
+  padding-top: 32px;
+  border-top: 1px solid var(--border-color);
+  max-width: 550px;
+  text-align: center;
 }
 
 .subscribe h3 {
-  font-size: 1.5rem;
-  margin-bottom: 16px;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: var(--text-primary);
 }
 
 #subscribe-form {
@@ -149,54 +164,44 @@ header p {
 
 #emailInput {
   flex-grow: 1;
-  padding: 12px;
-  border-radius: 8px;
-  border: 1px solid var(--border-dark);
-  background-color: var(--card-dark);
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid var(--border-color);
+  background: var(--card-background);
   color: var(--text-primary);
   font-size: 1rem;
   font-family: 'Poppins', sans-serif;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 #emailInput:focus {
   outline: none;
-  border-color: var(--accent-blue);
+  border-color: var(--glow-magenta);
+  box-shadow: 0 0 15px var(--glow-magenta);
 }
 
 button[type="submit"] {
-  padding: 12px 24px;
+  padding: 14px 28px;
   border: none;
-  border-radius: 8px;
-  background-color: var(--accent-blue);
+  border-radius: 10px;
+  background-color: var(--glow-magenta);
   color: white;
   font-size: 1rem;
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
   cursor: pointer;
-  transition: background-color 0.2s ease;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 15px rgba(224, 64, 251, 0.5);
 }
 
 button[type="submit"]:hover {
-  background-color: var(--accent-blue-hover);
+  transform: scale(1.05);
+  box-shadow: 0 0 25px var(--glow-magenta);
 }
 
 #statusMsg {
-  margin-top: 12px;
+  margin-top: 16px;
   font-weight: 600;
-  color: var(--success-green);
-}
-
-/* 5. A little extra polish: Custom Scrollbar */
-::-webkit-scrollbar {
-  width: 10px;
-}
-::-webkit-scrollbar-track {
-  background: var(--background-dark);
-}
-::-webkit-scrollbar-thumb {
-  background: #555;
-  border-radius: 5px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #777;
+  font-size: 1rem;
+  color: var(--glow-cyan);
 }
