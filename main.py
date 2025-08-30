@@ -71,7 +71,8 @@ def ensure_link_and_cta(item, default_cta=None):
 def compare_and_build(old: dict, new: dict):
     """
     Build human-readable change log & maintain monthly archive.
-    Now detects Expired status changes as well.
+    Only cares about new and expired titles.
+    Ignores status changes because dashboard only tracks fresh drops.
     """
     changes = []
     monthly = load_json(ARCHIVE_FILE, {})
@@ -82,32 +83,22 @@ def compare_and_build(old: dict, new: dict):
     for src, new_items in new.items():
         old_items = old.get(src, [])
 
-        # Map by title for easy lookups
-        old_map = {i["title"]: i for i in old_items}
-        new_map = {i["title"]: i for i in new_items}
+        old_titles = {i["title"] for i in old_items}
+        new_titles = {i["title"] for i in new_items}
 
-        old_titles = set(old_map.keys())
-        new_titles = set(new_map.keys())
-
-        # Titles completely gone
+        # Titles completely gone → mark as expired
         expired_titles = old_titles - new_titles
         for g in expired_titles:
             changes.append(f"🔻 Expired: <b>{src}</b> – {g}")
 
-        # New titles
+        # New titles → mark as fresh drop
         fresh_titles = new_titles - old_titles
         for g in fresh_titles:
             changes.append(f"🟢 New Freebie: <b>{src}</b> – {g}")
             if g not in monthly[cur_month]:
                 monthly[cur_month].append(g)
 
-        # Titles that still exist but changed status (e.g. Fresh → Expired)
-        common_titles = old_titles & new_titles
-        for g in common_titles:
-            old_status = old_map[g].get("status", "")
-            new_status = new_map[g].get("status", "")
-            if old_status != new_status:
-                changes.append(f"🔄 Status change: <b>{src}</b> – {g} ({old_status} → {new_status})")
+        # Common titles → ignore status flips
 
     save_json(ARCHIVE_FILE, monthly)
     return changes
