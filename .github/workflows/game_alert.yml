@@ -40,7 +40,7 @@ jobs:
 
           # (Optional) Verify proxy works & geo is India
           echo "Checking proxy location..."
-          curl -s --max-time 10 --proxy http://$PROXY ipinfo.io/json || echo "⚠️ Proxy check failed"
+          curl -s --max-time 10 --proxy $PROXY ipinfo.io/json || echo "⚠️ Proxy check failed"
 
       - name: Run scrapers (Python)
         env:

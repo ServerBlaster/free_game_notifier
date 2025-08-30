@@ -6,3 +6,4 @@ pytz
 dateparser
 feedparser
 playwright
+PySocks
