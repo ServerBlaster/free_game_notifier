@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   async function fetchAndRenderGames() {
     try {
       // Fetch the flat list of all games
-      const response = await fetch("drops.json?cachebust=" + new Date().getTime());
+      const response = await fetch("../drops.json?cachebust=" + new Date().getTime());
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
