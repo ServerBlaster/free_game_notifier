@@ -53,9 +53,9 @@ async function sendAll() {
         from: `"${FROM_NAME}" <${GMAIL_USER}>`,
         to,
         subject: process.env.EMAIL_SUBJECT || "🎁 New Free Games Alert!",
-        text: summaryText + `\n\nView on dashboard: ${DASHBOARD_LINK}`,
+        text: summaryText.replace(/<br\/?>/g, "\n").replace(/<[^>]+>/g, "") + `\n\nView on dashboard: ${DASHBOARD_LINK}`,
         html: `<div style="font-family:Segoe UI,Arial;padding:8px">
-                 ${summaryText.replace(/\n/g, "<br/>")}
+                 ${summaryText}
                  <hr/>
                  <p><a href="${DASHBOARD_LINK}">View Dashboard</a></p>
                </div>`
