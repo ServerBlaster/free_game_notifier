@@ -435,12 +435,24 @@ def main():
     ubi = get_ubisoft()
     prime_with_link, prime_skipped = get_prime_free()
 
+    # Debug: counts from scrapers
+    print(f"[SCRAPER] Epic Games: {len(egs)}")
+    print(f"[SCRAPER] GOG: {len(gog)}")
+    print(f"[SCRAPER] Steam: {len(steam)}")
+    print(f"[SCRAPER] Humble: {len(humble)}")
+    print(f"[SCRAPER] Ubisoft: {len(ubi)}")
+    print(f"[SCRAPER] Prime with link: {len(prime_with_link)}")
+    print(f"[SCRAPER] Prime skipped (no link): {len(prime_skipped)}")
+
     # Group under platform names (only active offers, no expireds)
     grouped = {}
+    expired_count = 0
 
     def add_items(items):
+        nonlocal expired_count
         for it in items:
             if it.get("status", "").lower() == "expired":
+                expired_count += 1
                 continue  # 🚫 drop expired from grouped/json/dashboard
             src = it.get("platform") or "Other"
             grouped.setdefault(src, []).append(it)
@@ -450,8 +462,15 @@ def main():
     add_items(steam)
     add_items(humble)
     add_items(ubi)
-    add_items(prime_with_link)     # ✅ normal Prime claim links
-    add_items(prime_skipped)       # ✅ skipped-but-active entries stay visible
+
+    # 🔒 Prime Gaming is always EXACTLY union of with_link + skipped
+    add_items(prime_with_link)
+    add_items(prime_skipped)
+
+    print(f"[FILTER] Expired entries removed: {expired_count}")
+    print(f"[RESULT] Platforms in grouped: {list(grouped.keys())}")
+    for src, items in grouped.items():
+        print(f"[RESULT] {src}: {len(items)} items")
 
     # Flat list for drops.json (dashboard.js consumes this)
     flat = []
@@ -461,7 +480,7 @@ def main():
     # Save outputs
     save_json(DROPS_FILE, flat)         # dashboard.js reads this
     save_json(DATA_FILE, grouped)       # grouped snapshot for comparison
-    save_json(PRIME_SKIPPED, prime_skipped)  # keep reference file (only active skipped)
+    save_json(PRIME_SKIPPED, prime_skipped)  # always save skipped list (even if empty)
 
     # Build change summary (will include expired events since they're missing from new grouped)
     changes = compare_and_build(old_grouped, grouped)
@@ -478,7 +497,7 @@ def main():
         send_telegram(msg)
         # ❌ no send_email here, mailer.js handles emails
     else:
-        print("No changes at", now_str())
+        print("[INFO] No changes at", now_str())
 
 if __name__ == "__main__":
     main()
