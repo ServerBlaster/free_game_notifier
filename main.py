@@ -71,7 +71,7 @@ def ensure_link_and_cta(item, default_cta=None):
 def compare_and_build(old: dict, new: dict):
     """
     Build human-readable change log & maintain monthly archive.
-    Uses HTML markers (since Telegram is HTML mode).
+    Now detects Expired status changes as well.
     """
     changes = []
     monthly = load_json(ARCHIVE_FILE, {})
@@ -79,18 +79,35 @@ def compare_and_build(old: dict, new: dict):
     if cur_month not in monthly:
         monthly[cur_month] = []
 
-    for src, items in new.items():
-        old_set = set([i["title"] for i in old.get(src, [])])
-        new_set = set([i["title"] for i in items])
-        expired = old_set - new_set
-        fresh = new_set - old_set
+    for src, new_items in new.items():
+        old_items = old.get(src, [])
 
-        for g in expired:
+        # Map by title for easy lookups
+        old_map = {i["title"]: i for i in old_items}
+        new_map = {i["title"]: i for i in new_items}
+
+        old_titles = set(old_map.keys())
+        new_titles = set(new_map.keys())
+
+        # Titles completely gone
+        expired_titles = old_titles - new_titles
+        for g in expired_titles:
             changes.append(f"🔻 Expired: <b>{src}</b> – {g}")
-        for g in fresh:
+
+        # New titles
+        fresh_titles = new_titles - old_titles
+        for g in fresh_titles:
             changes.append(f"🟢 New Freebie: <b>{src}</b> – {g}")
             if g not in monthly[cur_month]:
                 monthly[cur_month].append(g)
+
+        # Titles that still exist but changed status (e.g. Fresh → Expired)
+        common_titles = old_titles & new_titles
+        for g in common_titles:
+            old_status = old_map[g].get("status", "")
+            new_status = new_map[g].get("status", "")
+            if old_status != new_status:
+                changes.append(f"🔄 Status change: <b>{src}</b> – {g} ({old_status} → {new_status})")
 
     save_json(ARCHIVE_FILE, monthly)
     return changes
