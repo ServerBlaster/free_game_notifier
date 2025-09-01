@@ -142,13 +142,21 @@ def send_telegram(msg_html: str):
     payload = {
         "chat_id": CHANNEL_ID,
         "text": msg_html,
-        "parse_mode": "HTML",                 # ✅ switched to HTML
+        "parse_mode": "HTML",
         "disable_web_page_preview": True
     }
     try:
-        requests.post(url, data=payload, timeout=10)
+        # NEW: Store the response and print its details
+        response = requests.post(url, data=payload, timeout=10)
+        print(f"Telegram API response status: {response.status_code}")
+        print(f"Telegram API response body: {response.text}")
+        
+        # Optional: Check if the response indicates failure
+        if response.status_code != 200 or not response.json().get("ok"):
+            print("[ERROR] Telegram message failed to send.")
+
     except Exception as e:
-        print("Telegram send error:", e)
+        print("Telegram send error (Exception):", e)
 
 # ------------------ SCRAPERS ------------------
 
