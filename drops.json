@@ -1,19 +1,5 @@
 [
   {
-    "platform": "Epic Games Store",
-    "title": "Machinarium",
-    "status": "Fresh Drop",
-    "banner": "https://cdn1.epicgames.com/spt-assets/907d9edf585e4c23b971164cd1c452e2/machinarium-1n5ke.jpg",
-    "link": "https://store.epicgames.com/p/machinarium-5e6c71"
-  },
-  {
-    "platform": "Epic Games Store",
-    "title": "Make Way",
-    "status": "Fresh Drop",
-    "banner": "https://cdn1.epicgames.com/spt-assets/17b5c19c1e0e48e99cde4bc54dde505a/make-way-gf3ww.png",
-    "link": "https://store.epicgames.com/p/make-way-bddf5f"
-  },
-  {
     "platform": "Prime Gaming",
     "title": "Heroes of Loot 2",
     "link": "https://gaming.amazon.com/heroes-of-loot-2-gog/dp/amzn1.pg.item.960ca075-f916-4013-a454-4d7d4d53a496?ingress=amzn&ref_=SM_HeroesofLoot2_S01_FGWP_CRWN",
