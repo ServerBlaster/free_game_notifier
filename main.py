@@ -293,10 +293,6 @@ def get_gog_free():
 
     return out
 
-# In main.py, replace the old get_steam_free function
-
-# In main.py, replace the existing get_steam_free function
-
 def get_steam_free():
     """
     Steam free 100% off (SteamDB page).
