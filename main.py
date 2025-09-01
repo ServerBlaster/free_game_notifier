@@ -229,20 +229,40 @@ def get_egs_free():
     return out
 
 def get_gog_free():
+    """
+    Fetches free games from GOG using their official backend API.
+    This is more reliable than HTML scraping.
+    """
     out = []
     try:
-        html = requests.get("https://www.gog.com/en/games?priceRange=0,0", headers=HEADERS, timeout=20).text
-        soup = BeautifulSoup(html, "html.parser")
-        cards = soup.select("a.product-tile")
-        for c in cards[:12]:
-            title = (c.get("title") or "").strip()
-            if not title:
-                pt = c.select_one(".product-title")
-                title = pt.get_text(strip=True) if pt else ""
-            img = c.select_one("img")
-            banner = (img.get("src") if img and img.has_attr("src") else "") or ""
-            href = (c.get("href") or "").strip()
-            link = f"https://www.gog.com{href}" if href and href.startswith("/") else href
+        # This is the API endpoint the GOG website uses to get game lists
+        url = "https://catalog.gog.com/v1/catalog"
+
+        # These parameters tell the API to fetch the first 24 products
+        # that are free, sorted by popularity
+        params = {
+            "limit": 24,
+            "order": "desc:popularity",
+            "price": "free",
+            "productType": "GAME",
+            "countryCode": "IN", # You can change this to your country code
+        }
+
+        # Make the request to the API and parse the JSON response
+        response = requests.get(url, params=params, headers=HEADERS, timeout=20)
+        data = response.json()
+
+        for product in data.get("products", []):
+            title = product.get("title", "Unknown Game")
+
+            # GOG API provides an image ID, which we use to build the full URL
+            image_id = product.get("coverHorizontal", "")
+            banner = f"https://images-1.gog-statics.com/{image_id}_product_tile_256.jpg" if image_id else ""
+
+            # The link is built from the game's slug
+            slug = product.get("slug", "")
+            link = f"https://www.gog.com/en/game/{slug}" if slug else ""
+
             item = {
                 "platform": "GOG",
                 "title": title,
@@ -252,8 +272,10 @@ def get_gog_free():
             }
             if title:
                 out.append(ensure_link_and_cta(item, "Claim directly on GOG"))
+
     except Exception as e:
         print("GOG error:", e)
+
     return out
 
 # In main.py, replace the old get_steam_free function
