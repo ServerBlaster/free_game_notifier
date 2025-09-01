@@ -231,7 +231,7 @@ def get_egs_free():
 def get_gog_free():
     out = []
     try:
-        html = requests.get("https://www.gog.com/games?price=free", headers=HEADERS, timeout=20).text
+        html = requests.get("https://www.gog.com/en/games?priceRange=0,0", headers=HEADERS, timeout=20).text
         soup = BeautifulSoup(html, "html.parser")
         cards = soup.select("a.product-tile")
         for c in cards[:12]:
