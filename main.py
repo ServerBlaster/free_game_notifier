@@ -385,32 +385,53 @@ def get_humble_free():
     return out
 
 def get_ubisoft():
+    """
+    Scrapes Ubisoft store for 100% discounted games using Playwright
+    to handle the dynamic JavaScript-heavy content.
+    """
     out = []
+    print("[Ubisoft] Starting Playwright fetch for 100% discounted games...")
     try:
-        html = requests.get("https://store.ubisoft.com/us/free-games/", headers=HEADERS, timeout=20).text
-        soup = BeautifulSoup(html, "html.parser")
-        tiles = soup.select("a.product-tile, a[href*='/game/']")
-        for t in tiles[:10]:
-            title = t.get("title") or ""
-            if not title:
-                ttag = t.select_one(".product-tile-title")
-                title = ttag.get_text(strip=True) if ttag else ""
-            href = (t.get("href") or "").strip()
-            if href and href.startswith("/"):
-                link = f"https://store.ubisoft.com{href}"
-            else:
-                link = href
-            item = {
-                "platform": "Ubisoft",
-                "title": title,
-                "status": "Fresh Drop",
-                "banner": "",
-                "link": link
-            }
-            if title:
-                out.append(ensure_link_and_cta(item, "Claim directly on Ubisoft Store"))
+        with sync_playwright() as p:
+            browser = p.firefox.launch(headless=True)
+            page = browser.new_page()
+
+            # Go to the deals page, pre-filtered for 100% discounts
+            url = "https://store.ubisoft.com/en-us/deals?prefn1=discount&prefv1=100%25"
+            page.goto(url, timeout=60000, wait_until="domcontentloaded")
+
+            # Wait for the product cards to be loaded onto the page by JavaScript
+            page.wait_for_selector("a.product-card", timeout=20000)
+
+            # Get the HTML after JavaScript has run and parse it
+            html = page.content()
+            soup = BeautifulSoup(html, "html.parser")
+            browser.close()
+
+            # Use the new, correct selectors for the current store layout
+            cards = soup.select("a.product-card")
+            for card in cards[:10]:
+                title_tag = card.select_one("p.product-card__name")
+                title = title_tag.get_text(strip=True) if title_tag else "Unknown Game"
+                
+                href = card.get("href", "")
+                link = f"https://store.ubisoft.com{href}" if href.startswith("/") else href
+
+                # Find the banner image from the nested img tag
+                img_tag = card.select_one("img.product-card__image")
+                banner = img_tag.get("src") if img_tag else ""
+
+                item = {
+                    "platform": "Ubisoft", "title": title, "status": "Fresh Drop",
+                    "banner": banner, "link": link
+                }
+                if title and "Unknown" not in title:
+                    out.append(ensure_link_and_cta(item, "Claim directly on Ubisoft Store"))
+
     except Exception as e:
-        print("Ubisoft error:", e)
+        print(f"Ubisoft error: {e}")
+    
+    print(f"[Ubisoft] Found {len(out)} items.")
     return out
 
 # ---------- PRIME GAMING (Playwright) ----------
