@@ -231,50 +231,65 @@ def get_egs_free():
 def get_gog_free():
     """
     Fetches free games from GOG using their official backend API.
-    This is more reliable than HTML scraping.
+    This version uses dedicated API headers and improved debugging.
     """
     out = []
+    print("[GOG] Starting GOG API fetch...") # Debug print
+
     try:
-        # This is the API endpoint the GOG website uses to get game lists
         url = "https://catalog.gog.com/v1/catalog"
 
-        # These parameters tell the API to fetch the first 24 products
-        # that are free, sorted by popularity
         params = {
             "limit": 24,
             "order": "desc:popularity",
             "price": "free",
             "productType": "GAME",
-            "countryCode": "IN", # You can change this to your country code
         }
 
-        # Make the request to the API and parse the JSON response
-        response = requests.get(url, params=params, headers=HEADERS, timeout=20)
-        data = response.json()
+        # Use specific headers for the API call, not the generic ones.
+        api_headers = {
+            "Accept": "application/json",
+            "Referer": "https://www.gog.com/",
+            "User-Agent": (
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/115.0.0.0 Safari/537.36"
+            ),
+        }
 
-        for product in data.get("products", []):
-            title = product.get("title", "Unknown Game")
+        response = requests.get(url, params=params, headers=api_headers, timeout=20)
 
-            # GOG API provides an image ID, which we use to build the full URL
-            image_id = product.get("coverHorizontal", "")
-            banner = f"https://images-1.gog-statics.com/{image_id}_product_tile_256.jpg" if image_id else ""
+        # --- CRUCIAL DEBUGGING ---
+        # Let's see exactly what the server responded, regardless of success.
+        print(f"[GOG DEBUG] Status Code: {response.status_code}")
+        print(f"[GOG DEBUG] Response Text: {response.text[:500]}...") # Print first 500 chars
 
-            # The link is built from the game's slug
-            slug = product.get("slug", "")
-            link = f"https://www.gog.com/en/game/{slug}" if slug else ""
+        # Proceed only if the request was successful (status 200 OK)
+        if response.status_code == 200:
+            data = response.json()
+            products = data.get("products", [])
+            print(f"[GOG] Found {len(products)} products in API response.") # Debug print
 
-            item = {
-                "platform": "GOG",
-                "title": title,
-                "status": "Fresh Drop",
-                "banner": banner,
-                "link": link
-            }
-            if title:
-                out.append(ensure_link_and_cta(item, "Claim directly on GOG"))
+            for product in products:
+                title = product.get("title", "Unknown Game")
+                image_id = product.get("coverHorizontal", "")
+                banner = f"https://images-1.gog-statics.com/{image_id}_product_tile_256.jpg" if image_id else ""
+                slug = product.get("slug", "")
+                link = f"https://www.gog.com/en/game/{slug}" if slug else ""
 
+                item = {
+                    "platform": "GOG", "title": title, "status": "Fresh Drop",
+                    "banner": banner, "link": link
+                }
+                if title:
+                    out.append(ensure_link_and_cta(item, "Claim directly on GOG"))
+        else:
+            print(f"[GOG ERROR] API request failed with status code {response.status_code}.")
+
+    except requests.exceptions.JSONDecodeError:
+        print("[GOG ERROR] Failed to decode JSON. The response was not valid JSON.")
     except Exception as e:
-        print("GOG error:", e)
+        print(f"[GOG ERROR] An unexpected error occurred: {e}")
 
     return out
 
