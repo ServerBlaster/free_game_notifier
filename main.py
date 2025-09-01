@@ -446,8 +446,6 @@ def get_prime_free():
     html = ""
 
     try:
-        from playwright.sync_api import sync_playwright
-
         with sync_playwright() as p:
             browser = p.firefox.launch(headless=True)
             page = browser.new_page()
