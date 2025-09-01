@@ -386,53 +386,53 @@ def get_humble_free():
 
 def get_ubisoft():
     """
-    Scrapes Ubisoft store for 100% discounted games using Playwright
-    to handle the dynamic JavaScript-heavy content.
+    Finds Ubisoft free games by scraping the official Ubisoft News website
+    for announcements, which is a more stable method than scraping the store.
     """
     out = []
-    print("[Ubisoft] Starting Playwright fetch for 100% discounted games...")
+    print("[Ubisoft] Starting Ubisoft News fetch...")
     try:
-        with sync_playwright() as p:
-            browser = p.firefox.launch(headless=True)
-            page = browser.new_page()
+        # Target the official news site, which is more stable than the store
+        url = "https://news.ubisoft.com/en-us/"
+        html = requests.get(url, headers=HEADERS, timeout=20).text
+        soup = BeautifulSoup(html, "html.parser")
 
-            # Go to the deals page, pre-filtered for 100% discounts
-            url = "https://store.ubisoft.com/en-us/deals?prefn1=discount&prefv1=100%25"
-            page.goto(url, timeout=60000, wait_until="domcontentloaded")
+        # Keywords to identify articles about free game giveaways
+        keywords = ["free", "claim", "yours to keep", "giveaway"]
 
-            # Wait for the product cards to be loaded onto the page by JavaScript
-            page.wait_for_selector("a.product-card", timeout=20000)
+        # Selector for news article previews on the page
+        articles = soup.select("article.news-list-article")
 
-            # Get the HTML after JavaScript has run and parse it
-            html = page.content()
-            soup = BeautifulSoup(html, "html.parser")
-            browser.close()
-
-            # Use the new, correct selectors for the current store layout
-            cards = soup.select("a.product-card")
-            for card in cards[:10]:
-                title_tag = card.select_one("p.product-card__name")
-                title = title_tag.get_text(strip=True) if title_tag else "Unknown Game"
+        for article in articles:
+            article_text = article.get_text().lower()
+            
+            # Check if the article text contains any of our keywords
+            if any(keyword in article_text for keyword in keywords):
+                title_tag = article.select_one("div.news-title")
+                title = title_tag.get_text(strip=True) if title_tag else "Ubisoft Giveaway Announcement"
                 
-                href = card.get("href", "")
-                link = f"https://store.ubisoft.com{href}" if href.startswith("/") else href
-
-                # Find the banner image from the nested img tag
-                img_tag = card.select_one("img.product-card__image")
-                banner = img_tag.get("src") if img_tag else ""
-
+                link_tag = article.select_one("a.news-list-article-link")
+                link = link_tag.get("href", "") if link_tag else ""
+                
+                # The news site provides full URLs
+                
                 item = {
-                    "platform": "Ubisoft", "title": title, "status": "Fresh Drop",
-                    "banner": banner, "link": link
+                    "platform": "Ubisoft",
+                    # The title is the news article's title
+                    "title": title,
+                    "status": "Fresh Drop",
+                    "banner": "", # News site doesn't have game banners in the preview
+                    "link": link
                 }
-                if title and "Unknown" not in title:
-                    out.append(ensure_link_and_cta(item, "Claim directly on Ubisoft Store"))
-
+                out.append(ensure_link_and_cta(item, "Read announcement on news.ubisoft.com"))
+    
     except Exception as e:
         print(f"Ubisoft error: {e}")
     
-    print(f"[Ubisoft] Found {len(out)} items.")
-    return out
+    # We deduplicate because multiple news articles might mention the same offer
+    unique_out = {item['link']: item for item in out}.values()
+    print(f"[Ubisoft] Found {len(unique_out)} potential free game announcements.")
+    return list(unique_out)
 
 # ---------- PRIME GAMING (Playwright) ----------
 
