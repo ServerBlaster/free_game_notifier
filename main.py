@@ -627,9 +627,9 @@ def main():
 
     if changes:
         msg = (
-            "🗞 <b>Free Game Update</b> 🗞<br/><br/>"
-            + "<br/>".join(changes)
-            + f"<br/><br/>🌐 <a href=\"{DASHBOARD_LINK}\">Dashboard</a>"
+            "🗞 <b>Free Game Update</b> 🗞<br><br>"
+            + "<br>".join(changes)
+            + f"<br><br>🌐 <a href=\"{DASHBOARD_LINK}\">Dashboard</a>"
         )
         with open(SUMMARY_FILE, "w", encoding="utf-8") as f:
             f.write(msg)
