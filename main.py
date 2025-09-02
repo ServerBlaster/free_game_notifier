@@ -4,8 +4,6 @@ import requests
 from datetime import datetime
 import pytz
 from bs4 import BeautifulSoup
-
-# NEW: Playwright-based Prime scraper (integrated from fgntest.py)
 from playwright.sync_api import sync_playwright
 
 # === CONFIG ===
@@ -13,8 +11,8 @@ BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "PLACEHOLDER_BOT_TOKEN")
 CHANNEL_ID = os.getenv("TELEGRAM_CHANNEL_ID", "PLACEHOLDER_CHANNEL_ID")
 DASHBOARD_TEMPLATE = "dashboard/template_dashboard.html"
 DASHBOARD_FILE = "dashboard/dashboard.html"
-DATA_FILE = "game_data.json"          # grouped by platform (dict)
-DROPS_FILE = "drops.json"             # flat list of all items
+DATA_FILE = "game_data.json"
+DROPS_FILE = "drops.json"
 ARCHIVE_FILE = "monthly_archive.json"
 SUMMARY_FILE = "drop_summary.txt"
 
@@ -86,19 +84,15 @@ def compare_and_build(old: dict, new: dict):
         old_titles = {i["title"] for i in old_items}
         new_titles = {i["title"] for i in new_items}
 
-        # Titles completely gone → mark as expired
         expired_titles = old_titles - new_titles
         for g in expired_titles:
             changes.append(f"🔻 Expired: <b>{src}</b> – {g}")
 
-        # New titles → mark as fresh drop
         fresh_titles = new_titles - old_titles
         for g in fresh_titles:
             changes.append(f"🟢 New Freebie: <b>{src}</b> – {g}")
             if g not in monthly[cur_month]:
                 monthly[cur_month].append(g)
-
-        # Common titles → ignore status flips
 
     save_json(ARCHIVE_FILE, monthly)
     return changes
@@ -106,7 +100,6 @@ def compare_and_build(old: dict, new: dict):
 def build_dashboard(grouped: dict):
     now = datetime.now(INDIAN_TZ).strftime("%Y-%m-%d %H:%M %Z")
 
-    # Simple fallback HTML if template missing
     if not os.path.exists(DASHBOARD_TEMPLATE):
         blocks = ""
         for src, items in grouped.items():
@@ -127,8 +120,6 @@ def build_dashboard(grouped: dict):
         return
 
     tpl = open(DASHBOARD_TEMPLATE, "r", encoding="utf-8").read()
-    # The new dashboard front-end (dashboard.js) will actually consume drops.json,
-    # but we still stamp an updated time in the static HTML.
     html = tpl.replace("{{TIMESTAMP}}", now).replace("{{GAME_BLOCKS}}", "")
     os.makedirs(os.path.dirname(DASHBOARD_FILE), exist_ok=True)
     with open(DASHBOARD_FILE, "w", encoding="utf-8") as f:
@@ -146,12 +137,10 @@ def send_telegram(msg_html: str):
         "disable_web_page_preview": True
     }
     try:
-        # NEW: Store the response and print its details
         response = requests.post(url, data=payload, timeout=10)
         print(f"Telegram API response status: {response.status_code}")
         print(f"Telegram API response body: {response.text}")
         
-        # Optional: Check if the response indicates failure
         if response.status_code != 200 or not response.json().get("ok"):
             print("[ERROR] Telegram message failed to send.")
 
@@ -176,7 +165,7 @@ def get_egs_free():
         
         for g in elements:
             price = g.get("price", {}).get("totalPrice", {}).get("discountPrice", 1)
-            # We only care about currently free games
+            
             if price != 0:
                 continue
 
@@ -190,28 +179,23 @@ def get_egs_free():
                 if not banner and g["keyImages"]:
                     banner = g["keyImages"][0].get("url", "")
 
-            # --- DEFINITIVE SLUG FINDING LOGIC ---
             slug = None
             
-            # 1. Primary Method: Check 'offerMappings' for a pageSlug. This is the most reliable.
             if g.get("offerMappings"):
                 for mapping in g["offerMappings"]:
                     if mapping.get("pageSlug"):
                         slug = mapping["pageSlug"]
                         break
             
-            # 2. Fallback Method: Check 'catalogNs.mappings'
             if not slug and g.get("catalogNs", {}).get("mappings"):
                  for mapping in g["catalogNs"]["mappings"]:
                     if mapping.get("pageSlug"):
                         slug = mapping["pageSlug"]
                         break
             
-            # 3. Last Resort Fallbacks: Use the less reliable top-level slugs
             if not slug:
                 slug = g.get("productSlug") or g.get("urlSlug")
 
-            # Clean the final slug and build the link
             final_slug = (slug or "").strip().replace("/home", "")
             link = f"https://store.epicgames.com/p/{final_slug}" if final_slug else ""
             
@@ -234,7 +218,7 @@ def get_gog_free():
     This version uses dedicated API headers and improved debugging.
     """
     out = []
-    print("[GOG] Starting GOG API fetch...") # Debug print
+    print("[GOG] Starting GOG API fetch...")
 
     try:
         url = "https://catalog.gog.com/v1/catalog"
@@ -246,7 +230,6 @@ def get_gog_free():
             "productType": "GAME",
         }
 
-        # Use specific headers for the API call, not the generic ones.
         api_headers = {
             "Accept": "application/json",
             "Referer": "https://www.gog.com/",
@@ -259,16 +242,13 @@ def get_gog_free():
 
         response = requests.get(url, params=params, headers=api_headers, timeout=20)
 
-        # --- CRUCIAL DEBUGGING ---
-        # Let's see exactly what the server responded, regardless of success.
         print(f"[GOG DEBUG] Status Code: {response.status_code}")
-        print(f"[GOG DEBUG] Response Text: {response.text[:500]}...") # Print first 500 chars
+        print(f"[GOG DEBUG] Response Text: {response.text[:500]}...")
 
-        # Proceed only if the request was successful (status 200 OK)
         if response.status_code == 200:
             data = response.json()
             products = data.get("products", [])
-            print(f"[GOG] Found {len(products)} products in API response.") # Debug print
+            print(f"[GOG] Found {len(products)} products in API response.")
 
             for product in products:
                 title = product.get("title", "Unknown Game")
@@ -302,10 +282,9 @@ def get_steam_free():
     try:
         html = requests.get("https://steamdb.info/sales/?min_discount=100", headers=HEADERS, timeout=20).text
         soup = BeautifulSoup(html, "html.parser")
-        # Select rows that are specifically for an app/game to avoid bundles
         rows = soup.select("tr.app[data-appid]")
         for r in rows[:10]:
-            title_cell = r.select_one("td:nth-of-type(3)") # Title is usually the 3rd cell
+            title_cell = r.select_one("td:nth-of-type(3)")
             if not title_cell:
                 continue
 
@@ -313,7 +292,6 @@ def get_steam_free():
             link_tag = title_cell.find("a", href=True)
             link = ""
 
-            # Ensure the link is a valid Steam store URL
             if link_tag and 'store.steampowered.com' in link_tag['href']:
                 link = link_tag['href']
 
@@ -325,7 +303,6 @@ def get_steam_free():
                     "banner": "",
                     "link": link
                 }
-                # The ensure_link_and_cta will correctly handle if the link is empty
                 out.append(ensure_link_and_cta(item, "Claim on Steam"))
 
     except Exception as e:
@@ -351,7 +328,6 @@ def get_humble_free():
             img_elem = card.select_one("img")
             banner = img_elem.get("src") if img_elem and img_elem.has_attr("src") else ""
 
-            # Try to find a link
             a = card.select_one("a[href]")
             href = (a.get("href") if a else "") or ""
             if href and href.startswith("/"):
@@ -359,7 +335,6 @@ def get_humble_free():
             else:
                 link = href
 
-            # Expiry/status
             expiry_elem = card.select_one(".promo-timer, .countdown")
             expiry = expiry_elem.get_text(strip=True) if expiry_elem else None
 
@@ -388,21 +363,17 @@ def get_ubisoft():
     out = []
     print("[Ubisoft] Starting Ubisoft News fetch...")
     try:
-        # Target the official news site, which is more stable than the store
         url = "https://news.ubisoft.com/en-us/"
         html = requests.get(url, headers=HEADERS, timeout=20).text
         soup = BeautifulSoup(html, "html.parser")
 
-        # Keywords to identify articles about free game giveaways
         keywords = ["free", "claim", "yours to keep", "giveaway"]
 
-        # Selector for news article previews on the page
         articles = soup.select("article.news-list-article")
 
         for article in articles:
             article_text = article.get_text().lower()
             
-            # Check if the article text contains any of our keywords
             if any(keyword in article_text for keyword in keywords):
                 title_tag = article.select_one("div.news-title")
                 title = title_tag.get_text(strip=True) if title_tag else "Ubisoft Giveaway Announcement"
@@ -410,14 +381,12 @@ def get_ubisoft():
                 link_tag = article.select_one("a.news-list-article-link")
                 link = link_tag.get("href", "") if link_tag else ""
                 
-                # The news site provides full URLs
                 
                 item = {
                     "platform": "Ubisoft",
-                    # The title is the news article's title
                     "title": title,
                     "status": "Fresh Drop",
-                    "banner": "", # News site doesn't have game banners in the preview
+                    "banner": "",
                     "link": link
                 }
                 out.append(ensure_link_and_cta(item, "Read announcement on news.ubisoft.com"))
@@ -425,7 +394,6 @@ def get_ubisoft():
     except Exception as e:
         print(f"Ubisoft error: {e}")
     
-    # We deduplicate because multiple news articles might mention the same offer
     unique_out = {item['link']: item for item in out}.values()
     print(f"[Ubisoft] Found {len(unique_out)} potential free game announcements.")
     return list(unique_out)
@@ -446,13 +414,10 @@ def get_prime_free():
             browser = p.firefox.launch(headless=True)
             page = browser.new_page()
             page.goto("https://gaming.amazon.com/home", timeout=60000, wait_until="domcontentloaded")
-            
-            # The reliable "smart wait" for the game cards to appear
             page.wait_for_selector("div[data-a-target='item-card']", timeout=30000)
-            page.wait_for_timeout(2000) # Final small pause
+            page.wait_for_timeout(2000)
 
             html = page.content()
-            # Your useful debug file logic is back in
             with open("prime_debug.html", "w", encoding="utf-8") as f:
                 f.write(html)
             browser.close()
@@ -481,7 +446,6 @@ def get_prime_free():
             if img_tag and img_tag.has_attr("src"):
                 banner = img_tag["src"]
 
-            # Your robust expired filter logic
             footer_text = card.select_one(".item-card-details__footer")
             status = "Fresh Drop"
             expired_flag = False
@@ -495,7 +459,6 @@ def get_prime_free():
             if expired_flag:
                 continue
 
-            # A slightly more efficient, combined selector for the link
             claim_link_tag = card.select_one("a[data-a-target='FGWPOffer'], a[data-a-target='learn-more-card']")
             link = ""
             if claim_link_tag and claim_link_tag.get("href"):
@@ -515,7 +478,6 @@ def get_prime_free():
                 entry = ensure_link_and_cta(entry, "Claim on Prime Gaming")
                 skipped_entries.append(entry)
 
-    # Your original, reliable dedupe function
     def dedupe(data):
         unique = {}
         for r in data:
@@ -539,10 +501,8 @@ def get_prime_free():
 # ------------------ MAIN ------------------
 
 def main():
-    # --- helpers ---
     def is_expired(status: str) -> bool:
         s = (status or "").strip().lower()
-        # catch common variants Amazon uses
         return any(k in s for k in ["expired", "ended", "no longer", "unavailable"])
 
     def dedupe_by_title(items):
@@ -553,20 +513,16 @@ def main():
                 seen[title] = it
         return list(seen.values())
 
-    # --- load previous snapshot for change detection ---
-    old_grouped = load_json(DATA_FILE, {})  # dict grouped by platform
 
-    # --- scrape all sources ---
+    old_grouped = load_json(DATA_FILE, {})
+
     egs = get_egs_free()
     gog = get_gog_free()
     steam = get_steam_free()
     humble = get_humble_free()
     ubi = get_ubisoft()
-
-    # Prime returns (but we will *not* trust these for saving to game_data.json)
     prime_with_link_return, prime_skipped_return = get_prime_free()
 
-    # --- debug: raw scraper counts ---
     print(f"[SCRAPER] Epic Games: {len(egs)}")
     print(f"[SCRAPER] GOG: {len(gog)}")
     print(f"[SCRAPER] Steam: {len(steam)}")
@@ -575,7 +531,6 @@ def main():
     print(f"[SCRAPER] Prime (returned) with link: {len(prime_with_link_return)}")
     print(f"[SCRAPER] Prime (returned) skipped : {len(prime_skipped_return)}")
 
-    # --- build grouped fresh (do NOT reuse old_grouped) ---
     grouped = {}
     expired_filtered = 0
 
@@ -588,15 +543,12 @@ def main():
             src = it.get("platform") or "Other"
             grouped.setdefault(src, []).append(it)
 
-    # Non-Prime platforms straight from scrapers
     add_items(egs)
     add_items(gog)
     add_items(steam)
     add_items(humble)
     add_items(ubi)
 
-    # --- PRIME: enforce file-as-source-of-truth ---
-    # Load what get_prime_free() saved to disk and use *only* that for game_data.json
     try:
         prime_with_link_file = load_json(PRIME_WITH_LINK, [])
     except Exception as e:
@@ -609,14 +561,11 @@ def main():
         print("[WARN] Failed to load PRIME_SKIPPED file; using returned list. Err:", e)
         prime_skipped_file = prime_skipped_return
 
-    # Always ensure skipped file exists (even if empty)
     save_json(PRIME_SKIPPED, prime_skipped_file or [])
 
-    # Dedupe both sets by title (defensive)
     prime_with_link_file = dedupe_by_title(prime_with_link_file)
     prime_skipped_file = dedupe_by_title(prime_skipped_file)
 
-    # Debug: compare returned vs file to spot "leaks"
     def titles(items): return sorted((it.get("title") or "").strip() for it in items)
 
     ret_w, ret_s = set(titles(prime_with_link_return)), set(titles(prime_skipped_return))
@@ -637,19 +586,15 @@ def main():
         if only_in_file_skip:
             print("  ↪ Only in FILE   (skipped)  :", only_in_file_skip)
 
-    # Union for Prime (from FILES only)
     prime_union_file = prime_with_link_file + prime_skipped_file
-    # Filter expired (defensive), then add to grouped
     prime_union_file_active = [it for it in prime_union_file if not is_expired(it.get("status", ""))]
     add_items(prime_union_file_active)
 
-    # --- result debug ---
     print(f"[FILTER] Expired entries removed: {expired_filtered}")
     print(f"[RESULT] Platforms in grouped: {list(grouped.keys())}")
     for src, items in grouped.items():
         print(f"[RESULT] {src}: {len(items)} items")
 
-    # Extra Prime integrity check
     prime_in_grouped = [it for it in grouped.get("Prime Gaming", [])]
     expected_prime_count = len(prime_union_file_active)
     if len(prime_in_grouped) != expected_prime_count:
@@ -657,23 +602,21 @@ def main():
             f"[ERROR] Prime count mismatch in grouped! grouped={len(prime_in_grouped)} "
             f"expected={expected_prime_count}"
         )
-        # Debug titles diff
         grp_titles = set(titles(prime_in_grouped))
         exp_titles = set(titles(prime_union_file_active))
         print("  ↪ Only in grouped:", sorted(grp_titles - exp_titles))
         print("  ↪ Only in expected:", sorted(exp_titles - grp_titles))
 
-    # --- prepare drops.json (flat list used by dashboard.js) ---
     flat = []
     for v in grouped.values():
         flat.extend(v)
 
-    # --- save outputs ---
-    save_json(DROPS_FILE, flat)      # dashboard.js reads this
-    save_json(DATA_FILE, grouped)    # grouped snapshot for comparison
-    # PRIME_SKIPPED already saved above; keep as always-present file
+    save_json(DROPS_FILE, flat)
+    save_json(DATA_FILE, grouped)
 
-    # --- changes & dashboard ---
+
+# ------------------ FINAL CHANGES AND TELEGRAM NOTIFICATIONS ------------------
+
     changes = compare_and_build(old_grouped, grouped)
     build_dashboard(grouped)
 
@@ -686,7 +629,6 @@ def main():
         with open(SUMMARY_FILE, "w", encoding="utf-8") as f:
             f.write(msg)
         send_telegram(msg)
-        # Email handled by mailer.js
     else:
         print("[INFO] No changes at", now_str())
 

@@ -1,10 +1,6 @@
-// dashboard.js
-
 document.addEventListener("DOMContentLoaded", () => {
   const contentArea = document.getElementById("content");
   const updatedTimestamp = document.getElementById("updated");
-
-  // In dashboard.js, replace the whole function
 
   async function fetchAndRenderGames() {
     try {
@@ -20,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
         return acc;
       }, {});
 
-      contentArea.innerHTML = ''; // Clear loading message
+      contentArea.innerHTML = '';
 
       const platformOrder = ["Epic Games Store", "Prime Gaming", "Steam", "GOG", "Humble", "Ubisoft"];
       const sortedPlatforms = Object.keys(groupedByPlatform).sort((a, b) => {
@@ -58,7 +54,6 @@ document.addEventListener("DOMContentLoaded", () => {
             card.classList.add('disabled');
           }
 
-          // --- MODIFIED PART: Conditional banner and new CTA layout ---
           const bannerHtml = game.banner
             ? `<img src="${game.banner}" alt="${game.title}" onerror="this.style.display='none'">`
             : '';
@@ -94,7 +89,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // Handle subscription form
   const form = document.getElementById("subscribe-form");
   const emailInput = document.getElementById("emailInput");
   const statusMsg = document.getElementById("statusMsg");
@@ -106,8 +100,7 @@ document.addEventListener("DOMContentLoaded", () => {
     statusMsg.style.color = "var(--text-secondary)";
 
     try {
-      // NOTE: Replace with your actual subscription endpoint (e.g., Netlify Function, Cloudflare Worker)
-      const endpoint = "https://your-serverless-function-endpoint.netlify.app/subscribe";
+      const endpoint = "https://freegamenotifier.vercel.app/api/subscribe";
       const response = await fetch(endpoint, {
         method: "POST",
         headers: { "Content-Type": "application/json" },

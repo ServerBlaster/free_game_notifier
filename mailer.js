@@ -4,8 +4,8 @@ const path = require("path");
 const nodemailer = require("nodemailer");
 
 const FROM_NAME = process.env.FROM_NAME || "Free Game Bot";
-const GMAIL_USER = process.env.GMAIL_USER; // e.g. your@gmail.com
-const GMAIL_APP_PASSWORD = process.env.GMAIL_APP_PASSWORD; // 16-char app password
+const GMAIL_USER = process.env.GMAIL_USER;
+const GMAIL_APP_PASSWORD = process.env.GMAIL_APP_PASSWORD;
 const DASHBOARD_LINK = process.env.DASHBOARD_LINK || "https://yourusername.github.io/free_game_notifier/dashboard/dashboard.html";
 const MAX_SUBS = parseInt(process.env.MAX_SUBS || "250", 10);
 
