@@ -18,15 +18,8 @@
   "Prime Gaming": [
     {
       "platform": "Prime Gaming",
-      "title": "Heroes of Loot 2",
-      "link": "https://gaming.amazon.com/heroes-of-loot-2-gog/dp/amzn1.pg.item.960ca075-f916-4013-a454-4d7d4d53a496?ingress=amzn&ref_=SM_HeroesofLoot2_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "City Legends: The Ghost of Misty Hill - CE",
-      "link": "https://gaming.amazon.com/city-legends-the-ghost-of-misty-hill-ce-legacy/dp/amzn1.pg.item.598f7c0e-768c-4699-a769-15c5de6b5e40?ingress=amzn&ref_=SM_CityLegendsTheGhostofMistyHillCE_S01_FGWP_CRWN",
+      "title": "Fantasy Empires",
+      "link": "https://gaming.amazon.com/fantasy-empires-gog/dp/amzn1.pg.item.8d18454f-8b8b-4ee4-a868-9239710669ec?ingress=amzn&ref_=SM_FantasyEmpires_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
@@ -34,6 +27,27 @@
       "platform": "Prime Gaming",
       "title": "Silver Box Classics",
       "link": "https://gaming.amazon.com/silver-box-classics-gog/dp/amzn1.pg.item.a0f2f883-35f6-4f3b-9fbf-23a212b11f2a?ingress=amzn&ref_=SM_SilverBoxClassics_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Heroes of Loot",
+      "link": "https://gaming.amazon.com/heroes-of-loot-gog/dp/amzn1.pg.item.8d2b0758-5651-4021-b4a9-85283ceb5643?ingress=amzn&ref_=SM_HeroesofLoot_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Heroes of Loot 2",
+      "link": "https://gaming.amazon.com/heroes-of-loot-2-gog/dp/amzn1.pg.item.960ca075-f916-4013-a454-4d7d4d53a496?ingress=amzn&ref_=SM_HeroesofLoot2_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Venba",
+      "link": "https://gaming.amazon.com/venba-gog/dp/amzn1.pg.item.84eebfbe-d689-4b5c-b728-5e6a10840fe0?ingress=amzn&ref_=SM_Venba_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
@@ -53,22 +67,8 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Marvel's Midnight Suns",
-      "link": "https://gaming.amazon.com/marvels-midnight-suns-epic/dp/amzn1.pg.item.34565474-5bb1-47a6-8ee2-814063c5e81f?ingress=amzn&ref_=SM_MarvelsMidnightSuns_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Heroes of Loot",
-      "link": "https://gaming.amazon.com/heroes-of-loot-gog/dp/amzn1.pg.item.8d2b0758-5651-4021-b4a9-85283ceb5643?ingress=amzn&ref_=SM_HeroesofLoot_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Venba",
-      "link": "https://gaming.amazon.com/venba-gog/dp/amzn1.pg.item.84eebfbe-d689-4b5c-b728-5e6a10840fe0?ingress=amzn&ref_=SM_Venba_S01_FGWP_CRWN",
+      "title": "City Legends: The Ghost of Misty Hill - CE",
+      "link": "https://gaming.amazon.com/city-legends-the-ghost-of-misty-hill-ce-legacy/dp/amzn1.pg.item.598f7c0e-768c-4699-a769-15c5de6b5e40?ingress=amzn&ref_=SM_CityLegendsTheGhostofMistyHillCE_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
@@ -76,6 +76,20 @@
       "platform": "Prime Gaming",
       "title": "Boxes: Lost Fragments",
       "link": "https://gaming.amazon.com/boxes-lost-fragments-epic/dp/amzn1.pg.item.b740ec3a-c3a5-4487-aa0b-7c93923bfc3a?ingress=amzn&ref_=SM_BoxesLostFragments_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Sid Meier's Civilization III: Complete",
+      "link": "https://gaming.amazon.com/sid-meiers-civilization-iii-complete-gog/dp/amzn1.pg.item.5fbd746f-789f-4b0e-b428-e61e61e54990?ingress=amzn&ref_=SM_SidMeiersCivilizationIIIComplete_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Thief: Definitive Edition",
+      "link": "https://gaming.amazon.com/thief-definitive-edition-gog/dp/amzn1.pg.item.5459de31-3213-4783-b157-d8f05bcd1f8d?ingress=amzn&ref_=SM_ThiefDefinitiveEdition_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
@@ -95,24 +109,18 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Thief: Definitive Edition",
-      "link": "https://gaming.amazon.com/thief-definitive-edition-gog/dp/amzn1.pg.item.5459de31-3213-4783-b157-d8f05bcd1f8d?ingress=amzn&ref_=SM_ThiefDefinitiveEdition_S01_FGWP_CRWN",
+      "title": "Marvel's Midnight Suns",
+      "link": "https://gaming.amazon.com/marvels-midnight-suns-epic/dp/amzn1.pg.item.34565474-5bb1-47a6-8ee2-814063c5e81f?ingress=amzn&ref_=SM_MarvelsMidnightSuns_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
     {
       "platform": "Prime Gaming",
-      "title": "Sid Meier's Civilization III: Complete",
-      "link": "https://gaming.amazon.com/sid-meiers-civilization-iii-complete-gog/dp/amzn1.pg.item.5fbd746f-789f-4b0e-b428-e61e61e54990?ingress=amzn&ref_=SM_SidMeiersCivilizationIIIComplete_S01_FGWP_CRWN",
+      "title": "Besiege + The Splintered Sea DLC",
+      "link": "",
       "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Fantasy Empires",
-      "link": "https://gaming.amazon.com/fantasy-empires-gog/dp/amzn1.pg.item.8d18454f-8b8b-4ee4-a868-9239710669ec?ingress=amzn&ref_=SM_FantasyEmpires_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
     },
     {
       "platform": "Prime Gaming",
@@ -125,14 +133,6 @@
     {
       "platform": "Prime Gaming",
       "title": "The Academy: The First Riddle",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Besiege + The Splintered Sea DLC",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
