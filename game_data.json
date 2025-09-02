@@ -1,4 +1,20 @@
 {
+  "Epic Games Store": [
+    {
+      "platform": "Epic Games Store",
+      "title": "Machinarium",
+      "status": "Fresh Drop",
+      "banner": "https://cdn1.epicgames.com/spt-assets/907d9edf585e4c23b971164cd1c452e2/machinarium-1n5ke.jpg",
+      "link": "https://store.epicgames.com/p/machinarium-5e6c71"
+    },
+    {
+      "platform": "Epic Games Store",
+      "title": "Make Way",
+      "status": "Fresh Drop",
+      "banner": "https://cdn1.epicgames.com/spt-assets/17b5c19c1e0e48e99cde4bc54dde505a/make-way-gf3ww.png",
+      "link": "https://store.epicgames.com/p/make-way-bddf5f"
+    }
+  ],
   "Prime Gaming": [
     {
       "platform": "Prime Gaming",
@@ -58,8 +74,8 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Paquerette Down the Bunburrows",
-      "link": "https://gaming.amazon.com/paquerette-down-the-bunburrows-epic/dp/amzn1.pg.item.c82b169f-c2b7-4ef3-bdc3-01eb756dfc7e?ingress=amzn&ref_=SM_PaqueretteDowntheBunburrows_S01_FGWP_CRWN",
+      "title": "Boxes: Lost Fragments",
+      "link": "https://gaming.amazon.com/boxes-lost-fragments-epic/dp/amzn1.pg.item.b740ec3a-c3a5-4487-aa0b-7c93923bfc3a?ingress=amzn&ref_=SM_BoxesLostFragments_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
@@ -237,38 +253,6 @@
     {
       "platform": "Prime Gaming",
       "title": "SteamWorld Heist: Ultimate Edition",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "2048",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Wheel of Fortune TODAY",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Scattergories Daily",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Topsoil",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
