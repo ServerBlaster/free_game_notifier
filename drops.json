@@ -8,6 +8,27 @@
   },
   {
     "platform": "Prime Gaming",
+    "title": "FATE: The Traitor Soul",
+    "link": "https://gaming.amazon.com/fate-the-traitor-soul-gog/dp/amzn1.pg.item.3262e6c6-27de-4816-935f-5ceb2698177b?ingress=amzn&ref_=SM_FATETheTraitorSoul_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Filthy Animals: Heist Simulator",
+    "link": "https://gaming.amazon.com/filthy-animals-heist-simulator-epic/dp/amzn1.pg.item.12c2df0c-8e84-484d-b045-b5fd9fee7610?ingress=amzn&ref_=SM_FilthyAnimalsHeistSimulator_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Marvel's Midnight Suns",
+    "link": "https://gaming.amazon.com/marvels-midnight-suns-epic/dp/amzn1.pg.item.34565474-5bb1-47a6-8ee2-814063c5e81f?ingress=amzn&ref_=SM_MarvelsMidnightSuns_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
     "title": "Fantasy Empires",
     "link": "https://gaming.amazon.com/fantasy-empires-gog/dp/amzn1.pg.item.8d18454f-8b8b-4ee4-a868-9239710669ec?ingress=amzn&ref_=SM_FantasyEmpires_S01_FGWP_CRWN",
     "status": "Fresh Drop",
@@ -64,8 +85,22 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "Boxes: Lost Fragments",
-    "link": "https://gaming.amazon.com/boxes-lost-fragments-epic/dp/amzn1.pg.item.b740ec3a-c3a5-4487-aa0b-7c93923bfc3a?ingress=amzn&ref_=SM_BoxesLostFragments_S01_FGWP_CRWN",
+    "title": "Into the Breach",
+    "link": "https://gaming.amazon.com/into-the-breach-epic/dp/amzn1.pg.item.91396c74-544b-4642-a356-3c45fcd66e22?ingress=amzn&ref_=SM_IntotheBreach_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Sid Meier's Civilization IV: The Complete Edition",
+    "link": "https://gaming.amazon.com/sid-meiers-civilization-iv-the-complete-edition-gog/dp/amzn1.pg.item.f2368999-6acb-4f03-9f99-b14711e926ee?ingress=amzn&ref_=SM_SidMeiersCivilizationIVTheCompleteEdition_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Dungeons & Dragons: Ravenloft Series",
+    "link": "https://gaming.amazon.com/dungeons-dragons-ravenloft-series-gog/dp/amzn1.pg.item.55f1ae41-15d1-49bd-99ca-9e5189c1724a?ingress=amzn&ref_=SM_DungeonsDragonsRavenloftSeries_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
@@ -85,44 +120,7 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "FATE: The Traitor Soul",
-    "link": "https://gaming.amazon.com/fate-the-traitor-soul-gog/dp/amzn1.pg.item.3262e6c6-27de-4816-935f-5ceb2698177b?ingress=amzn&ref_=SM_FATETheTraitorSoul_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Filthy Animals: Heist Simulator",
-    "link": "https://gaming.amazon.com/filthy-animals-heist-simulator-epic/dp/amzn1.pg.item.12c2df0c-8e84-484d-b045-b5fd9fee7610?ingress=amzn&ref_=SM_FilthyAnimalsHeistSimulator_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Marvel's Midnight Suns",
-    "link": "https://gaming.amazon.com/marvels-midnight-suns-epic/dp/amzn1.pg.item.34565474-5bb1-47a6-8ee2-814063c5e81f?ingress=amzn&ref_=SM_MarvelsMidnightSuns_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
     "title": "Besiege + The Splintered Sea DLC",
-    "link": "",
-    "status": "Fresh Drop",
-    "banner": "",
-    "cta": "Claim on Prime Gaming"
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Labyrinth City: Pierre the Maze Detective",
-    "link": "",
-    "status": "Fresh Drop",
-    "banner": "",
-    "cta": "Claim on Prime Gaming"
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "The Academy: The First Riddle",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
