@@ -39,13 +39,6 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Sid Meier's Civilization III: Complete",
-      "link": "https://gaming.amazon.com/sid-meiers-civilization-iii-complete-gog/dp/amzn1.pg.item.5fbd746f-789f-4b0e-b428-e61e61e54990?ingress=amzn&ref_=SM_SidMeiersCivilizationIIIComplete_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
       "title": "FATE: The Traitor Soul",
       "link": "https://gaming.amazon.com/fate-the-traitor-soul-gog/dp/amzn1.pg.item.3262e6c6-27de-4816-935f-5ceb2698177b?ingress=amzn&ref_=SM_FATETheTraitorSoul_S01_FGWP_CRWN",
       "status": "Fresh Drop",
@@ -116,10 +109,25 @@
     },
     {
       "platform": "Prime Gaming",
+      "title": "Sid Meier's Civilization III: Complete",
+      "link": "https://gaming.amazon.com/sid-meiers-civilization-iii-complete-gog/dp/amzn1.pg.item.5fbd746f-789f-4b0e-b428-e61e61e54990?ingress=amzn&ref_=SM_SidMeiersCivilizationIIIComplete_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
       "title": "Tower of Time",
       "link": "https://gaming.amazon.com/tower-of-time-gog/dp/amzn1.pg.item.6b0bdd09-4364-43e9-a4db-01d798eed2f8?ingress=amzn&ref_=SM_TowerofTime_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Afterimage",
+      "link": "",
+      "status": "Fresh Drop",
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
     },
     {
       "platform": "Prime Gaming",
@@ -244,14 +252,6 @@
     {
       "platform": "Prime Gaming",
       "title": "SteamWorld Heist: Ultimate Edition",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Afterimage",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
