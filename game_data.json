@@ -39,22 +39,8 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "FATE: The Traitor Soul",
-      "link": "https://gaming.amazon.com/fate-the-traitor-soul-gog/dp/amzn1.pg.item.3262e6c6-27de-4816-935f-5ceb2698177b?ingress=amzn&ref_=SM_FATETheTraitorSoul_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
       "title": "Into the Breach",
       "link": "https://gaming.amazon.com/into-the-breach-epic/dp/amzn1.pg.item.91396c74-544b-4642-a356-3c45fcd66e22?ingress=amzn&ref_=SM_IntotheBreach_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Filthy Animals: Heist Simulator",
-      "link": "https://gaming.amazon.com/filthy-animals-heist-simulator-epic/dp/amzn1.pg.item.12c2df0c-8e84-484d-b045-b5fd9fee7610?ingress=amzn&ref_=SM_FilthyAnimalsHeistSimulator_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
@@ -102,6 +88,20 @@
     },
     {
       "platform": "Prime Gaming",
+      "title": "Tin Hearts",
+      "link": "https://gaming.amazon.com/tin-hearts-gog/dp/amzn1.pg.item.c329300a-91ea-41aa-bfe5-d4b22eb87647?ingress=amzn&ref_=SM_TinHearts_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "City Legends: The Ghost of Misty Hill - CE",
+      "link": "https://gaming.amazon.com/city-legends-the-ghost-of-misty-hill-ce-legacy/dp/amzn1.pg.item.598f7c0e-768c-4699-a769-15c5de6b5e40?ingress=amzn&ref_=SM_CityLegendsTheGhostofMistyHillCE_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
       "title": "Sid Meier's Civilization IV: The Complete Edition",
       "link": "https://gaming.amazon.com/sid-meiers-civilization-iv-the-complete-edition-gog/dp/amzn1.pg.item.f2368999-6acb-4f03-9f99-b14711e926ee?ingress=amzn&ref_=SM_SidMeiersCivilizationIVTheCompleteEdition_S01_FGWP_CRWN",
       "status": "Fresh Drop",
@@ -123,7 +123,7 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Besiege + The Splintered Sea DLC",
+      "title": "Labyrinth City: Pierre the Maze Detective",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
