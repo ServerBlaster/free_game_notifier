@@ -2,17 +2,24 @@
   "Epic Games Store": [
     {
       "platform": "Epic Games Store",
-      "title": "Samorost 2",
+      "title": "Firestone Online Idle RPG",
       "status": "Fresh Drop",
-      "banner": "https://cdn1.epicgames.com/spt-assets/472b13536da144839f184bd67e9a8e25/samorost-2-1hb4u.jpg",
-      "link": "https://store.epicgames.com/p/samorost-2-1b9bb1"
+      "banner": "https://cdn1.epicgames.com/spt-assets/69576a28f7154fe9a0dce97508da5163/firestone-online-idle-rpg-1p5r8.png",
+      "link": "https://store.epicgames.com/p/firestone-online-idle-rpg-bfd04b"
     },
     {
       "platform": "Epic Games Store",
-      "title": "Project Winter",
+      "title": "Eastern Exorcist",
       "status": "Fresh Drop",
-      "banner": "https://cdn1.epicgames.com/spt-assets/8b114e51c13344978e0b8693dea6bb74/project-winter-phsnu.png",
-      "link": "https://store.epicgames.com/p/project-winter-3b9e84"
+      "banner": "https://cdn1.epicgames.com/spt-assets/aa3726b6b8a14b148b58992e8d2700b1/eastern-exorcist-k4a82.png",
+      "link": "https://store.epicgames.com/p/eastern-exorcist-d49923"
+    },
+    {
+      "platform": "Epic Games Store",
+      "title": "Jorel’s Brother and The Most Important Game of the Galaxy",
+      "status": "Fresh Drop",
+      "banner": "https://cdn1.epicgames.com/spt-assets/6d5a003f768f4957b4ed48b373f86b32/jorels-brother-and-the-most-important-game-of-the-galaxy-liq5n.png",
+      "link": "https://store.epicgames.com/p/jorels-brother-and-the-most-important-game-of-the-galaxy-47435f"
     }
   ],
   "Prime Gaming": [
