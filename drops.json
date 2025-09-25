@@ -50,13 +50,6 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "Silver Box Classics",
-    "link": "https://gaming.amazon.com/silver-box-classics-gog/dp/amzn1.pg.item.a0f2f883-35f6-4f3b-9fbf-23a212b11f2a?ingress=amzn&ref_=SM_SilverBoxClassics_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
     "title": "Heroes of Loot",
     "link": "https://gaming.amazon.com/heroes-of-loot-gog/dp/amzn1.pg.item.8d2b0758-5651-4021-b4a9-85283ceb5643?ingress=amzn&ref_=SM_HeroesofLoot_S01_FGWP_CRWN",
     "status": "Fresh Drop",
@@ -71,15 +64,15 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "Venba",
-    "link": "https://gaming.amazon.com/venba-gog/dp/amzn1.pg.item.84eebfbe-d689-4b5c-b728-5e6a10840fe0?ingress=amzn&ref_=SM_Venba_S01_FGWP_CRWN",
+    "title": "Tin Hearts",
+    "link": "https://gaming.amazon.com/tin-hearts-gog/dp/amzn1.pg.item.c329300a-91ea-41aa-bfe5-d4b22eb87647?ingress=amzn&ref_=SM_TinHearts_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
   {
     "platform": "Prime Gaming",
-    "title": "Tin Hearts",
-    "link": "https://gaming.amazon.com/tin-hearts-gog/dp/amzn1.pg.item.c329300a-91ea-41aa-bfe5-d4b22eb87647?ingress=amzn&ref_=SM_TinHearts_S01_FGWP_CRWN",
+    "title": "City Legends: The Ghost of Misty Hill - CE",
+    "link": "https://gaming.amazon.com/city-legends-the-ghost-of-misty-hill-ce-legacy/dp/amzn1.pg.item.598f7c0e-768c-4699-a769-15c5de6b5e40?ingress=amzn&ref_=SM_CityLegendsTheGhostofMistyHillCE_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
@@ -129,6 +122,14 @@
   {
     "platform": "Prime Gaming",
     "title": "Afterimage",
+    "link": "",
+    "status": "Fresh Drop",
+    "banner": "",
+    "cta": "Claim on Prime Gaming"
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Labyrinth City: Pierre the Maze Detective",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
