@@ -57,13 +57,6 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "Fantasy Empires",
-    "link": "https://gaming.amazon.com/fantasy-empires-gog/dp/amzn1.pg.item.8d18454f-8b8b-4ee4-a868-9239710669ec?ingress=amzn&ref_=SM_FantasyEmpires_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
     "title": "Heroes of Loot",
     "link": "https://gaming.amazon.com/heroes-of-loot-gog/dp/amzn1.pg.item.8d2b0758-5651-4021-b4a9-85283ceb5643?ingress=amzn&ref_=SM_HeroesofLoot_S01_FGWP_CRWN",
     "status": "Fresh Drop",
@@ -137,6 +130,14 @@
   {
     "platform": "Prime Gaming",
     "title": "Pixel Cafe",
+    "link": "",
+    "status": "Fresh Drop",
+    "banner": "",
+    "cta": "Claim on Prime Gaming"
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Labyrinth City: Pierre the Maze Detective",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
