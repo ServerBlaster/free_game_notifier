@@ -22,6 +22,20 @@
   },
   {
     "platform": "Prime Gaming",
+    "title": "Tower of Time",
+    "link": "https://gaming.amazon.com/tower-of-time-gog/dp/amzn1.pg.item.6b0bdd09-4364-43e9-a4db-01d798eed2f8?ingress=amzn&ref_=SM_TowerofTime_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Residual",
+    "link": "https://gaming.amazon.com/residual-gog/dp/amzn1.pg.item.6c1f74ce-2720-4cb5-a5f1-b996c8a7a1fa?ingress=amzn&ref_=SM_Residual_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
     "title": "Into the Breach",
     "link": "https://gaming.amazon.com/into-the-breach-epic/dp/amzn1.pg.item.91396c74-544b-4642-a356-3c45fcd66e22?ingress=amzn&ref_=SM_IntotheBreach_S01_FGWP_CRWN",
     "status": "Fresh Drop",
@@ -71,15 +85,15 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "Tin Hearts",
-    "link": "https://gaming.amazon.com/tin-hearts-gog/dp/amzn1.pg.item.c329300a-91ea-41aa-bfe5-d4b22eb87647?ingress=amzn&ref_=SM_TinHearts_S01_FGWP_CRWN",
+    "title": "Sid Meier's Civilization IV: The Complete Edition",
+    "link": "https://gaming.amazon.com/sid-meiers-civilization-iv-the-complete-edition-gog/dp/amzn1.pg.item.f2368999-6acb-4f03-9f99-b14711e926ee?ingress=amzn&ref_=SM_SidMeiersCivilizationIVTheCompleteEdition_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
   {
     "platform": "Prime Gaming",
-    "title": "Sid Meier's Civilization IV: The Complete Edition",
-    "link": "https://gaming.amazon.com/sid-meiers-civilization-iv-the-complete-edition-gog/dp/amzn1.pg.item.f2368999-6acb-4f03-9f99-b14711e926ee?ingress=amzn&ref_=SM_SidMeiersCivilizationIVTheCompleteEdition_S01_FGWP_CRWN",
+    "title": "DragonStrike",
+    "link": "https://gaming.amazon.com/dragonstrike-gog/dp/amzn1.pg.item.0aa4e118-1a0f-435f-a1e6-5cb1370161e4?ingress=amzn&ref_=SM_DragonStrike_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
@@ -94,20 +108,6 @@
     "platform": "Prime Gaming",
     "title": "FATE: The Cursed King",
     "link": "https://gaming.amazon.com/fate-the-cursed-king-gog/dp/amzn1.pg.item.d2b5ccef-a10d-4db3-abd9-de6620c11970?ingress=amzn&ref_=SM_FATETheCursedKing_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Tower of Time",
-    "link": "https://gaming.amazon.com/tower-of-time-gog/dp/amzn1.pg.item.6b0bdd09-4364-43e9-a4db-01d798eed2f8?ingress=amzn&ref_=SM_TowerofTime_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Residual",
-    "link": "https://gaming.amazon.com/residual-gog/dp/amzn1.pg.item.6c1f74ce-2720-4cb5-a5f1-b996c8a7a1fa?ingress=amzn&ref_=SM_Residual_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
@@ -130,14 +130,6 @@
   {
     "platform": "Prime Gaming",
     "title": "Pixel Cafe",
-    "link": "",
-    "status": "Fresh Drop",
-    "banner": "",
-    "cta": "Claim on Prime Gaming"
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Labyrinth City: Pierre the Maze Detective",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
@@ -258,6 +250,14 @@
   {
     "platform": "Prime Gaming",
     "title": "PERISH",
+    "link": "",
+    "status": "Fresh Drop",
+    "banner": "",
+    "cta": "Claim on Prime Gaming"
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Tormented Souls",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
