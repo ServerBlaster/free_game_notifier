@@ -67,13 +67,6 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Marvel's Midnight Suns",
-      "link": "https://gaming.amazon.com/marvels-midnight-suns-epic/dp/amzn1.pg.item.34565474-5bb1-47a6-8ee2-814063c5e81f?ingress=amzn&ref_=SM_MarvelsMidnightSuns_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
       "title": "Heroes of Loot",
       "link": "https://gaming.amazon.com/heroes-of-loot-gog/dp/amzn1.pg.item.8d2b0758-5651-4021-b4a9-85283ceb5643?ingress=amzn&ref_=SM_HeroesofLoot_S01_FGWP_CRWN",
       "status": "Fresh Drop",
@@ -83,6 +76,13 @@
       "platform": "Prime Gaming",
       "title": "Heroes of Loot 2",
       "link": "https://gaming.amazon.com/heroes-of-loot-2-gog/dp/amzn1.pg.item.960ca075-f916-4013-a454-4d7d4d53a496?ingress=amzn&ref_=SM_HeroesofLoot2_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Tin Hearts",
+      "link": "https://gaming.amazon.com/tin-hearts-gog/dp/amzn1.pg.item.c329300a-91ea-41aa-bfe5-d4b22eb87647?ingress=amzn&ref_=SM_TinHearts_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
