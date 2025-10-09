@@ -39,13 +39,6 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Into the Breach",
-      "link": "https://gaming.amazon.com/into-the-breach-epic/dp/amzn1.pg.item.91396c74-544b-4642-a356-3c45fcd66e22?ingress=amzn&ref_=SM_IntotheBreach_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
       "title": "Mystical Riddles: Ghostly Park - CE",
       "link": "https://gaming.amazon.com/mystical-riddles-ghostly-park-ce-legacy/dp/amzn1.pg.item.cc1e7972-dccc-4778-b2e2-96e91126da35?ingress=amzn&ref_=SM_MysticalRiddlesGhostlyParkCE_S01_FGWP_CRWN",
       "status": "Fresh Drop",
@@ -55,13 +48,6 @@
       "platform": "Prime Gaming",
       "title": "Spelljammer: Pirates of Realmspace",
       "link": "https://gaming.amazon.com/spelljammer-pirates-of-realmspace-gog/dp/amzn1.pg.item.52ec4505-b95f-4bb7-8158-52738aaf002b?ingress=amzn&ref_=SM_SpelljammerPiratesofRealmspace_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Dungeons & Dragons: Ravenloft Series",
-      "link": "https://gaming.amazon.com/dungeons-dragons-ravenloft-series-gog/dp/amzn1.pg.item.55f1ae41-15d1-49bd-99ca-9e5189c1724a?ingress=amzn&ref_=SM_DungeonsDragonsRavenloftSeries_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
@@ -133,6 +119,22 @@
     {
       "platform": "Prime Gaming",
       "title": "Pixel Cafe",
+      "link": "",
+      "status": "Fresh Drop",
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Labyrinth City: Pierre the Maze Detective",
+      "link": "",
+      "status": "Fresh Drop",
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "The Academy: The First Riddle",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
