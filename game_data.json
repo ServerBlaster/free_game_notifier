@@ -18,6 +18,20 @@
   "Prime Gaming": [
     {
       "platform": "Prime Gaming",
+      "title": "Sid Meier's Civilization III: Complete",
+      "link": "https://gaming.amazon.com/sid-meiers-civilization-iii-complete-gog/dp/amzn1.pg.item.5fbd746f-789f-4b0e-b428-e61e61e54990?ingress=amzn&ref_=SM_SidMeiersCivilizationIIIComplete_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "FATE: The Cursed King",
+      "link": "https://gaming.amazon.com/fate-the-cursed-king-gog/dp/amzn1.pg.item.d2b5ccef-a10d-4db3-abd9-de6620c11970?ingress=amzn&ref_=SM_FATETheCursedKing_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
       "title": "Tower of Time",
       "link": "https://gaming.amazon.com/tower-of-time-gog/dp/amzn1.pg.item.6b0bdd09-4364-43e9-a4db-01d798eed2f8?ingress=amzn&ref_=SM_TowerofTime_S01_FGWP_CRWN",
       "status": "Fresh Drop",
@@ -67,6 +81,13 @@
     },
     {
       "platform": "Prime Gaming",
+      "title": "XCOM 2",
+      "link": "https://gaming.amazon.com/xcom-2-gog/dp/amzn1.pg.item.13e05c49-cb97-43b3-82c2-0fab0271a873?ingress=amzn&ref_=SM_XCOM2_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
       "title": "Sid Meier's Civilization IV: The Complete Edition",
       "link": "https://gaming.amazon.com/sid-meiers-civilization-iv-the-complete-edition-gog/dp/amzn1.pg.item.f2368999-6acb-4f03-9f99-b14711e926ee?ingress=amzn&ref_=SM_SidMeiersCivilizationIVTheCompleteEdition_S01_FGWP_CRWN",
       "status": "Fresh Drop",
@@ -74,22 +95,15 @@
     },
     {
       "platform": "Prime Gaming",
+      "title": "Vampire: The Masquerade - Reckoning of New York",
+      "link": "https://gaming.amazon.com/vampire-the-masquerade-reckoning-of-new-york-epic/dp/amzn1.pg.item.2dd336c0-5141-4740-91d5-40990b19ebcc?ingress=amzn&ref_=SM_VampireTheMasqueradeReckoningofNewYork_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
       "title": "DragonStrike",
       "link": "https://gaming.amazon.com/dragonstrike-gog/dp/amzn1.pg.item.0aa4e118-1a0f-435f-a1e6-5cb1370161e4?ingress=amzn&ref_=SM_DragonStrike_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Sid Meier's Civilization III: Complete",
-      "link": "https://gaming.amazon.com/sid-meiers-civilization-iii-complete-gog/dp/amzn1.pg.item.5fbd746f-789f-4b0e-b428-e61e61e54990?ingress=amzn&ref_=SM_SidMeiersCivilizationIIIComplete_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "FATE: The Cursed King",
-      "link": "https://gaming.amazon.com/fate-the-cursed-king-gog/dp/amzn1.pg.item.d2b5ccef-a10d-4db3-abd9-de6620c11970?ingress=amzn&ref_=SM_FATETheCursedKing_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
@@ -112,22 +126,6 @@
     {
       "platform": "Prime Gaming",
       "title": "Pixel Cafe",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Labyrinth City: Pierre the Maze Detective",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "The Academy: The First Riddle",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
