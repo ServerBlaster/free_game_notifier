@@ -32,13 +32,6 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Tower of Time",
-      "link": "https://gaming.amazon.com/tower-of-time-gog/dp/amzn1.pg.item.6b0bdd09-4364-43e9-a4db-01d798eed2f8?ingress=amzn&ref_=SM_TowerofTime_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
       "title": "Residual",
       "link": "https://gaming.amazon.com/residual-gog/dp/amzn1.pg.item.6c1f74ce-2720-4cb5-a5f1-b996c8a7a1fa?ingress=amzn&ref_=SM_Residual_S01_FGWP_CRWN",
       "status": "Fresh Drop",
@@ -53,13 +46,6 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Spelljammer: Pirates of Realmspace",
-      "link": "https://gaming.amazon.com/spelljammer-pirates-of-realmspace-gog/dp/amzn1.pg.item.52ec4505-b95f-4bb7-8158-52738aaf002b?ingress=amzn&ref_=SM_SpelljammerPiratesofRealmspace_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
       "title": "Heroes of Loot",
       "link": "https://gaming.amazon.com/heroes-of-loot-gog/dp/amzn1.pg.item.8d2b0758-5651-4021-b4a9-85283ceb5643?ingress=amzn&ref_=SM_HeroesofLoot_S01_FGWP_CRWN",
       "status": "Fresh Drop",
@@ -69,13 +55,6 @@
       "platform": "Prime Gaming",
       "title": "Heroes of Loot 2",
       "link": "https://gaming.amazon.com/heroes-of-loot-2-gog/dp/amzn1.pg.item.960ca075-f916-4013-a454-4d7d4d53a496?ingress=amzn&ref_=SM_HeroesofLoot2_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Tin Hearts",
-      "link": "https://gaming.amazon.com/tin-hearts-gog/dp/amzn1.pg.item.c329300a-91ea-41aa-bfe5-d4b22eb87647?ingress=amzn&ref_=SM_TinHearts_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
@@ -109,14 +88,6 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Subterrain: Mines of Titan",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
       "title": "Afterimage",
       "link": "",
       "status": "Fresh Drop",
@@ -126,6 +97,22 @@
     {
       "platform": "Prime Gaming",
       "title": "Pixel Cafe",
+      "link": "",
+      "status": "Fresh Drop",
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Labyrinth City: Pierre the Maze Detective",
+      "link": "",
+      "status": "Fresh Drop",
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "The Academy: The First Riddle",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
