@@ -181,7 +181,7 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "LEGO® Fortnite Odyssey",
+      "title": "Fortnite OG",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
@@ -197,23 +197,7 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Fortnite OG",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
       "title": "Fortnite Battle Royale",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Rocket Racing",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
@@ -229,7 +213,7 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Disney/Pixar Cars Mater-National Championship",
+      "title": "LEGO® Fortnite Odyssey",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
@@ -246,6 +230,22 @@
     {
       "platform": "Prime Gaming",
       "title": "Fortnite Ballistic",
+      "link": "",
+      "status": "Fresh Drop",
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Rocket Racing",
+      "link": "",
+      "status": "Fresh Drop",
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Disney/Pixar Cars Mater-National Championship",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
