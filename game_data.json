@@ -46,13 +46,6 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "FATE: The Cursed King",
-      "link": "https://gaming.amazon.com/fate-the-cursed-king-gog/dp/amzn1.pg.item.d2b5ccef-a10d-4db3-abd9-de6620c11970?ingress=amzn&ref_=SM_FATETheCursedKing_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
       "title": "Residual",
       "link": "https://gaming.amazon.com/residual-gog/dp/amzn1.pg.item.6c1f74ce-2720-4cb5-a5f1-b996c8a7a1fa?ingress=amzn&ref_=SM_Residual_S01_FGWP_CRWN",
       "status": "Fresh Drop",
@@ -125,7 +118,7 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Labyrinth City: Pierre the Maze Detective",
+      "title": "The Academy: The First Riddle",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
@@ -213,6 +206,14 @@
     },
     {
       "platform": "Prime Gaming",
+      "title": "Rocket Racing",
+      "link": "",
+      "status": "Fresh Drop",
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
+    },
+    {
+      "platform": "Prime Gaming",
       "title": "LEGO® Fortnite Odyssey",
       "link": "",
       "status": "Fresh Drop",
@@ -230,14 +231,6 @@
     {
       "platform": "Prime Gaming",
       "title": "Fortnite Ballistic",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Rocket Racing",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
