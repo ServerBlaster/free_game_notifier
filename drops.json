@@ -1,105 +1,112 @@
 [
   {
     "platform": "Epic Games Store",
-    "title": "Amnesia: The Bunker",
+    "title": "Fear the Spotlight",
     "status": "Fresh Drop",
-    "banner": "https://cdn1.epicgames.com/spt-assets/671aee4c8fb64a1c967d97f31f093e7a/amnesia-the-bunker-1x2n7.png",
-    "link": "https://store.epicgames.com/p/amnesia-the-bunker-9d5799"
-  },
-  {
-    "platform": "Epic Games Store",
-    "title": "Samorost 3",
-    "status": "Fresh Drop",
-    "banner": "https://cdn1.epicgames.com/spt-assets/b2c854d46f0f46de8b14e1178b7e85fc/samorost-3-1ukhw.jpg",
-    "link": "https://store.epicgames.com/p/samorost-3-0c4489"
+    "banner": "https://cdn1.epicgames.com/spt-assets/7440e6952704438cbb2e4f4dff02e00a/fear-the-spotlight-1ioq7.jpg",
+    "link": "https://store.epicgames.com/p/fear-the-spotlight-97656f"
   },
   {
     "platform": "Prime Gaming",
-    "title": "Sid Meier's Civilization IV: The Complete Edition",
-    "link": "https://gaming.amazon.com/sid-meiers-civilization-iv-the-complete-edition-gog/dp/amzn1.pg.item.f2368999-6acb-4f03-9f99-b14711e926ee?ingress=amzn&ref_=SM_SidMeiersCivilizationIVTheCompleteEdition_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Vampire: The Masquerade - Reckoning of New York",
-    "link": "https://gaming.amazon.com/vampire-the-masquerade-reckoning-of-new-york-epic/dp/amzn1.pg.item.2dd336c0-5141-4740-91d5-40990b19ebcc?ingress=amzn&ref_=SM_VampireTheMasqueradeReckoningofNewYork_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "DragonStrike",
-    "link": "https://gaming.amazon.com/dragonstrike-gog/dp/amzn1.pg.item.0aa4e118-1a0f-435f-a1e6-5cb1370161e4?ingress=amzn&ref_=SM_DragonStrike_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Sid Meier's Civilization III: Complete",
-    "link": "https://gaming.amazon.com/sid-meiers-civilization-iii-complete-gog/dp/amzn1.pg.item.5fbd746f-789f-4b0e-b428-e61e61e54990?ingress=amzn&ref_=SM_SidMeiersCivilizationIIIComplete_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Residual",
-    "link": "https://gaming.amazon.com/residual-gog/dp/amzn1.pg.item.6c1f74ce-2720-4cb5-a5f1-b996c8a7a1fa?ingress=amzn&ref_=SM_Residual_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Mystical Riddles: Ghostly Park - CE",
-    "link": "https://gaming.amazon.com/mystical-riddles-ghostly-park-ce-legacy/dp/amzn1.pg.item.cc1e7972-dccc-4778-b2e2-96e91126da35?ingress=amzn&ref_=SM_MysticalRiddlesGhostlyParkCE_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Heroes of Loot",
-    "link": "https://gaming.amazon.com/heroes-of-loot-gog/dp/amzn1.pg.item.8d2b0758-5651-4021-b4a9-85283ceb5643?ingress=amzn&ref_=SM_HeroesofLoot_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Heroes of Loot 2",
-    "link": "https://gaming.amazon.com/heroes-of-loot-2-gog/dp/amzn1.pg.item.960ca075-f916-4013-a454-4d7d4d53a496?ingress=amzn&ref_=SM_HeroesofLoot2_S01_FGWP_CRWN",
+    "title": "Fallout 3: Game of the Year Edition",
+    "link": "https://gaming.amazon.com/claims/fallout-3-game-of-the-year-edition-gog/dp/amzn1.pg.item.91c2b55b-e883-4bf7-8815-08f486d7ca35?g=s&ingress=amzn&ref_=SM_Fallout3GameoftheYearEdition_S02_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
   {
     "platform": "Prime Gaming",
     "title": "Fallout: New Vegas Ultimate Edition",
-    "link": "https://gaming.amazon.com/fallout-new-vegas-ultimate-edition-gog/dp/amzn1.pg.item.8b24f09c-6cef-41d7-9a68-21f275c1c110?ingress=amzn&ref_=SM_FalloutNewVegasUltimateEdition_S02_FGWP_CRWN",
+    "link": "https://gaming.amazon.com/claims/fallout-new-vegas-ultimate-edition-gog/dp/amzn1.pg.item.8b24f09c-6cef-41d7-9a68-21f275c1c110?g=s&ingress=amzn&ref_=SM_FalloutNewVegasUltimateEdition_S02_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
   {
     "platform": "Prime Gaming",
     "title": "XCOM 2",
-    "link": "https://gaming.amazon.com/xcom-2-gog/dp/amzn1.pg.item.13e05c49-cb97-43b3-82c2-0fab0271a873?ingress=amzn&ref_=SM_XCOM2_S01_FGWP_CRWN",
+    "link": "https://gaming.amazon.com/claims/xcom-2-gog/dp/amzn1.pg.item.13e05c49-cb97-43b3-82c2-0fab0271a873?g=s&ingress=amzn&ref_=SM_XCOM2_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "True Fear: Forsaken Souls Part 2",
+    "link": "https://gaming.amazon.com/claims/true-fear-forsaken-souls-part-2-gog/dp/amzn1.pg.item.36a308e9-6a4d-42a0-8f56-120492381506?g=s&ingress=amzn&ref_=SM_TrueFearForsakenSoulsPart2_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Hellslave",
+    "link": "https://gaming.amazon.com/claims/hellslave-gog/dp/amzn1.pg.item.a7fa52c8-634e-4e62-8c47-426c4a50e657?g=s&ingress=amzn&ref_=SM_Hellslave_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Lost & Found Agency - CE",
+    "link": "https://gaming.amazon.com/claims/lost-and-found-agency-ce-legacy/dp/amzn1.pg.item.c42c9729-d0b8-4462-97bd-f5acd3993964?g=s&ingress=amzn&ref_=SM_LostFoundAgencyCE_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
   {
     "platform": "Prime Gaming",
     "title": "True Fear: Forsaken Souls Part 1",
-    "link": "https://gaming.amazon.com/true-fear-forsaken-souls-part-1-gog/dp/amzn1.pg.item.be9cd055-7bed-472e-a209-2c3eea9c5115?ingress=amzn&ref_=SM_TrueFearForsakenSoulsPart1_S01_FGWP_CRWN",
+    "link": "https://gaming.amazon.com/claims/true-fear-forsaken-souls-part-1-gog/dp/amzn1.pg.item.be9cd055-7bed-472e-a209-2c3eea9c5115?g=s&ingress=amzn&ref_=SM_TrueFearForsakenSoulsPart1_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
   {
     "platform": "Prime Gaming",
     "title": "EMPTY SHELL",
-    "link": "https://gaming.amazon.com/empty-shell-gog/dp/amzn1.pg.item.2cd3ca8d-c84b-46a1-82f4-040a0c4ae02f?ingress=amzn&ref_=SM_EMPTYSHELL_S01_FGWP_CRWN",
+    "link": "https://gaming.amazon.com/claims/empty-shell-gog/dp/amzn1.pg.item.2cd3ca8d-c84b-46a1-82f4-040a0c4ae02f?g=s&ingress=amzn&ref_=SM_EMPTYSHELL_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
   {
     "platform": "Prime Gaming",
-    "title": "Afterimage",
+    "title": "Sid Meier's Civilization IV: The Complete Edition",
+    "link": "https://gaming.amazon.com/claims/sid-meiers-civilization-iv-the-complete-edition-gog/dp/amzn1.pg.item.f2368999-6acb-4f03-9f99-b14711e926ee?g=s&ingress=amzn&ref_=SM_SidMeiersCivilizationIVTheCompleteEdition_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Vampire: The Masquerade - Reckoning of New York",
+    "link": "https://gaming.amazon.com/claims/vampire-the-masquerade-reckoning-of-new-york-epic/dp/amzn1.pg.item.2dd336c0-5141-4740-91d5-40990b19ebcc?g=s&ingress=amzn&ref_=SM_VampireTheMasqueradeReckoningofNewYork_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "DragonStrike",
+    "link": "https://gaming.amazon.com/claims/dragonstrike-gog/dp/amzn1.pg.item.0aa4e118-1a0f-435f-a1e6-5cb1370161e4?g=s&ingress=amzn&ref_=SM_DragonStrike_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Sid Meier's Civilization III: Complete",
+    "link": "https://gaming.amazon.com/claims/sid-meiers-civilization-iii-complete-gog/dp/amzn1.pg.item.5fbd746f-789f-4b0e-b428-e61e61e54990?g=s&ingress=amzn&ref_=SM_SidMeiersCivilizationIIIComplete_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Residual",
+    "link": "https://gaming.amazon.com/claims/residual-gog/dp/amzn1.pg.item.6c1f74ce-2720-4cb5-a5f1-b996c8a7a1fa?g=s&ingress=amzn&ref_=SM_Residual_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Mystical Riddles: Ghostly Park - CE",
+    "link": "https://gaming.amazon.com/claims/mystical-riddles-ghostly-park-ce-legacy/dp/amzn1.pg.item.cc1e7972-dccc-4778-b2e2-96e91126da35?g=s&ingress=amzn&ref_=SM_MysticalRiddlesGhostlyParkCE_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Tormented Souls",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
@@ -107,7 +114,7 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "Pixel Cafe",
+    "title": "Courtroom Chaos - Starring Snoop Dogg",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
@@ -115,7 +122,71 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "The Academy: The First Riddle",
+    "title": "Hogwarts Legacy",
+    "link": "",
+    "status": "Fresh Drop",
+    "banner": "",
+    "cta": "Claim on Prime Gaming"
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Angry Birds Flock Party",
+    "link": "",
+    "status": "Fresh Drop",
+    "banner": "",
+    "cta": "Claim on Prime Gaming"
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Indiana Jones and the Great Circle",
+    "link": "",
+    "status": "Fresh Drop",
+    "banner": "",
+    "cta": "Claim on Prime Gaming"
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Exploding Kittens® 2",
+    "link": "",
+    "status": "Fresh Drop",
+    "banner": "",
+    "cta": "Claim on Prime Gaming"
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Clue/Cluedo",
+    "link": "",
+    "status": "Fresh Drop",
+    "banner": "",
+    "cta": "Claim on Prime Gaming"
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Ticket to Ride®",
+    "link": "",
+    "status": "Fresh Drop",
+    "banner": "",
+    "cta": "Claim on Prime Gaming"
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Kingdom Come: Deliverance II",
+    "link": "",
+    "status": "Fresh Drop",
+    "banner": "",
+    "cta": "Claim on Prime Gaming"
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "TopSpin 2K25",
+    "link": "",
+    "status": "Fresh Drop",
+    "banner": "",
+    "cta": "Claim on Prime Gaming"
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Sonic Mania Plus",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
@@ -131,6 +202,14 @@
   },
   {
     "platform": "Prime Gaming",
+    "title": "Draw & Guess",
+    "link": "",
+    "status": "Fresh Drop",
+    "banner": "",
+    "cta": "Claim on Prime Gaming"
+  },
+  {
+    "platform": "Prime Gaming",
     "title": "MotoGP™25",
     "link": "",
     "status": "Fresh Drop",
@@ -139,111 +218,15 @@
   },
   {
     "platform": "Prime Gaming",
+    "title": "The Jackbox Party Pack 9",
+    "link": "",
+    "status": "Fresh Drop",
+    "banner": "",
+    "cta": "Claim on Prime Gaming"
+  },
+  {
+    "platform": "Prime Gaming",
     "title": "Farming Simulator 22",
-    "link": "",
-    "status": "Fresh Drop",
-    "banner": "",
-    "cta": "Claim on Prime Gaming"
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "SpongeBob: Battle for Bikini Bottom - Rehydrated",
-    "link": "",
-    "status": "Fresh Drop",
-    "banner": "",
-    "cta": "Claim on Prime Gaming"
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Borderlands 3",
-    "link": "",
-    "status": "Fresh Drop",
-    "banner": "",
-    "cta": "Claim on Prime Gaming"
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Dead Island 2 Ultimate Edition",
-    "link": "",
-    "status": "Fresh Drop",
-    "banner": "",
-    "cta": "Claim on Prime Gaming"
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Fortnite OG",
-    "link": "",
-    "status": "Fresh Drop",
-    "banner": "",
-    "cta": "Claim on Prime Gaming"
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Fortnite",
-    "link": "",
-    "status": "Fresh Drop",
-    "banner": "",
-    "cta": "Claim on Prime Gaming"
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Fortnite Battle Royale",
-    "link": "",
-    "status": "Fresh Drop",
-    "banner": "",
-    "cta": "Claim on Prime Gaming"
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "LEGO® Fortnite Brick Life",
-    "link": "",
-    "status": "Fresh Drop",
-    "banner": "",
-    "cta": "Claim on Prime Gaming"
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Rocket Racing",
-    "link": "",
-    "status": "Fresh Drop",
-    "banner": "",
-    "cta": "Claim on Prime Gaming"
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "LEGO® Fortnite Odyssey",
-    "link": "",
-    "status": "Fresh Drop",
-    "banner": "",
-    "cta": "Claim on Prime Gaming"
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Fortnite Festival",
-    "link": "",
-    "status": "Fresh Drop",
-    "banner": "",
-    "cta": "Claim on Prime Gaming"
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Fortnite Ballistic",
-    "link": "",
-    "status": "Fresh Drop",
-    "banner": "",
-    "cta": "Claim on Prime Gaming"
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Disney/Pixar Cars Mater-National Championship",
-    "link": "",
-    "status": "Fresh Drop",
-    "banner": "",
-    "cta": "Claim on Prime Gaming"
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Tormented Souls",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
