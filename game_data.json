@@ -102,13 +102,6 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Mystical Riddles: Ghostly Park - CE",
-      "link": "https://gaming.amazon.com/claims/mystical-riddles-ghostly-park-ce-legacy/dp/amzn1.pg.item.cc1e7972-dccc-4778-b2e2-96e91126da35?g=s&ingress=amzn&ref_=SM_MysticalRiddlesGhostlyParkCE_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
       "title": "Tormented Souls",
       "link": "",
       "status": "Fresh Drop",
@@ -230,6 +223,14 @@
     {
       "platform": "Prime Gaming",
       "title": "Farming Simulator 22",
+      "link": "",
+      "status": "Fresh Drop",
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Afterimage",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
