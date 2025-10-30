@@ -1,10 +1,24 @@
 [
   {
     "platform": "Epic Games Store",
-    "title": "Fear the Spotlight",
+    "title": "Idle Champions of the Forgotten Realms",
     "status": "Fresh Drop",
-    "banner": "https://cdn1.epicgames.com/spt-assets/7440e6952704438cbb2e4f4dff02e00a/fear-the-spotlight-1ioq7.jpg",
-    "link": "https://store.epicgames.com/p/fear-the-spotlight-97656f"
+    "banner": "https://cdn1.epicgames.com/spt-assets/a53f91e55c6840018cb5de0b204f1ad9/idle-champions-of-the-forgotten-realms-v2snm.png",
+    "link": "https://store.epicgames.com/p/idle-champions-of-the-forgotten-realms"
+  },
+  {
+    "platform": "Epic Games Store",
+    "title": "Bendy and the Ink Machine",
+    "status": "Fresh Drop",
+    "banner": "https://cdn1.epicgames.com/spt-assets/0b1283e5bfa64ad48f3862b79abc20b9/bendy-and-the-ink-machine-1e8cj.png",
+    "link": "https://store.epicgames.com/p/bendy-and-the-ink-machine-60cf5a"
+  },
+  {
+    "platform": "Epic Games Store",
+    "title": "Five Nights at Freddy's: Into the Pit",
+    "status": "Fresh Drop",
+    "banner": "https://cdn1.epicgames.com/spt-assets/5c65df08b03a43eb8be026116ef8e979/five-nights-at-freddys-into-the-pit-1ng0s.png",
+    "link": "https://store.epicgames.com/p/five-nights-at-freddys-into-the-pit-99c563"
   },
   {
     "platform": "Prime Gaming",
