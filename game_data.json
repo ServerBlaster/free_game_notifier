@@ -25,6 +25,13 @@
   "Prime Gaming": [
     {
       "platform": "Prime Gaming",
+      "title": "You Will Die Here Tonight",
+      "link": "https://gaming.amazon.com/claims/you-will-die-here-tonight-gog/dp/amzn1.pg.item.b2b4fb56-094b-4248-b5df-96078446160b?g=s&ingress=amzn&ref_=SM_YouWillDieHereTonight_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
       "title": "Fallout 3: Game of the Year Edition",
       "link": "https://gaming.amazon.com/claims/fallout-3-game-of-the-year-edition-gog/dp/amzn1.pg.item.91c2b55b-e883-4bf7-8815-08f486d7ca35?g=s&ingress=amzn&ref_=SM_Fallout3GameoftheYearEdition_S02_FGWP_CRWN",
       "status": "Fresh Drop",
@@ -102,17 +109,19 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Sid Meier's Civilization III: Complete",
-      "link": "https://gaming.amazon.com/claims/sid-meiers-civilization-iii-complete-gog/dp/amzn1.pg.item.5fbd746f-789f-4b0e-b428-e61e61e54990?g=s&ingress=amzn&ref_=SM_SidMeiersCivilizationIIIComplete_S01_FGWP_CRWN",
+      "title": "Halloween Stories: Horror Movie - CE",
+      "link": "",
       "status": "Fresh Drop",
-      "banner": ""
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
     },
     {
       "platform": "Prime Gaming",
-      "title": "Residual",
-      "link": "https://gaming.amazon.com/claims/residual-gog/dp/amzn1.pg.item.6c1f74ce-2720-4cb5-a5f1-b996c8a7a1fa?g=s&ingress=amzn&ref_=SM_Residual_S01_FGWP_CRWN",
+      "title": "Werewolf: The Apocalypse - Heart of the Forest",
+      "link": "",
       "status": "Fresh Drop",
-      "banner": ""
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
     },
     {
       "platform": "Prime Gaming",
@@ -237,14 +246,6 @@
     {
       "platform": "Prime Gaming",
       "title": "Farming Simulator 22",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Afterimage",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
