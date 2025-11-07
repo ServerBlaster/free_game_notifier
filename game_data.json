@@ -81,22 +81,29 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Sid Meier's Civilization IV: The Complete Edition",
-      "link": "https://gaming.amazon.com/claims/sid-meiers-civilization-iv-the-complete-edition-gog/dp/amzn1.pg.item.f2368999-6acb-4f03-9f99-b14711e926ee?g=s&ingress=amzn&ref_=SM_SidMeiersCivilizationIVTheCompleteEdition_S01_FGWP_CRWN",
+      "title": "Gas Station Simulator",
+      "link": "https://gaming.amazon.com/claims/gas-station-simulator-epic/dp/amzn1.pg.item.1d1450f8-971b-419e-9890-0a3d81f06925?g=s&ingress=amzn&ref_=SM_GasStationSimulator_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
     {
       "platform": "Prime Gaming",
-      "title": "Vampire: The Masquerade - Reckoning of New York",
-      "link": "https://gaming.amazon.com/claims/vampire-the-masquerade-reckoning-of-new-york-epic/dp/amzn1.pg.item.2dd336c0-5141-4740-91d5-40990b19ebcc?g=s&ingress=amzn&ref_=SM_VampireTheMasqueradeReckoningofNewYork_S01_FGWP_CRWN",
+      "title": "Dungeons & Dragons: Dark Sun Series",
+      "link": "https://gaming.amazon.com/claims/dungeons-dragons-dark-sun-series-gog/dp/amzn1.pg.item.49695837-4b36-491d-9e4a-db88f1767f76?g=s&ingress=amzn&ref_=SM_DungeonsDragonsDarkSunSeries_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
     {
       "platform": "Prime Gaming",
-      "title": "Residual",
-      "link": "https://gaming.amazon.com/claims/residual-gog/dp/amzn1.pg.item.6c1f74ce-2720-4cb5-a5f1-b996c8a7a1fa?g=s&ingress=amzn&ref_=SM_Residual_S01_FGWP_CRWN",
+      "title": "Lovecraft's Untold Stories",
+      "link": "https://gaming.amazon.com/claims/lovecrafts-untold-stories-epic/dp/amzn1.pg.item.3f76ff5b-bef8-4733-9e44-1e071a023a22?g=s&ingress=amzn&ref_=SM_LovecraftsUntoldStories_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "New Tales from the Borderlands",
+      "link": "https://gaming.amazon.com/claims/new-tales-from-the-borderlands-epic/dp/amzn1.pg.item.c7f2c4fd-2f63-4b4e-ab71-922692d001fc?g=s&ingress=amzn&ref_=SM_NewTalesfromtheBorderlands_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
@@ -126,7 +133,39 @@
     },
     {
       "platform": "Prime Gaming",
+      "title": "Two Point Hospital",
+      "link": "",
+      "status": "Fresh Drop",
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Rise of the Tomb Raider 20 Year Celebration",
+      "link": "",
+      "status": "Fresh Drop",
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Bus Simulator 21 Next Stop",
+      "link": "",
+      "status": "Fresh Drop",
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
+    },
+    {
+      "platform": "Prime Gaming",
       "title": "Courtroom Chaos - Starring Snoop Dogg",
+      "link": "",
+      "status": "Fresh Drop",
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "World War Z",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
@@ -207,38 +246,6 @@
     {
       "platform": "Prime Gaming",
       "title": "DAVE THE DIVER",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Draw & Guess",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "MotoGP™25",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "The Jackbox Party Pack 9",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Farming Simulator 22",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
