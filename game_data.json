@@ -2,17 +2,24 @@
   "Epic Games Store": [
     {
       "platform": "Epic Games Store",
-      "title": "Idle Champions of the Forgotten Realms",
+      "title": "Scourgebringer",
       "status": "Fresh Drop",
-      "banner": "https://cdn1.epicgames.com/spt-assets/a53f91e55c6840018cb5de0b204f1ad9/idle-champions-of-the-forgotten-realms-1sr4b.png",
-      "link": "https://store.epicgames.com/p/idle-champions-of-the-forgotten-realms"
+      "banner": "https://cdn1.epicgames.com/offer/c03a3687567a4cf3910ea5ec7279664e/d536fc52-f970-4df6-85ee-8460d24f513e-2560x1440-53ed06898f05cb70a58dcff472a21a25_2560x1440-53ed06898f05cb70a58dcff472a21a25",
+      "link": "https://store.epicgames.com/p/scourgebringer"
     },
     {
       "platform": "Epic Games Store",
-      "title": "Felix The Reaper",
+      "title": "Songs of Silence",
       "status": "Fresh Drop",
-      "banner": "https://cdn1.epicgames.com/spt-assets/582d7a7c91264ee2b68f93e666870a1b/felix-the-reaper-w5lqq.jpg",
-      "link": "https://store.epicgames.com/p/felix-the-reaper-3f7e62"
+      "banner": "https://cdn1.epicgames.com/spt-assets/717e784a701e49bba02e27f7774e966a/songs-of-silence-1g5aw.jpg",
+      "link": "https://store.epicgames.com/p/songs-of-silence-778d86"
+    },
+    {
+      "platform": "Epic Games Store",
+      "title": "Zero Hour",
+      "status": "Fresh Drop",
+      "banner": "https://cdn1.epicgames.com/spt-assets/24397552e51f404d8f89e93ed383d35a/zero-hour-16cus.png",
+      "link": "https://store.epicgames.com/p/zero-hour-8449a0"
     }
   ],
   "Prime Gaming": [
