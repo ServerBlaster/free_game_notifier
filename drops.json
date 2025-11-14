@@ -22,6 +22,27 @@
   },
   {
     "platform": "Prime Gaming",
+    "title": "Dungeons & Dragons: Dark Sun Series",
+    "link": "https://gaming.amazon.com/claims/dungeons-dragons-dark-sun-series-gog/dp/amzn1.pg.item.49695837-4b36-491d-9e4a-db88f1767f76?g=s&ingress=amzn&ref_=SM_DungeonsDragonsDarkSunSeries_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Lovecraft's Untold Stories",
+    "link": "https://gaming.amazon.com/claims/lovecrafts-untold-stories-epic/dp/amzn1.pg.item.3f76ff5b-bef8-4733-9e44-1e071a023a22?g=s&ingress=amzn&ref_=SM_LovecraftsUntoldStories_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "New Tales from the Borderlands",
+    "link": "https://gaming.amazon.com/claims/new-tales-from-the-borderlands-epic/dp/amzn1.pg.item.c7f2c4fd-2f63-4b4e-ab71-922692d001fc?g=s&ingress=amzn&ref_=SM_NewTalesfromtheBorderlands_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
     "title": "You Will Die Here Tonight",
     "link": "https://gaming.amazon.com/claims/you-will-die-here-tonight-gog/dp/amzn1.pg.item.b2b4fb56-094b-4248-b5df-96078446160b?g=s&ingress=amzn&ref_=SM_YouWillDieHereTonight_S01_FGWP_CRWN",
     "status": "Fresh Drop",
@@ -71,15 +92,22 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "True Fear: Forsaken Souls Part 1",
-    "link": "https://gaming.amazon.com/claims/true-fear-forsaken-souls-part-1-gog/dp/amzn1.pg.item.be9cd055-7bed-472e-a209-2c3eea9c5115?g=s&ingress=amzn&ref_=SM_TrueFearForsakenSoulsPart1_S01_FGWP_CRWN",
+    "title": "Fallout 76 (PC)",
+    "link": "https://gaming.amazon.com/claims/fallout-76-pc-microsoft/dp/amzn1.pg.item.c49f06ee-41f3-41cf-b719-0a4a6940b5d0?g=s&ingress=amzn&ref_=SM_Fallout76PC_S03_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
   {
     "platform": "Prime Gaming",
-    "title": "EMPTY SHELL",
-    "link": "https://gaming.amazon.com/claims/empty-shell-gog/dp/amzn1.pg.item.2cd3ca8d-c84b-46a1-82f4-040a0c4ae02f?g=s&ingress=amzn&ref_=SM_EMPTYSHELL_S01_FGWP_CRWN",
+    "title": "Fort Solis",
+    "link": "https://gaming.amazon.com/claims/fort-solis-gog/dp/amzn1.pg.item.76bbc460-ccab-4714-b70f-e3b6cb9d2192?g=s&ingress=amzn&ref_=SM_FortSolis_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Another World: 20th Anniversary Edition",
+    "link": "https://gaming.amazon.com/claims/another-world-20th-anniversary-edition-gog/dp/amzn1.pg.item.8909fde2-8415-4625-bd9d-0e29055ef728?g=s&ingress=amzn&ref_=SM_AnotherWorld20thAnniversaryEdition_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
@@ -87,27 +115,6 @@
     "platform": "Prime Gaming",
     "title": "Gas Station Simulator",
     "link": "https://gaming.amazon.com/claims/gas-station-simulator-epic/dp/amzn1.pg.item.1d1450f8-971b-419e-9890-0a3d81f06925?g=s&ingress=amzn&ref_=SM_GasStationSimulator_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Dungeons & Dragons: Dark Sun Series",
-    "link": "https://gaming.amazon.com/claims/dungeons-dragons-dark-sun-series-gog/dp/amzn1.pg.item.49695837-4b36-491d-9e4a-db88f1767f76?g=s&ingress=amzn&ref_=SM_DungeonsDragonsDarkSunSeries_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Lovecraft's Untold Stories",
-    "link": "https://gaming.amazon.com/claims/lovecrafts-untold-stories-epic/dp/amzn1.pg.item.3f76ff5b-bef8-4733-9e44-1e071a023a22?g=s&ingress=amzn&ref_=SM_LovecraftsUntoldStories_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "New Tales from the Borderlands",
-    "link": "https://gaming.amazon.com/claims/new-tales-from-the-borderlands-epic/dp/amzn1.pg.item.c7f2c4fd-2f63-4b4e-ab71-922692d001fc?g=s&ingress=amzn&ref_=SM_NewTalesfromtheBorderlands_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
@@ -122,14 +129,6 @@
   {
     "platform": "Prime Gaming",
     "title": "Werewolf: The Apocalypse - Heart of the Forest",
-    "link": "",
-    "status": "Fresh Drop",
-    "banner": "",
-    "cta": "Claim on Prime Gaming"
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Tormented Souls",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
@@ -250,6 +249,14 @@
   {
     "platform": "Prime Gaming",
     "title": "DAVE THE DIVER",
+    "link": "",
+    "status": "Fresh Drop",
+    "banner": "",
+    "cta": "Claim on Prime Gaming"
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Dark City: Kyiv - CE",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
