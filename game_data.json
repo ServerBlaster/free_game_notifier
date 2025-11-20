@@ -60,13 +60,6 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Fallout: New Vegas Ultimate Edition",
-      "link": "https://gaming.amazon.com/claims/fallout-new-vegas-ultimate-edition-gog/dp/amzn1.pg.item.8b24f09c-6cef-41d7-9a68-21f275c1c110?g=s&ingress=amzn&ref_=SM_FalloutNewVegasUltimateEdition_S02_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
       "title": "XCOM 2",
       "link": "https://gaming.amazon.com/claims/xcom-2-gog/dp/amzn1.pg.item.13e05c49-cb97-43b3-82c2-0fab0271a873?g=s&ingress=amzn&ref_=SM_XCOM2_S01_FGWP_CRWN",
       "status": "Fresh Drop",
@@ -90,6 +83,13 @@
       "platform": "Prime Gaming",
       "title": "Lost & Found Agency - CE",
       "link": "https://gaming.amazon.com/claims/lost-and-found-agency-ce-legacy/dp/amzn1.pg.item.c42c9729-d0b8-4462-97bd-f5acd3993964?g=s&ingress=amzn&ref_=SM_LostFoundAgencyCE_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "EMPTY SHELL",
+      "link": "https://gaming.amazon.com/claims/empty-shell-gog/dp/amzn1.pg.item.2cd3ca8d-c84b-46a1-82f4-040a0c4ae02f?g=s&ingress=amzn&ref_=SM_EMPTYSHELL_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
