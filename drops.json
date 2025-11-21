@@ -15,6 +15,27 @@
   },
   {
     "platform": "Prime Gaming",
+    "title": "Fort Solis",
+    "link": "https://gaming.amazon.com/claims/fort-solis-gog/dp/amzn1.pg.item.76bbc460-ccab-4714-b70f-e3b6cb9d2192?g=s&ingress=amzn&ref_=SM_FortSolis_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Another World: 20th Anniversary Edition",
+    "link": "https://gaming.amazon.com/claims/another-world-20th-anniversary-edition-gog/dp/amzn1.pg.item.8909fde2-8415-4625-bd9d-0e29055ef728?g=s&ingress=amzn&ref_=SM_AnotherWorld20thAnniversaryEdition_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Gas Station Simulator",
+    "link": "https://gaming.amazon.com/claims/gas-station-simulator-epic/dp/amzn1.pg.item.1d1450f8-971b-419e-9890-0a3d81f06925?g=s&ingress=amzn&ref_=SM_GasStationSimulator_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
     "title": "Dungeons & Dragons: Dark Sun Series",
     "link": "https://gaming.amazon.com/claims/dungeons-dragons-dark-sun-series-gog/dp/amzn1.pg.item.49695837-4b36-491d-9e4a-db88f1767f76?g=s&ingress=amzn&ref_=SM_DungeonsDragonsDarkSunSeries_S01_FGWP_CRWN",
     "status": "Fresh Drop",
@@ -64,22 +85,22 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "Hellslave",
-    "link": "https://gaming.amazon.com/claims/hellslave-gog/dp/amzn1.pg.item.a7fa52c8-634e-4e62-8c47-426c4a50e657?g=s&ingress=amzn&ref_=SM_Hellslave_S01_FGWP_CRWN",
+    "title": "PlateUp!",
+    "link": "https://gaming.amazon.com/claims/plateup-epic/dp/amzn1.pg.item.bc7135d4-6239-4a0f-bd01-6b97eae7d9ea?g=s&ingress=amzn&ref_=SM_PlateUp_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
   {
     "platform": "Prime Gaming",
-    "title": "Lost & Found Agency - CE",
-    "link": "https://gaming.amazon.com/claims/lost-and-found-agency-ce-legacy/dp/amzn1.pg.item.c42c9729-d0b8-4462-97bd-f5acd3993964?g=s&ingress=amzn&ref_=SM_LostFoundAgencyCE_S01_FGWP_CRWN",
+    "title": "Dungeons & Dragons: Krynn Series",
+    "link": "https://gaming.amazon.com/claims/dungeons-dragons-krynn-series-gog/dp/amzn1.pg.item.3aefcf19-f3d9-44f6-b5a8-bc92b661726c?g=s&ingress=amzn&ref_=SM_DungeonsDragonsKrynnSeries_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
   {
     "platform": "Prime Gaming",
-    "title": "EMPTY SHELL",
-    "link": "https://gaming.amazon.com/claims/empty-shell-gog/dp/amzn1.pg.item.2cd3ca8d-c84b-46a1-82f4-040a0c4ae02f?g=s&ingress=amzn&ref_=SM_EMPTYSHELL_S01_FGWP_CRWN",
+    "title": "Dream Tactics",
+    "link": "https://gaming.amazon.com/claims/dream-tactics-gog/dp/amzn1.pg.item.f4ecdb00-436e-4380-b646-ac1cb04a2d17?g=s&ingress=amzn&ref_=SM_DreamTactics_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
@@ -87,27 +108,6 @@
     "platform": "Prime Gaming",
     "title": "Fallout 76 (PC)",
     "link": "https://gaming.amazon.com/claims/fallout-76-pc-microsoft/dp/amzn1.pg.item.c49f06ee-41f3-41cf-b719-0a4a6940b5d0?g=s&ingress=amzn&ref_=SM_Fallout76PC_S03_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Fort Solis",
-    "link": "https://gaming.amazon.com/claims/fort-solis-gog/dp/amzn1.pg.item.76bbc460-ccab-4714-b70f-e3b6cb9d2192?g=s&ingress=amzn&ref_=SM_FortSolis_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Another World: 20th Anniversary Edition",
-    "link": "https://gaming.amazon.com/claims/another-world-20th-anniversary-edition-gog/dp/amzn1.pg.item.8909fde2-8415-4625-bd9d-0e29055ef728?g=s&ingress=amzn&ref_=SM_AnotherWorld20thAnniversaryEdition_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Gas Station Simulator",
-    "link": "https://gaming.amazon.com/claims/gas-station-simulator-epic/dp/amzn1.pg.item.1d1450f8-971b-419e-9890-0a3d81f06925?g=s&ingress=amzn&ref_=SM_GasStationSimulator_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
