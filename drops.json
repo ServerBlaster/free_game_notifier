@@ -15,6 +15,34 @@
   },
   {
     "platform": "Prime Gaming",
+    "title": "PlateUp!",
+    "link": "https://gaming.amazon.com/claims/plateup-epic/dp/amzn1.pg.item.bc7135d4-6239-4a0f-bd01-6b97eae7d9ea?g=s&ingress=amzn&ref_=SM_PlateUp_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Dungeons & Dragons: Krynn Series",
+    "link": "https://gaming.amazon.com/claims/dungeons-dragons-krynn-series-gog/dp/amzn1.pg.item.3aefcf19-f3d9-44f6-b5a8-bc92b661726c?g=s&ingress=amzn&ref_=SM_DungeonsDragonsKrynnSeries_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Dream Tactics",
+    "link": "https://gaming.amazon.com/claims/dream-tactics-gog/dp/amzn1.pg.item.f4ecdb00-436e-4380-b646-ac1cb04a2d17?g=s&ingress=amzn&ref_=SM_DreamTactics_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Fallout 76 (PC)",
+    "link": "https://gaming.amazon.com/claims/fallout-76-pc-microsoft/dp/amzn1.pg.item.c49f06ee-41f3-41cf-b719-0a4a6940b5d0?g=s&ingress=amzn&ref_=SM_Fallout76PC_S03_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
     "title": "Fort Solis",
     "link": "https://gaming.amazon.com/claims/fort-solis-gog/dp/amzn1.pg.item.76bbc460-ccab-4714-b70f-e3b6cb9d2192?g=s&ingress=amzn&ref_=SM_FortSolis_S01_FGWP_CRWN",
     "status": "Fresh Drop",
@@ -57,6 +85,20 @@
   },
   {
     "platform": "Prime Gaming",
+    "title": "Gunslugs",
+    "link": "https://gaming.amazon.com/claims/gunslugs-gog/dp/amzn1.pg.item.f7fe7089-eca7-4ebf-9ab2-45fd60f026ac?g=s&ingress=amzn&ref_=SM_Gunslugs_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Big Adventure: Trip to Europe 6 - CE",
+    "link": "https://gaming.amazon.com/claims/big-adventure-trip-to-europe-6-ce-legacy/dp/amzn1.pg.item.5823fdb8-2192-45f8-90af-ef446602b3b6?g=s&ingress=amzn&ref_=SM_BigAdventureTriptoEurope6CE_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
     "title": "You Will Die Here Tonight",
     "link": "https://gaming.amazon.com/claims/you-will-die-here-tonight-gog/dp/amzn1.pg.item.b2b4fb56-094b-4248-b5df-96078446160b?g=s&ingress=amzn&ref_=SM_YouWillDieHereTonight_S01_FGWP_CRWN",
     "status": "Fresh Drop",
@@ -64,56 +106,7 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "Fallout 3: Game of the Year Edition",
-    "link": "https://gaming.amazon.com/claims/fallout-3-game-of-the-year-edition-gog/dp/amzn1.pg.item.91c2b55b-e883-4bf7-8815-08f486d7ca35?g=s&ingress=amzn&ref_=SM_Fallout3GameoftheYearEdition_S02_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "XCOM 2",
-    "link": "https://gaming.amazon.com/claims/xcom-2-gog/dp/amzn1.pg.item.13e05c49-cb97-43b3-82c2-0fab0271a873?g=s&ingress=amzn&ref_=SM_XCOM2_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "True Fear: Forsaken Souls Part 2",
-    "link": "https://gaming.amazon.com/claims/true-fear-forsaken-souls-part-2-gog/dp/amzn1.pg.item.36a308e9-6a4d-42a0-8f56-120492381506?g=s&ingress=amzn&ref_=SM_TrueFearForsakenSoulsPart2_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "PlateUp!",
-    "link": "https://gaming.amazon.com/claims/plateup-epic/dp/amzn1.pg.item.bc7135d4-6239-4a0f-bd01-6b97eae7d9ea?g=s&ingress=amzn&ref_=SM_PlateUp_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Dungeons & Dragons: Krynn Series",
-    "link": "https://gaming.amazon.com/claims/dungeons-dragons-krynn-series-gog/dp/amzn1.pg.item.3aefcf19-f3d9-44f6-b5a8-bc92b661726c?g=s&ingress=amzn&ref_=SM_DungeonsDragonsKrynnSeries_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Dream Tactics",
-    "link": "https://gaming.amazon.com/claims/dream-tactics-gog/dp/amzn1.pg.item.f4ecdb00-436e-4380-b646-ac1cb04a2d17?g=s&ingress=amzn&ref_=SM_DreamTactics_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Fallout 76 (PC)",
-    "link": "https://gaming.amazon.com/claims/fallout-76-pc-microsoft/dp/amzn1.pg.item.c49f06ee-41f3-41cf-b719-0a4a6940b5d0?g=s&ingress=amzn&ref_=SM_Fallout76PC_S03_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Halloween Stories: Horror Movie - CE",
+    "title": "Dark City: Kyiv - CE",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
@@ -121,7 +114,7 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "Werewolf: The Apocalypse - Heart of the Forest",
+    "title": "Halloween Stories: Horror Movie - CE",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
@@ -242,14 +235,6 @@
   {
     "platform": "Prime Gaming",
     "title": "DAVE THE DIVER",
-    "link": "",
-    "status": "Fresh Drop",
-    "banner": "",
-    "cta": "Claim on Prime Gaming"
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Dark City: Kyiv - CE",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
