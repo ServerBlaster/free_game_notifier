@@ -22,6 +22,27 @@
   },
   {
     "platform": "Prime Gaming",
+    "title": "PlateUp!",
+    "link": "https://gaming.amazon.com/claims/plateup-epic/dp/amzn1.pg.item.bc7135d4-6239-4a0f-bd01-6b97eae7d9ea?g=s&ingress=amzn&ref_=SM_PlateUp_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Dungeons & Dragons: Krynn Series",
+    "link": "https://gaming.amazon.com/claims/dungeons-dragons-krynn-series-gog/dp/amzn1.pg.item.3aefcf19-f3d9-44f6-b5a8-bc92b661726c?g=s&ingress=amzn&ref_=SM_DungeonsDragonsKrynnSeries_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Dream Tactics",
+    "link": "https://gaming.amazon.com/claims/dream-tactics-gog/dp/amzn1.pg.item.f4ecdb00-436e-4380-b646-ac1cb04a2d17?g=s&ingress=amzn&ref_=SM_DreamTactics_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
     "title": "Fallout 76 (PC)",
     "link": "https://gaming.amazon.com/claims/fallout-76-pc-microsoft/dp/amzn1.pg.item.c49f06ee-41f3-41cf-b719-0a4a6940b5d0?g=s&ingress=amzn&ref_=SM_Fallout76PC_S03_FGWP_CRWN",
     "status": "Fresh Drop",
@@ -71,22 +92,15 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "XCOM 2",
-    "link": "https://gaming.amazon.com/claims/xcom-2-gog/dp/amzn1.pg.item.13e05c49-cb97-43b3-82c2-0fab0271a873?g=s&ingress=amzn&ref_=SM_XCOM2_S01_FGWP_CRWN",
+    "title": "LEGO 2K Drive",
+    "link": "https://gaming.amazon.com/claims/lego-2k-drive-epic/dp/amzn1.pg.item.748f3b5e-8a5c-49be-abd1-d4f2a7e525f4?g=s&ingress=amzn&ref_=SM_LEGO2KDrive_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
   {
     "platform": "Prime Gaming",
-    "title": "EMPTY SHELL",
-    "link": "https://gaming.amazon.com/claims/empty-shell-gog/dp/amzn1.pg.item.2cd3ca8d-c84b-46a1-82f4-040a0c4ae02f?g=s&ingress=amzn&ref_=SM_EMPTYSHELL_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Residual",
-    "link": "https://gaming.amazon.com/claims/residual-gog/dp/amzn1.pg.item.6c1f74ce-2720-4cb5-a5f1-b996c8a7a1fa?g=s&ingress=amzn&ref_=SM_Residual_S01_FGWP_CRWN",
+    "title": "Forgotten Realms: The Archives - Collection One",
+    "link": "https://gaming.amazon.com/claims/forgotten-realms-the-archives-collection-one-gog/dp/amzn1.pg.item.40b12069-c053-47a4-b4d4-b0c7cf016c13?g=s&ingress=amzn&ref_=SM_ForgottenRealmsTheArchivesCollectionOne_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
@@ -101,27 +115,6 @@
     "platform": "Prime Gaming",
     "title": "Big Adventure: Trip to Europe 6 - CE",
     "link": "https://gaming.amazon.com/claims/big-adventure-trip-to-europe-6-ce-legacy/dp/amzn1.pg.item.5823fdb8-2192-45f8-90af-ef446602b3b6?g=s&ingress=amzn&ref_=SM_BigAdventureTriptoEurope6CE_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "PlateUp!",
-    "link": "https://gaming.amazon.com/claims/plateup-epic/dp/amzn1.pg.item.bc7135d4-6239-4a0f-bd01-6b97eae7d9ea?g=s&ingress=amzn&ref_=SM_PlateUp_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Dungeons & Dragons: Krynn Series",
-    "link": "https://gaming.amazon.com/claims/dungeons-dragons-krynn-series-gog/dp/amzn1.pg.item.3aefcf19-f3d9-44f6-b5a8-bc92b661726c?g=s&ingress=amzn&ref_=SM_DungeonsDragonsKrynnSeries_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Dream Tactics",
-    "link": "https://gaming.amazon.com/claims/dream-tactics-gog/dp/amzn1.pg.item.f4ecdb00-436e-4380-b646-ac1cb04a2d17?g=s&ingress=amzn&ref_=SM_DreamTactics_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
@@ -256,6 +249,14 @@
   {
     "platform": "Prime Gaming",
     "title": "Spacelines from the Far Out",
+    "link": "",
+    "status": "Fresh Drop",
+    "banner": "",
+    "cta": "Claim on Prime Gaming"
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "GYLT",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
