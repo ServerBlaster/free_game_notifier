@@ -2,23 +2,16 @@
   "Epic Games Store": [
     {
       "platform": "Epic Games Store",
-      "title": "The Jackbox Party Pack 4",
-      "status": "Fresh Drop",
-      "banner": "https://cdn1.epicgames.com/offer/snowdrop/PP4_WideImage_2560x1440-af8d584f847d181c0831ad238cfc4076",
-      "link": "https://store.epicgames.com/p/jackbox-party-pack-4"
-    },
-    {
-      "platform": "Epic Games Store",
-      "title": "The Darkside Detective",
-      "status": "Fresh Drop",
-      "banner": "https://cdn1.epicgames.com/spt-assets/f91b4d1e5d1348b4a4ad37de00258464/the-darkside-detective-offer-1uv10.jpg",
-      "link": "https://store.epicgames.com/p/the-darkside-detective-02fd5a"
-    },
-    {
-      "platform": "Epic Games Store",
       "title": "Mystery Game 1",
       "status": "Fresh Drop",
       "banner": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/EGS-TheGameAwards-breaker-2560x1440_2560x1440-a0a64f9bfb9f477590937dbe95f612cf",
+      "link": "https://store.epicgames.com/p/[]"
+    },
+    {
+      "platform": "Epic Games Store",
+      "title": "Mystery Game 2",
+      "status": "Fresh Drop",
+      "banner": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Holiday25_FreeGames_Teaser_2560x1440_2560x1440-012542ce76be0f7521af765ba97d3453",
       "link": "https://store.epicgames.com/p/[]"
     }
   ],
