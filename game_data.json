@@ -74,22 +74,22 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Dungeons & Dragons: Dark Sun Series",
-      "link": "https://gaming.amazon.com/claims/dungeons-dragons-dark-sun-series-gog/dp/amzn1.pg.item.49695837-4b36-491d-9e4a-db88f1767f76?g=s&ingress=amzn&ref_=SM_DungeonsDragonsDarkSunSeries_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Lovecraft's Untold Stories",
-      "link": "https://gaming.amazon.com/claims/lovecrafts-untold-stories-epic/dp/amzn1.pg.item.3f76ff5b-bef8-4733-9e44-1e071a023a22?g=s&ingress=amzn&ref_=SM_LovecraftsUntoldStories_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
       "title": "New Tales from the Borderlands",
       "link": "https://gaming.amazon.com/claims/new-tales-from-the-borderlands-epic/dp/amzn1.pg.item.c7f2c4fd-2f63-4b4e-ab71-922692d001fc?g=s&ingress=amzn&ref_=SM_NewTalesfromtheBorderlands_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "XCOM 2",
+      "link": "https://gaming.amazon.com/claims/xcom-2-gog/dp/amzn1.pg.item.13e05c49-cb97-43b3-82c2-0fab0271a873?g=s&ingress=amzn&ref_=SM_XCOM2_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "EMPTY SHELL",
+      "link": "https://gaming.amazon.com/claims/empty-shell-gog/dp/amzn1.pg.item.2cd3ca8d-c84b-46a1-82f4-040a0c4ae02f?g=s&ingress=amzn&ref_=SM_EMPTYSHELL_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
@@ -219,6 +219,14 @@
     },
     {
       "platform": "Prime Gaming",
+      "title": "Kingdom Come: Deliverance II",
+      "link": "",
+      "status": "Fresh Drop",
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
+    },
+    {
+      "platform": "Prime Gaming",
       "title": "Fortnite OG",
       "link": "",
       "status": "Fresh Drop",
@@ -244,14 +252,6 @@
     {
       "platform": "Prime Gaming",
       "title": "Borderlands 3",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "TopSpin 2K25",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
