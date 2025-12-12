@@ -1,10 +1,10 @@
 [
   {
     "platform": "Epic Games Store",
-    "title": "Mystery Game 1",
+    "title": "Hogwarts Legacy",
     "status": "Fresh Drop",
-    "banner": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/EGS-TheGameAwards-breaker-2560x1440_2560x1440-a0a64f9bfb9f477590937dbe95f612cf",
-    "link": "https://store.epicgames.com/p/[]"
+    "banner": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Dec11_giveaway_2560x1440_2560x1440-05d489c87ee04b6489684ffbbebce43e",
+    "link": "https://store.epicgames.com/p/hogwarts-legacy"
   },
   {
     "platform": "Epic Games Store",
@@ -12,6 +12,20 @@
     "status": "Fresh Drop",
     "banner": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Holiday25_FreeGames_Teaser_2560x1440_2560x1440-012542ce76be0f7521af765ba97d3453",
     "link": "https://store.epicgames.com/p/[]"
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Gunslugs",
+    "link": "https://gaming.amazon.com/claims/gunslugs-gog/dp/amzn1.pg.item.f7fe7089-eca7-4ebf-9ab2-45fd60f026ac?g=s&ingress=amzn&ref_=SM_Gunslugs_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Big Adventure: Trip to Europe 6 - CE",
+    "link": "https://gaming.amazon.com/claims/big-adventure-trip-to-europe-6-ce-legacy/dp/amzn1.pg.item.5823fdb8-2192-45f8-90af-ef446602b3b6?g=s&ingress=amzn&ref_=SM_BigAdventureTriptoEurope6CE_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
   },
   {
     "platform": "Prime Gaming",
@@ -71,15 +85,15 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "XCOM 2",
-    "link": "https://gaming.amazon.com/claims/xcom-2-gog/dp/amzn1.pg.item.13e05c49-cb97-43b3-82c2-0fab0271a873?g=s&ingress=amzn&ref_=SM_XCOM2_S01_FGWP_CRWN",
+    "title": "Forgotten Realms: The Archives - Collection Two",
+    "link": "https://gaming.amazon.com/claims/forgotten-realms-the-archives-collection-two-gog/dp/amzn1.pg.item.4568db25-39b6-466b-8e2b-e01975fd2c98?g=s&ingress=amzn&ref_=SM_ForgottenRealmsTheArchivesCollectionTwo_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
   {
     "platform": "Prime Gaming",
-    "title": "EMPTY SHELL",
-    "link": "https://gaming.amazon.com/claims/empty-shell-gog/dp/amzn1.pg.item.2cd3ca8d-c84b-46a1-82f4-040a0c4ae02f?g=s&ingress=amzn&ref_=SM_EMPTYSHELL_S01_FGWP_CRWN",
+    "title": "Christmas Adventure: Candy Storm",
+    "link": "https://gaming.amazon.com/claims/christmas-adventure-candy-storm-legacy/dp/amzn1.pg.item.ca232c9b-7cf7-4717-93b9-23fb1ad3edec?g=s&ingress=amzn&ref_=SM_ChristmasAdventureCandyStorm_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
@@ -94,20 +108,6 @@
     "platform": "Prime Gaming",
     "title": "Forgotten Realms: The Archives - Collection One",
     "link": "https://gaming.amazon.com/claims/forgotten-realms-the-archives-collection-one-gog/dp/amzn1.pg.item.40b12069-c053-47a4-b4d4-b0c7cf016c13?g=s&ingress=amzn&ref_=SM_ForgottenRealmsTheArchivesCollectionOne_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Gunslugs",
-    "link": "https://gaming.amazon.com/claims/gunslugs-gog/dp/amzn1.pg.item.f7fe7089-eca7-4ebf-9ab2-45fd60f026ac?g=s&ingress=amzn&ref_=SM_Gunslugs_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Big Adventure: Trip to Europe 6 - CE",
-    "link": "https://gaming.amazon.com/claims/big-adventure-trip-to-europe-6-ce-legacy/dp/amzn1.pg.item.5823fdb8-2192-45f8-90af-ef446602b3b6?g=s&ingress=amzn&ref_=SM_BigAdventureTriptoEurope6CE_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
@@ -169,7 +169,7 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "Clue/Cluedo",
+    "title": "Clue",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
