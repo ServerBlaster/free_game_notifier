@@ -2,14 +2,14 @@
   "Epic Games Store": [
     {
       "platform": "Epic Games Store",
-      "title": "Hogwarts Legacy",
+      "title": "Jotunnslayer: Hordes of Hel",
       "status": "Fresh Drop",
-      "banner": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Dec11_giveaway_2560x1440_2560x1440-05d489c87ee04b6489684ffbbebce43e",
-      "link": "https://store.epicgames.com/p/hogwarts-legacy"
+      "banner": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Dec18_giveaway_2560x1440_2560x1440-ecb5cd80407b4ddb9aa05407b8da1662",
+      "link": "https://store.epicgames.com/p/jotunnslayer-hordes-of-hel-3579b3"
     },
     {
       "platform": "Epic Games Store",
-      "title": "Mystery Game 2",
+      "title": "Mystery Game 3",
       "status": "Fresh Drop",
       "banner": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Holiday25_FreeGames_Teaser_2560x1440_2560x1440-012542ce76be0f7521af765ba97d3453",
       "link": "https://store.epicgames.com/p/[]"
@@ -18,15 +18,15 @@
   "Prime Gaming": [
     {
       "platform": "Prime Gaming",
-      "title": "Gunslugs",
-      "link": "https://gaming.amazon.com/claims/gunslugs-gog/dp/amzn1.pg.item.f7fe7089-eca7-4ebf-9ab2-45fd60f026ac?g=s&ingress=amzn&ref_=SM_Gunslugs_S01_FGWP_CRWN",
+      "title": "Forgotten Realms: The Archives - Collection Two",
+      "link": "https://gaming.amazon.com/claims/forgotten-realms-the-archives-collection-two-gog/dp/amzn1.pg.item.4568db25-39b6-466b-8e2b-e01975fd2c98?g=s&ingress=amzn&ref_=SM_ForgottenRealmsTheArchivesCollectionTwo_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
     {
       "platform": "Prime Gaming",
-      "title": "Big Adventure: Trip to Europe 6 - CE",
-      "link": "https://gaming.amazon.com/claims/big-adventure-trip-to-europe-6-ce-legacy/dp/amzn1.pg.item.5823fdb8-2192-45f8-90af-ef446602b3b6?g=s&ingress=amzn&ref_=SM_BigAdventureTriptoEurope6CE_S01_FGWP_CRWN",
+      "title": "Christmas Adventure: Candy Storm",
+      "link": "https://gaming.amazon.com/claims/christmas-adventure-candy-storm-legacy/dp/amzn1.pg.item.ca232c9b-7cf7-4717-93b9-23fb1ad3edec?g=s&ingress=amzn&ref_=SM_ChristmasAdventureCandyStorm_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
@@ -81,20 +81,6 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Forgotten Realms: The Archives - Collection Two",
-      "link": "https://gaming.amazon.com/claims/forgotten-realms-the-archives-collection-two-gog/dp/amzn1.pg.item.4568db25-39b6-466b-8e2b-e01975fd2c98?g=s&ingress=amzn&ref_=SM_ForgottenRealmsTheArchivesCollectionTwo_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Christmas Adventure: Candy Storm",
-      "link": "https://gaming.amazon.com/claims/christmas-adventure-candy-storm-legacy/dp/amzn1.pg.item.ca232c9b-7cf7-4717-93b9-23fb1ad3edec?g=s&ingress=amzn&ref_=SM_ChristmasAdventureCandyStorm_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
       "title": "LEGO 2K Drive",
       "link": "https://gaming.amazon.com/claims/lego-2k-drive-epic/dp/amzn1.pg.item.748f3b5e-8a5c-49be-abd1-d4f2a7e525f4?g=s&ingress=amzn&ref_=SM_LEGO2KDrive_S01_FGWP_CRWN",
       "status": "Fresh Drop",
@@ -104,6 +90,20 @@
       "platform": "Prime Gaming",
       "title": "Forgotten Realms: The Archives - Collection One",
       "link": "https://gaming.amazon.com/claims/forgotten-realms-the-archives-collection-one-gog/dp/amzn1.pg.item.40b12069-c053-47a4-b4d4-b0c7cf016c13?g=s&ingress=amzn&ref_=SM_ForgottenRealmsTheArchivesCollectionOne_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Gunslugs",
+      "link": "https://gaming.amazon.com/claims/gunslugs-gog/dp/amzn1.pg.item.f7fe7089-eca7-4ebf-9ab2-45fd60f026ac?g=s&ingress=amzn&ref_=SM_Gunslugs_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Big Adventure: Trip to Europe 6 - CE",
+      "link": "https://gaming.amazon.com/claims/big-adventure-trip-to-europe-6-ce-legacy/dp/amzn1.pg.item.5823fdb8-2192-45f8-90af-ef446602b3b6?g=s&ingress=amzn&ref_=SM_BigAdventureTriptoEurope6CE_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
