@@ -50,22 +50,8 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "Fallout 76 (PC)",
-    "link": "https://gaming.amazon.com/claims/fallout-76-pc-microsoft/dp/amzn1.pg.item.c49f06ee-41f3-41cf-b719-0a4a6940b5d0?g=s&ingress=amzn&ref_=SM_Fallout76PC_S03_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
     "title": "Fort Solis",
     "link": "https://gaming.amazon.com/claims/fort-solis-gog/dp/amzn1.pg.item.76bbc460-ccab-4714-b70f-e3b6cb9d2192?g=s&ingress=amzn&ref_=SM_FortSolis_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Another World: 20th Anniversary Edition",
-    "link": "https://gaming.amazon.com/claims/another-world-20th-anniversary-edition-gog/dp/amzn1.pg.item.8909fde2-8415-4625-bd9d-0e29055ef728?g=s&ingress=amzn&ref_=SM_AnotherWorld20thAnniversaryEdition_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
@@ -80,6 +66,13 @@
     "platform": "Prime Gaming",
     "title": "New Tales from the Borderlands",
     "link": "https://gaming.amazon.com/claims/new-tales-from-the-borderlands-epic/dp/amzn1.pg.item.c7f2c4fd-2f63-4b4e-ab71-922692d001fc?g=s&ingress=amzn&ref_=SM_NewTalesfromtheBorderlands_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "XCOM 2",
+    "link": "https://gaming.amazon.com/claims/xcom-2-gog/dp/amzn1.pg.item.13e05c49-cb97-43b3-82c2-0fab0271a873?g=s&ingress=amzn&ref_=SM_XCOM2_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
