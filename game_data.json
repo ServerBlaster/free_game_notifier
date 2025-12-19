@@ -18,6 +18,27 @@
   "Prime Gaming": [
     {
       "platform": "Prime Gaming",
+      "title": "Forgotten Realms: The Archives - Collection One",
+      "link": "https://gaming.amazon.com/claims/forgotten-realms-the-archives-collection-one-gog/dp/amzn1.pg.item.40b12069-c053-47a4-b4d4-b0c7cf016c13?g=s&ingress=amzn&ref_=SM_ForgottenRealmsTheArchivesCollectionOne_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Gunslugs",
+      "link": "https://gaming.amazon.com/claims/gunslugs-gog/dp/amzn1.pg.item.f7fe7089-eca7-4ebf-9ab2-45fd60f026ac?g=s&ingress=amzn&ref_=SM_Gunslugs_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Big Adventure: Trip to Europe 6 - CE",
+      "link": "https://gaming.amazon.com/claims/big-adventure-trip-to-europe-6-ce-legacy/dp/amzn1.pg.item.5823fdb8-2192-45f8-90af-ef446602b3b6?g=s&ingress=amzn&ref_=SM_BigAdventureTriptoEurope6CE_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
       "title": "Forgotten Realms: The Archives - Collection Two",
       "link": "https://gaming.amazon.com/claims/forgotten-realms-the-archives-collection-two-gog/dp/amzn1.pg.item.4568db25-39b6-466b-8e2b-e01975fd2c98?g=s&ingress=amzn&ref_=SM_ForgottenRealmsTheArchivesCollectionTwo_S01_FGWP_CRWN",
       "status": "Fresh Drop",
@@ -67,15 +88,29 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "New Tales from the Borderlands",
-      "link": "https://gaming.amazon.com/claims/new-tales-from-the-borderlands-epic/dp/amzn1.pg.item.c7f2c4fd-2f63-4b4e-ab71-922692d001fc?g=s&ingress=amzn&ref_=SM_NewTalesfromtheBorderlands_S01_FGWP_CRWN",
+      "title": "Bō: Path of the Teal Lotus",
+      "link": "https://gaming.amazon.com/claims/bo-path-of-the-teal-lotus-gog/dp/amzn1.pg.item.467b84c8-afa8-432e-a8e9-c69ead91d153?g=s&ingress=amzn&ref_=SM_BoPathoftheTealLotus_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
     {
       "platform": "Prime Gaming",
-      "title": "XCOM 2",
-      "link": "https://gaming.amazon.com/claims/xcom-2-gog/dp/amzn1.pg.item.13e05c49-cb97-43b3-82c2-0fab0271a873?g=s&ingress=amzn&ref_=SM_XCOM2_S01_FGWP_CRWN",
+      "title": "Forgotten Realms: The Archives - Collection Three",
+      "link": "https://gaming.amazon.com/claims/forgotten-realms-the-archives-collection-three-gog/dp/amzn1.pg.item.7ddccc6b-b676-4754-97ac-d5b862e5e019?g=s&ingress=amzn&ref_=SM_ForgottenRealmsTheArchivesCollectionThree_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Gunslugs 2",
+      "link": "https://gaming.amazon.com/claims/gunslugs-2-gog/dp/amzn1.pg.item.bef0b168-84d5-4915-ba36-5a99cb3c9a4b?g=s&ingress=amzn&ref_=SM_Gunslugs2_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Ashworld",
+      "link": "https://gaming.amazon.com/claims/ashworld-gog/dp/amzn1.pg.item.6f28092d-5884-4aaf-be02-a13f24a43b83?g=s&ingress=amzn&ref_=SM_Ashworld_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
@@ -88,28 +123,7 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Forgotten Realms: The Archives - Collection One",
-      "link": "https://gaming.amazon.com/claims/forgotten-realms-the-archives-collection-one-gog/dp/amzn1.pg.item.40b12069-c053-47a4-b4d4-b0c7cf016c13?g=s&ingress=amzn&ref_=SM_ForgottenRealmsTheArchivesCollectionOne_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Gunslugs",
-      "link": "https://gaming.amazon.com/claims/gunslugs-gog/dp/amzn1.pg.item.f7fe7089-eca7-4ebf-9ab2-45fd60f026ac?g=s&ingress=amzn&ref_=SM_Gunslugs_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Big Adventure: Trip to Europe 6 - CE",
-      "link": "https://gaming.amazon.com/claims/big-adventure-trip-to-europe-6-ce-legacy/dp/amzn1.pg.item.5823fdb8-2192-45f8-90af-ef446602b3b6?g=s&ingress=amzn&ref_=SM_BigAdventureTriptoEurope6CE_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Dark City: Kyiv - CE",
+      "title": "GYLT",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
@@ -117,7 +131,7 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Halloween Stories: Horror Movie - CE",
+      "title": "Dark City: Kyiv - CE",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
@@ -238,14 +252,6 @@
     {
       "platform": "Prime Gaming",
       "title": "Borderlands 3",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "GYLT",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
