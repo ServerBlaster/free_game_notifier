@@ -200,14 +200,6 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "Farming Simulator 22",
-    "link": "",
-    "status": "Fresh Drop",
-    "banner": "",
-    "cta": "Claim on Prime Gaming"
-  },
-  {
-    "platform": "Prime Gaming",
     "title": "Indiana Jones and the Great Circle",
     "link": "",
     "status": "Fresh Drop",
@@ -248,7 +240,15 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "Borderlands 3",
+    "title": "Fortnite",
+    "link": "",
+    "status": "Fresh Drop",
+    "banner": "",
+    "cta": "Claim on Prime Gaming"
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Dunk Dunk",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
