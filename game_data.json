@@ -18,6 +18,20 @@
   "Prime Gaming": [
     {
       "platform": "Prime Gaming",
+      "title": "Fallout",
+      "link": "https://gaming.amazon.com/claims/fallout-gog/dp/amzn1.pg.item.448a2032-28d0-4ed0-815e-0b3196318919?g=s&ingress=amzn&ref_=SM_Fallout_S02_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Fallout 2",
+      "link": "https://gaming.amazon.com/claims/fallout-2-gog/dp/amzn1.pg.item.adeb6f91-fd33-4d7b-b0bc-dd1d7f64aac0?g=s&ingress=amzn&ref_=SM_Fallout2_S02_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
       "title": "Bō: Path of the Teal Lotus",
       "link": "https://gaming.amazon.com/claims/bo-path-of-the-teal-lotus-gog/dp/amzn1.pg.item.467b84c8-afa8-432e-a8e9-c69ead91d153?g=s&ingress=amzn&ref_=SM_BoPathoftheTealLotus_S01_FGWP_CRWN",
       "status": "Fresh Drop",
@@ -81,8 +95,8 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Fort Solis",
-      "link": "https://gaming.amazon.com/claims/fort-solis-gog/dp/amzn1.pg.item.76bbc460-ccab-4714-b70f-e3b6cb9d2192?g=s&ingress=amzn&ref_=SM_FortSolis_S01_FGWP_CRWN",
+      "title": "Sid Meier's Civilization VI",
+      "link": "https://gaming.amazon.com/claims/sid-meiers-civilization-vi-epic/dp/amzn1.pg.item.6b4d0ed8-afb2-4473-b9ef-275e6267eb38?g=s&ingress=amzn&ref_=SM_SidMeiersCivilizationVI_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
@@ -102,29 +116,7 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Fallout",
-      "link": "https://gaming.amazon.com/claims/fallout-gog/dp/amzn1.pg.item.448a2032-28d0-4ed0-815e-0b3196318919?g=s&ingress=amzn&ref_=SM_Fallout_S02_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Fallout 2",
-      "link": "https://gaming.amazon.com/claims/fallout-2-gog/dp/amzn1.pg.item.adeb6f91-fd33-4d7b-b0bc-dd1d7f64aac0?g=s&ingress=amzn&ref_=SM_Fallout2_S02_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
       "title": "GYLT",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Dark City: Kyiv - CE",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
@@ -140,6 +132,14 @@
     },
     {
       "platform": "Prime Gaming",
+      "title": "Monster Truck Championship - Rebel Hunter Edition",
+      "link": "",
+      "status": "Fresh Drop",
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
+    },
+    {
+      "platform": "Prime Gaming",
       "title": "Angry Birds Flock Party",
       "link": "",
       "status": "Fresh Drop",
@@ -148,7 +148,47 @@
     },
     {
       "platform": "Prime Gaming",
+      "title": "Aragami: Shadow Edition",
+      "link": "",
+      "status": "Fresh Drop",
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "HOT WHEELS UNLEASHED™ 2 - Turbocharged",
+      "link": "",
+      "status": "Fresh Drop",
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Trepang2",
+      "link": "",
+      "status": "Fresh Drop",
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
+    },
+    {
+      "platform": "Prime Gaming",
       "title": "Hogwarts Legacy",
+      "link": "",
+      "status": "Fresh Drop",
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "DEATH STRANDING DIRECTOR'S CUT",
+      "link": "",
+      "status": "Fresh Drop",
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Alan Wake Remastered",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
@@ -204,47 +244,7 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Kingdom Come: Deliverance II",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Fortnite OG",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Garfield Kart 2 - All You Can Drift",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Ticket to Ride®",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Fortnite",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Dunk Dunk",
+      "title": "Reflections of Life: Dark Architect - CE",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
