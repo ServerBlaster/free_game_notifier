@@ -64,13 +64,6 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "Forgotten Realms: The Archives - Collection One",
-    "link": "https://gaming.amazon.com/claims/forgotten-realms-the-archives-collection-one-gog/dp/amzn1.pg.item.40b12069-c053-47a4-b4d4-b0c7cf016c13?g=s&ingress=amzn&ref_=SM_ForgottenRealmsTheArchivesCollectionOne_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
     "title": "Gunslugs",
     "link": "https://gaming.amazon.com/claims/gunslugs-gog/dp/amzn1.pg.item.f7fe7089-eca7-4ebf-9ab2-45fd60f026ac?g=s&ingress=amzn&ref_=SM_Gunslugs_S01_FGWP_CRWN",
     "status": "Fresh Drop",
@@ -114,6 +107,14 @@
   {
     "platform": "Prime Gaming",
     "title": "GYLT",
+    "link": "",
+    "status": "Fresh Drop",
+    "banner": "",
+    "cta": "Claim on Prime Gaming"
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Dark City: Kyiv - CE",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
