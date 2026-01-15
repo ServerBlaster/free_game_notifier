@@ -1,10 +1,17 @@
 [
   {
     "platform": "Epic Games Store",
-    "title": "Bloons TD 6",
+    "title": "Styx: Master of Shadows",
     "status": "Fresh Drop",
-    "banner": "https://cdn1.epicgames.com/spt-assets/764b2d57552c436590f50318bd7587f9/bloons-td-6-offer-1jl6n.jpg",
-    "link": "https://store.epicgames.com/p/bloons-td-6-bf95a0"
+    "banner": "https://cdn1.epicgames.com/spt-assets/45709e0bb07e43bd9e652991779d4dfa/styx-master-of-shadows-17of4.jpg",
+    "link": "https://store.epicgames.com/p/styx-master-of-shadows-4d9ab3"
+  },
+  {
+    "platform": "Epic Games Store",
+    "title": "Styx: Shards of Darkness - Deluxe Edition",
+    "status": "Fresh Drop",
+    "banner": "https://cdn1.epicgames.com/spt-assets/6ccdf6a1518741f0842177137adc00b0/styx-shards-of-darkness-1bh52.jpg",
+    "link": "https://store.epicgames.com/p/styx-shards-of-darkness-77c030"
   },
   {
     "platform": "Prime Gaming",
