@@ -18,6 +18,13 @@
   "Prime Gaming": [
     {
       "platform": "Prime Gaming",
+      "title": "Deus Ex: Mankind Divided",
+      "link": "https://gaming.amazon.com/claims/deus-ex-mankind-divided-epic/dp/amzn1.pg.item.1b0307e0-f4a9-435b-bbd2-aa6fa8977c66?g=s&ingress=amzn&ref_=SM_DeusExMankindDivided_S02_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
       "title": "Dreamscaper",
       "link": "https://gaming.amazon.com/claims/dreamscaper-epic/dp/amzn1.pg.item.faf72ff9-c6ee-46bc-9832-c0627bd4f4db?g=s&ingress=amzn&ref_=SM_Dreamscaper_S01_FGWP_CRWN",
       "status": "Fresh Drop",
@@ -74,22 +81,22 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Gunslugs",
-      "link": "https://gaming.amazon.com/claims/gunslugs-gog/dp/amzn1.pg.item.f7fe7089-eca7-4ebf-9ab2-45fd60f026ac?g=s&ingress=amzn&ref_=SM_Gunslugs_S01_FGWP_CRWN",
+      "title": "Gunslugs: Rogue Tactics",
+      "link": "https://gaming.amazon.com/claims/gunslugs-rogue-tactics-gog/dp/amzn1.pg.item.2673dc48-c033-48f9-9deb-7f305fe02aa7?g=s&ingress=amzn&ref_=SM_GunslugsRogueTactics_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
     {
       "platform": "Prime Gaming",
-      "title": "Christmas Adventure: Candy Storm",
-      "link": "https://gaming.amazon.com/claims/christmas-adventure-candy-storm-legacy/dp/amzn1.pg.item.ca232c9b-7cf7-4717-93b9-23fb1ad3edec?g=s&ingress=amzn&ref_=SM_ChristmasAdventureCandyStorm_S01_FGWP_CRWN",
+      "title": "Brigador: Up-Armored Deluxe",
+      "link": "https://gaming.amazon.com/claims/brigador-up-armored-deluxe-gog/dp/amzn1.pg.item.c32506fc-7028-4194-8cd6-624a77ac20aa?g=s&ingress=amzn&ref_=SM_BrigadorUpArmoredDeluxe_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
     {
       "platform": "Prime Gaming",
-      "title": "New Tales from the Borderlands",
-      "link": "https://gaming.amazon.com/claims/new-tales-from-the-borderlands-epic/dp/amzn1.pg.item.c7f2c4fd-2f63-4b4e-ab71-922692d001fc?g=s&ingress=amzn&ref_=SM_NewTalesfromtheBorderlands_S01_FGWP_CRWN",
+      "title": "DeathKeep",
+      "link": "https://gaming.amazon.com/claims/deathkeep-gog/dp/amzn1.pg.item.11c6b282-d63a-43da-957b-4d329c15f9aa?g=s&ingress=amzn&ref_=SM_DeathKeep_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
@@ -102,10 +109,19 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Deus Ex: Mankind Divided",
-      "link": "https://gaming.amazon.com/claims/deus-ex-mankind-divided-epic/dp/amzn1.pg.item.1b0307e0-f4a9-435b-bbd2-aa6fa8977c66?g=s&ingress=amzn&ref_=SM_DeusExMankindDivided_S02_FGWP_CRWN",
+      "title": "Reflections of Life: Dark Architect - CE",
+      "link": "",
       "status": "Fresh Drop",
-      "banner": ""
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Living Legends: The Crystal Tear - CE",
+      "link": "",
+      "status": "Fresh Drop",
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
     },
     {
       "platform": "Prime Gaming",
@@ -230,22 +246,6 @@
     {
       "platform": "Prime Gaming",
       "title": "Sonic Mania Plus",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Reflections of Life: Dark Architect - CE",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Living Legends: The Crystal Tear - CE",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
