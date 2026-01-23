@@ -11,6 +11,13 @@
   "Prime Gaming": [
     {
       "platform": "Prime Gaming",
+      "title": "Sid Meier's Civilization VI",
+      "link": "https://gaming.amazon.com/claims/sid-meiers-civilization-vi-epic/dp/amzn1.pg.item.6b4d0ed8-afb2-4473-b9ef-275e6267eb38?g=s&ingress=amzn&ref_=SM_SidMeiersCivilizationVI_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
       "title": "Deus Ex: Mankind Divided",
       "link": "https://gaming.amazon.com/claims/deus-ex-mankind-divided-epic/dp/amzn1.pg.item.1b0307e0-f4a9-435b-bbd2-aa6fa8977c66?g=s&ingress=amzn&ref_=SM_DeusExMankindDivided_S02_FGWP_CRWN",
       "status": "Fresh Drop",
@@ -67,8 +74,15 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Gunslugs",
-      "link": "https://gaming.amazon.com/claims/gunslugs-gog/dp/amzn1.pg.item.f7fe7089-eca7-4ebf-9ab2-45fd60f026ac?g=s&ingress=amzn&ref_=SM_Gunslugs_S01_FGWP_CRWN",
+      "title": "Harold Halibut",
+      "link": "https://gaming.amazon.com/claims/harold-halibut-gog/dp/amzn1.pg.item.69f08f25-e52d-4805-92dd-18cea2d72ce1?g=s&ingress=amzn&ref_=SM_HaroldHalibut_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "D&D Stronghold: Kingdom Simulator",
+      "link": "https://gaming.amazon.com/claims/dd-stronghold-kingdom-simulator-gog/dp/amzn1.pg.item.9abdcbae-017a-4634-a0d0-5352f2ad1c67?g=s&ingress=amzn&ref_=SM_DDStrongholdKingdomSimulator_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
@@ -90,13 +104,6 @@
       "platform": "Prime Gaming",
       "title": "DeathKeep",
       "link": "https://gaming.amazon.com/claims/deathkeep-gog/dp/amzn1.pg.item.11c6b282-d63a-43da-957b-4d329c15f9aa?g=s&ingress=amzn&ref_=SM_DeathKeep_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Sid Meier's Civilization VI",
-      "link": "https://gaming.amazon.com/claims/sid-meiers-civilization-vi-epic/dp/amzn1.pg.item.6b4d0ed8-afb2-4473-b9ef-275e6267eb38?g=s&ingress=amzn&ref_=SM_SidMeiersCivilizationVI_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
