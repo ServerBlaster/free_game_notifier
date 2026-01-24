@@ -8,6 +8,13 @@
   },
   {
     "platform": "Prime Gaming",
+    "title": "DeathKeep",
+    "link": "https://gaming.amazon.com/claims/deathkeep-gog/dp/amzn1.pg.item.11c6b282-d63a-43da-957b-4d329c15f9aa?g=s&ingress=amzn&ref_=SM_DeathKeep_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
     "title": "Sid Meier's Civilization VI",
     "link": "https://gaming.amazon.com/claims/sid-meiers-civilization-vi-epic/dp/amzn1.pg.item.6b4d0ed8-afb2-4473-b9ef-275e6267eb38?g=s&ingress=amzn&ref_=SM_SidMeiersCivilizationVI_S01_FGWP_CRWN",
     "status": "Fresh Drop",
@@ -99,13 +106,6 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "DeathKeep",
-    "link": "https://gaming.amazon.com/claims/deathkeep-gog/dp/amzn1.pg.item.11c6b282-d63a-43da-957b-4d329c15f9aa?g=s&ingress=amzn&ref_=SM_DeathKeep_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
     "title": "Reflections of Life: Dark Architect - CE",
     "link": "",
     "status": "Fresh Drop",
@@ -115,14 +115,6 @@
   {
     "platform": "Prime Gaming",
     "title": "Living Legends: The Crystal Tear - CE",
-    "link": "",
-    "status": "Fresh Drop",
-    "banner": "",
-    "cta": "Claim on Prime Gaming"
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "GYLT",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
@@ -210,6 +202,14 @@
   },
   {
     "platform": "Prime Gaming",
+    "title": "The Jackbox Party Pack 3",
+    "link": "",
+    "status": "Fresh Drop",
+    "banner": "",
+    "cta": "Claim on Prime Gaming"
+  },
+  {
+    "platform": "Prime Gaming",
     "title": "Goat Simulator 3",
     "link": "",
     "status": "Fresh Drop",
@@ -235,14 +235,6 @@
   {
     "platform": "Prime Gaming",
     "title": "Courtroom Chaos - Starring Snoop Dogg",
-    "link": "",
-    "status": "Fresh Drop",
-    "banner": "",
-    "cta": "Claim on Prime Gaming"
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Indiana Jones and the Great Circle",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
