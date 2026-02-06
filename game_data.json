@@ -18,6 +18,20 @@
   "Prime Gaming": [
     {
       "platform": "Prime Gaming",
+      "title": "Al-Qadim: The Genie's Curse",
+      "link": "https://gaming.amazon.com/claims/al-qadim-the-genies-curse-gog/dp/amzn1.pg.item.fd99ecb2-9e65-4ed3-b8b7-66b622b2514f?g=s&ingress=amzn&ref_=SM_AlQadimTheGeniesCurse_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Harold Halibut",
+      "link": "https://gaming.amazon.com/claims/harold-halibut-gog/dp/amzn1.pg.item.69f08f25-e52d-4805-92dd-18cea2d72ce1?g=s&ingress=amzn&ref_=SM_HaroldHalibut_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
       "title": "D&D Stronghold: Kingdom Simulator",
       "link": "https://gaming.amazon.com/claims/dd-stronghold-kingdom-simulator-gog/dp/amzn1.pg.item.9abdcbae-017a-4634-a0d0-5352f2ad1c67?g=s&ingress=amzn&ref_=SM_DDStrongholdKingdomSimulator_S01_FGWP_CRWN",
       "status": "Fresh Drop",
@@ -74,15 +88,8 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "LEGO 2K Drive",
-      "link": "https://gaming.amazon.com/claims/lego-2k-drive-epic/dp/amzn1.pg.item.748f3b5e-8a5c-49be-abd1-d4f2a7e525f4?g=s&ingress=amzn&ref_=SM_LEGO2KDrive_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Gunslugs",
-      "link": "https://gaming.amazon.com/claims/gunslugs-gog/dp/amzn1.pg.item.f7fe7089-eca7-4ebf-9ab2-45fd60f026ac?g=s&ingress=amzn&ref_=SM_Gunslugs_S01_FGWP_CRWN",
+      "title": "Tiny Tina's Wonderlands",
+      "link": "https://gaming.amazon.com/claims/tiny-tinas-wonderlands-epic/dp/amzn1.pg.item.bbfc2103-4d24-4c07-9467-c33b858b0346?g=s&ingress=amzn&ref_=SM_TinyTinasWonderlands_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
@@ -90,20 +97,6 @@
       "platform": "Prime Gaming",
       "title": "ELDERBORN",
       "link": "https://gaming.amazon.com/claims/elderborn-gog/dp/amzn1.pg.item.ae624aa2-2ebc-474f-9931-e5137e374b17?g=s&ingress=amzn&ref_=SM_ELDERBORN_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Al-Qadim: The Genie's Curse",
-      "link": "https://gaming.amazon.com/claims/al-qadim-the-genies-curse-gog/dp/amzn1.pg.item.fd99ecb2-9e65-4ed3-b8b7-66b622b2514f?g=s&ingress=amzn&ref_=SM_AlQadimTheGeniesCurse_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Harold Halibut",
-      "link": "https://gaming.amazon.com/claims/harold-halibut-gog/dp/amzn1.pg.item.69f08f25-e52d-4805-92dd-18cea2d72ce1?g=s&ingress=amzn&ref_=SM_HaroldHalibut_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
@@ -126,6 +119,38 @@
     {
       "platform": "Prime Gaming",
       "title": "Who Wants to Be a Millionaire?",
+      "link": "",
+      "status": "Fresh Drop",
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Alan Wake 2",
+      "link": "",
+      "status": "Fresh Drop",
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Yooka-Laylee and the Impossible Lair",
+      "link": "",
+      "status": "Fresh Drop",
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Disney Universe",
+      "link": "",
+      "status": "Fresh Drop",
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Disney Planes",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
@@ -157,7 +182,23 @@
     },
     {
       "platform": "Prime Gaming",
+      "title": "Time on Frog Island",
+      "link": "",
+      "status": "Fresh Drop",
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
+    },
+    {
+      "platform": "Prime Gaming",
       "title": "Hogwarts Legacy",
+      "link": "",
+      "status": "Fresh Drop",
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Endzone: A World Apart",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
@@ -181,6 +222,14 @@
     },
     {
       "platform": "Prime Gaming",
+      "title": "RiMS Racing",
+      "link": "",
+      "status": "Fresh Drop",
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
+    },
+    {
+      "platform": "Prime Gaming",
       "title": "Scattergories Weekly",
       "link": "",
       "status": "Fresh Drop",
@@ -189,55 +238,7 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Fallout 4: Game of the Year Edition",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Are You Smarter Than A 5th Grader",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Indiana Jones and the Great Circle",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Kingdom Come: Deliverance II",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "The Jackbox Party Pack 3",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "DEATH STRANDING DIRECTOR'S CUT",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Alan Wake Remastered",
+      "title": "Dread Templar",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
