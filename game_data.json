@@ -53,20 +53,6 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Brigador: Up-Armored Deluxe",
-      "link": "https://gaming.amazon.com/claims/brigador-up-armored-deluxe-gog/dp/amzn1.pg.item.c32506fc-7028-4194-8cd6-624a77ac20aa?g=s&ingress=amzn&ref_=SM_BrigadorUpArmoredDeluxe_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "DeathKeep",
-      "link": "https://gaming.amazon.com/claims/deathkeep-gog/dp/amzn1.pg.item.11c6b282-d63a-43da-957b-4d329c15f9aa?g=s&ingress=amzn&ref_=SM_DeathKeep_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
       "title": "Sid Meier's Civilization VI",
       "link": "https://gaming.amazon.com/claims/sid-meiers-civilization-vi-epic/dp/amzn1.pg.item.6b4d0ed8-afb2-4473-b9ef-275e6267eb38?g=s&ingress=amzn&ref_=SM_SidMeiersCivilizationVI_S01_FGWP_CRWN",
       "status": "Fresh Drop",
@@ -74,8 +60,22 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Bō: Path of the Teal Lotus",
-      "link": "https://gaming.amazon.com/claims/bo-path-of-the-teal-lotus-gog/dp/amzn1.pg.item.467b84c8-afa8-432e-a8e9-c69ead91d153?g=s&ingress=amzn&ref_=SM_BoPathoftheTealLotus_S01_FGWP_CRWN",
+      "title": "Gunslugs 2",
+      "link": "https://gaming.amazon.com/claims/gunslugs-2-gog/dp/amzn1.pg.item.bef0b168-84d5-4915-ba36-5a99cb3c9a4b?g=s&ingress=amzn&ref_=SM_Gunslugs2_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Ashworld",
+      "link": "https://gaming.amazon.com/claims/ashworld-gog/dp/amzn1.pg.item.6f28092d-5884-4aaf-be02-a13f24a43b83?g=s&ingress=amzn&ref_=SM_Ashworld_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "LEGO 2K Drive",
+      "link": "https://gaming.amazon.com/claims/lego-2k-drive-epic/dp/amzn1.pg.item.748f3b5e-8a5c-49be-abd1-d4f2a7e525f4?g=s&ingress=amzn&ref_=SM_LEGO2KDrive_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
