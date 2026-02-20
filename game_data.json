@@ -18,6 +18,20 @@
   "Prime Gaming": [
     {
       "platform": "Prime Gaming",
+      "title": "Around The World: Travel To Brazil - CE",
+      "link": "https://gaming.amazon.com/claims/around-the-world-travel-to-brazil-ce-legacy/dp/amzn1.pg.item.dcd8fad0-8d47-400f-878b-2dfc6df9c3e7?g=s&ingress=amzn&ref_=SM_AroundTheWorldTravelToBrazilCE_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Tiny Tina's Wonderlands",
+      "link": "https://gaming.amazon.com/claims/tiny-tinas-wonderlands-epic/dp/amzn1.pg.item.bbfc2103-4d24-4c07-9467-c33b858b0346?g=s&ingress=amzn&ref_=SM_TinyTinasWonderlands_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
       "title": "ELDERBORN",
       "link": "https://gaming.amazon.com/claims/elderborn-gog/dp/amzn1.pg.item.ae624aa2-2ebc-474f-9931-e5137e374b17?g=s&ingress=amzn&ref_=SM_ELDERBORN_S01_FGWP_CRWN",
       "status": "Fresh Drop",
@@ -60,22 +74,22 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Gunslugs 2",
-      "link": "https://gaming.amazon.com/claims/gunslugs-2-gog/dp/amzn1.pg.item.bef0b168-84d5-4915-ba36-5a99cb3c9a4b?g=s&ingress=amzn&ref_=SM_Gunslugs2_S01_FGWP_CRWN",
+      "title": "Ambition: A Minuet in Power",
+      "link": "https://gaming.amazon.com/claims/ambition-a-minuet-in-power-gog/dp/amzn1.pg.item.00d7bea9-3558-4df4-881a-2f8cb63fb56f?g=s&ingress=amzn&ref_=SM_AmbitionAMinuetinPower_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
     {
       "platform": "Prime Gaming",
-      "title": "Ashworld",
-      "link": "https://gaming.amazon.com/claims/ashworld-gog/dp/amzn1.pg.item.6f28092d-5884-4aaf-be02-a13f24a43b83?g=s&ingress=amzn&ref_=SM_Ashworld_S01_FGWP_CRWN",
+      "title": "Captain Blood",
+      "link": "https://gaming.amazon.com/claims/captain-blood-gog/dp/amzn1.pg.item.8a0464ae-6ca1-4567-902f-ff1debdb42c8?g=s&ingress=amzn&ref_=SM_CaptainBlood_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
     {
       "platform": "Prime Gaming",
-      "title": "LEGO 2K Drive",
-      "link": "https://gaming.amazon.com/claims/lego-2k-drive-epic/dp/amzn1.pg.item.748f3b5e-8a5c-49be-abd1-d4f2a7e525f4?g=s&ingress=amzn&ref_=SM_LEGO2KDrive_S01_FGWP_CRWN",
+      "title": "Meganoid",
+      "link": "https://gaming.amazon.com/claims/meganoid-gog/dp/amzn1.pg.item.593601a3-507c-4235-befd-a62df5d73eed?g=s&ingress=amzn&ref_=SM_Meganoid_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
@@ -88,17 +102,11 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Around The World: Travel To Brazil - CE",
-      "link": "https://gaming.amazon.com/claims/around-the-world-travel-to-brazil-ce-legacy/dp/amzn1.pg.item.dcd8fad0-8d47-400f-878b-2dfc6df9c3e7?g=s&ingress=amzn&ref_=SM_AroundTheWorldTravelToBrazilCE_S01_FGWP_CRWN",
+      "title": "Dread Templar",
+      "link": "",
       "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Tiny Tina's Wonderlands",
-      "link": "https://gaming.amazon.com/claims/tiny-tinas-wonderlands-epic/dp/amzn1.pg.item.bbfc2103-4d24-4c07-9467-c33b858b0346?g=s&ingress=amzn&ref_=SM_TinyTinasWonderlands_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
     },
     {
       "platform": "Prime Gaming",
@@ -239,14 +247,6 @@
     {
       "platform": "Prime Gaming",
       "title": "HOT WHEELS UNLEASHED™ 2 - Turbocharged",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Dread Templar",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
