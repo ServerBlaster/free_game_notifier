@@ -53,13 +53,6 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "D&D Stronghold: Kingdom Simulator",
-      "link": "https://gaming.amazon.com/claims/dd-stronghold-kingdom-simulator-gog/dp/amzn1.pg.item.9abdcbae-017a-4634-a0d0-5352f2ad1c67?g=s&ingress=amzn&ref_=SM_DDStrongholdKingdomSimulator_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
       "title": "Gunslugs: Rogue Tactics",
       "link": "https://gaming.amazon.com/claims/gunslugs-rogue-tactics-gog/dp/amzn1.pg.item.2673dc48-c033-48f9-9deb-7f305fe02aa7?g=s&ingress=amzn&ref_=SM_GunslugsRogueTactics_S01_FGWP_CRWN",
       "status": "Fresh Drop",
@@ -69,6 +62,13 @@
       "platform": "Prime Gaming",
       "title": "Sid Meier's Civilization VI",
       "link": "https://gaming.amazon.com/claims/sid-meiers-civilization-vi-epic/dp/amzn1.pg.item.6b4d0ed8-afb2-4473-b9ef-275e6267eb38?g=s&ingress=amzn&ref_=SM_SidMeiersCivilizationVI_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Gunslugs 2",
+      "link": "https://gaming.amazon.com/claims/gunslugs-2-gog/dp/amzn1.pg.item.bef0b168-84d5-4915-ba36-5a99cb3c9a4b?g=s&ingress=amzn&ref_=SM_Gunslugs2_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
