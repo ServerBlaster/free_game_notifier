@@ -1,17 +1,24 @@
 [
   {
     "platform": "Epic Games Store",
-    "title": "Return to Ash",
+    "title": "Idle Champions of the Forgotten Realms",
     "status": "Fresh Drop",
-    "banner": "https://cdn1.epicgames.com/spt-assets/07c1bf7c44dc4c2e8567923f03c7d307/return-to-ash-qcdax.png",
-    "link": "https://store.epicgames.com/p/return-to-ash-dee3ff"
+    "banner": "https://cdn1.epicgames.com/spt-assets/a53f91e55c6840018cb5de0b204f1ad9/idle-champions-of-the-forgotten-realms-1dw11.jpg",
+    "link": "https://store.epicgames.com/p/idle-champions-of-the-forgotten-realms"
   },
   {
     "platform": "Epic Games Store",
-    "title": "STALCRAFT: X Starter Edition",
+    "title": "Boxes: Lost Fragments",
     "status": "Fresh Drop",
-    "banner": "https://cdn1.epicgames.com/spt-assets/bed02187768e44afb05319f40660d9fa/stalcraft-x-1gxje.jpg",
-    "link": "https://store.epicgames.com/p/stalcraft-x-stalcraft-x-starter-edition-0b06d4"
+    "banner": "https://cdn1.epicgames.com/spt-assets/7f8e5cd71ae04eaeb7d782a5946db16f/boxes-lost-fragments-dbecx.png",
+    "link": "https://store.epicgames.com/p/boxes-lost-fragments-079041"
+  },
+  {
+    "platform": "Epic Games Store",
+    "title": "My Night Job",
+    "status": "Fresh Drop",
+    "banner": "https://cdn1.epicgames.com/spt-assets/2f10ff8aadbb413a9f5b26bae07977af/my-night-job-1i7ei.jpg",
+    "link": "https://store.epicgames.com/p/my-night-job-a416a6"
   },
   {
     "platform": "Prime Gaming",
