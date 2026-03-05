@@ -4,25 +4,32 @@
       "platform": "Epic Games Store",
       "title": "Idle Champions of the Forgotten Realms",
       "status": "Fresh Drop",
-      "banner": "https://cdn1.epicgames.com/spt-assets/a53f91e55c6840018cb5de0b204f1ad9/idle-champions-of-the-forgotten-realms-1dw11.jpg",
+      "banner": "https://cdn1.epicgames.com/spt-assets/a53f91e55c6840018cb5de0b204f1ad9/idle-champions-of-the-forgotten-realms-1n34h.jpg",
       "link": "https://store.epicgames.com/p/idle-champions-of-the-forgotten-realms"
     },
     {
       "platform": "Epic Games Store",
-      "title": "Boxes: Lost Fragments",
+      "title": "Turnip Boy Robs a Bank",
       "status": "Fresh Drop",
-      "banner": "https://cdn1.epicgames.com/spt-assets/7f8e5cd71ae04eaeb7d782a5946db16f/boxes-lost-fragments-dbecx.png",
-      "link": "https://store.epicgames.com/p/boxes-lost-fragments-079041"
-    },
-    {
-      "platform": "Epic Games Store",
-      "title": "My Night Job",
-      "status": "Fresh Drop",
-      "banner": "https://cdn1.epicgames.com/spt-assets/2f10ff8aadbb413a9f5b26bae07977af/my-night-job-1i7ei.jpg",
-      "link": "https://store.epicgames.com/p/my-night-job-a416a6"
+      "banner": "https://cdn1.epicgames.com/spt-assets/12f0012342a94c95985afbaa7568b51b/turnip-boy-robs-a-bank-167pk.png",
+      "link": "https://store.epicgames.com/p/turnip-boy-robs-a-bank-3fae0e"
     }
   ],
   "Prime Gaming": [
+    {
+      "platform": "Prime Gaming",
+      "title": "Total War: ATTILA",
+      "link": "https://gaming.amazon.com/claims/total-war-attila-epic/dp/amzn1.pg.item.379e9280-72f8-41b5-bc81-ec3a02e4603c?g=s&ingress=amzn&ref_=SM_TotalWarATTILA_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Ambition: A Minuet in Power",
+      "link": "https://gaming.amazon.com/claims/ambition-a-minuet-in-power-gog/dp/amzn1.pg.item.00d7bea9-3558-4df4-881a-2f8cb63fb56f?g=s&ingress=amzn&ref_=SM_AmbitionAMinuetinPower_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
     {
       "platform": "Prime Gaming",
       "title": "Captain Blood",
@@ -81,15 +88,22 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Gunslugs 2",
-      "link": "https://gaming.amazon.com/claims/gunslugs-2-gog/dp/amzn1.pg.item.bef0b168-84d5-4915-ba36-5a99cb3c9a4b?g=s&ingress=amzn&ref_=SM_Gunslugs2_S01_FGWP_CRWN",
+      "title": "Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot",
+      "link": "https://gaming.amazon.com/claims/tiny-tinas-assault-on-dragon-keep-a-wonderlands-one-shot-epic/dp/amzn1.pg.item.59929a8c-55be-4c60-9ffb-546ec4293e4c?g=s&ingress=amzn&ref_=SM_TinyTinasAssaultonDragonKeepAWonderlandsOneshot_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
     {
       "platform": "Prime Gaming",
-      "title": "Ashworld",
-      "link": "https://gaming.amazon.com/claims/ashworld-gog/dp/amzn1.pg.item.6f28092d-5884-4aaf-be02-a13f24a43b83?g=s&ingress=amzn&ref_=SM_Ashworld_S01_FGWP_CRWN",
+      "title": "Tattoo Tycoon",
+      "link": "https://gaming.amazon.com/claims/tattoo-tycoon-epic/dp/amzn1.pg.item.4efdece7-33f4-40ae-88d6-f4a73e79bcb4?g=s&ingress=amzn&ref_=SM_TattooTycoon_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Siege of Avalon: Anthology",
+      "link": "https://gaming.amazon.com/claims/siege-of-avalon-anthology-gog/dp/amzn1.pg.item.dbfcfdc7-5fd2-4595-af4e-a268493ccd5b?g=s&ingress=amzn&ref_=SM_SiegeofAvalonAnthology_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
@@ -102,21 +116,7 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Total War: ATTILA",
-      "link": "https://gaming.amazon.com/claims/total-war-attila-epic/dp/amzn1.pg.item.379e9280-72f8-41b5-bc81-ec3a02e4603c?g=s&ingress=amzn&ref_=SM_TotalWarATTILA_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Ambition: A Minuet in Power",
-      "link": "https://gaming.amazon.com/claims/ambition-a-minuet-in-power-gog/dp/amzn1.pg.item.00d7bea9-3558-4df4-881a-2f8cb63fb56f?g=s&ingress=amzn&ref_=SM_AmbitionAMinuetinPower_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Dread Templar",
+      "title": "Tavern Talk",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
@@ -124,7 +124,7 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Reflections of Life: Dark Architect - CE",
+      "title": "Dread Templar",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
@@ -245,14 +245,6 @@
     {
       "platform": "Prime Gaming",
       "title": "HOT WHEELS UNLEASHED™ 2 - Turbocharged",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Tavern Talk",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
