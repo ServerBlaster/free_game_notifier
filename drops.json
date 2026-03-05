@@ -57,20 +57,6 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "ELDERBORN",
-    "link": "https://gaming.amazon.com/claims/elderborn-gog/dp/amzn1.pg.item.ae624aa2-2ebc-474f-9931-e5137e374b17?g=s&ingress=amzn&ref_=SM_ELDERBORN_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Al-Qadim: The Genie's Curse",
-    "link": "https://gaming.amazon.com/claims/al-qadim-the-genies-curse-gog/dp/amzn1.pg.item.fd99ecb2-9e65-4ed3-b8b7-66b622b2514f?g=s&ingress=amzn&ref_=SM_AlQadimTheGeniesCurse_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
     "title": "Harold Halibut",
     "link": "https://gaming.amazon.com/claims/harold-halibut-gog/dp/amzn1.pg.item.69f08f25-e52d-4805-92dd-18cea2d72ce1?g=s&ingress=amzn&ref_=SM_HaroldHalibut_S01_FGWP_CRWN",
     "status": "Fresh Drop",
@@ -87,6 +73,20 @@
     "platform": "Prime Gaming",
     "title": "Sid Meier's Civilization VI",
     "link": "https://gaming.amazon.com/claims/sid-meiers-civilization-vi-epic/dp/amzn1.pg.item.6b4d0ed8-afb2-4473-b9ef-275e6267eb38?g=s&ingress=amzn&ref_=SM_SidMeiersCivilizationVI_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Gunslugs 2",
+    "link": "https://gaming.amazon.com/claims/gunslugs-2-gog/dp/amzn1.pg.item.bef0b168-84d5-4915-ba36-5a99cb3c9a4b?g=s&ingress=amzn&ref_=SM_Gunslugs2_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Ashworld",
+    "link": "https://gaming.amazon.com/claims/ashworld-gog/dp/amzn1.pg.item.6f28092d-5884-4aaf-be02-a13f24a43b83?g=s&ingress=amzn&ref_=SM_Ashworld_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
@@ -121,7 +121,7 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "Technotopia",
+    "title": "Reflections of Life: Dark Architect - CE",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
