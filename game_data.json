@@ -88,6 +88,13 @@
     },
     {
       "platform": "Prime Gaming",
+      "title": "Gunslugs 2",
+      "link": "https://gaming.amazon.com/claims/gunslugs-2-gog/dp/amzn1.pg.item.bef0b168-84d5-4915-ba36-5a99cb3c9a4b?g=s&ingress=amzn&ref_=SM_Gunslugs2_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
       "title": "Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot",
       "link": "https://gaming.amazon.com/claims/tiny-tinas-assault-on-dragon-keep-a-wonderlands-one-shot-epic/dp/amzn1.pg.item.59929a8c-55be-4c60-9ffb-546ec4293e4c?g=s&ingress=amzn&ref_=SM_TinyTinasAssaultonDragonKeepAWonderlandsOneshot_S01_FGWP_CRWN",
       "status": "Fresh Drop",
@@ -117,14 +124,6 @@
     {
       "platform": "Prime Gaming",
       "title": "Tavern Talk",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Dread Templar",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
