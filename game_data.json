@@ -67,13 +67,6 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Ambition: A Minuet in Power",
-      "link": "https://gaming.amazon.com/claims/ambition-a-minuet-in-power-gog/dp/amzn1.pg.item.00d7bea9-3558-4df4-881a-2f8cb63fb56f?g=s&ingress=amzn&ref_=SM_AmbitionAMinuetinPower_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
       "title": "Captain Blood",
       "link": "https://gaming.amazon.com/claims/captain-blood-gog/dp/amzn1.pg.item.8a0464ae-6ca1-4567-902f-ff1debdb42c8?g=s&ingress=amzn&ref_=SM_CaptainBlood_S01_FGWP_CRWN",
       "status": "Fresh Drop",
@@ -90,6 +83,13 @@
       "platform": "Prime Gaming",
       "title": "Tiny Tina's Wonderlands",
       "link": "https://gaming.amazon.com/claims/tiny-tinas-wonderlands-epic/dp/amzn1.pg.item.bbfc2103-4d24-4c07-9467-c33b858b0346?g=s&ingress=amzn&ref_=SM_TinyTinasWonderlands_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Gunslugs: Rogue Tactics",
+      "link": "https://gaming.amazon.com/claims/gunslugs-rogue-tactics-gog/dp/amzn1.pg.item.2673dc48-c033-48f9-9deb-7f305fe02aa7?g=s&ingress=amzn&ref_=SM_GunslugsRogueTactics_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
