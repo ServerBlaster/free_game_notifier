@@ -1,24 +1,24 @@
 [
   {
     "platform": "Epic Games Store",
-    "title": "Hyper Echelon",
+    "title": "Clone Drone in the Danger Zone",
     "status": "Fresh Drop",
-    "banner": "https://cdn1.epicgames.com/spt-assets/866f5f0834324794a87759b5f4854636/hyper-echelon-13b9q.png",
-    "link": "https://store.epicgames.com/p/hyper-echelon-2d23ff"
+    "banner": "https://cdn1.epicgames.com/spt-assets/2300be8843b24d9a8abaa663a2b544f8/clone-drone-in-the-danger-zone-1cmlu.png",
+    "link": "https://store.epicgames.com/p/clone-drone-in-the-danger-zone-4daf6e"
   },
   {
     "platform": "Epic Games Store",
-    "title": "Havendock",
-    "status": "Fresh Drop",
-    "banner": "https://cdn1.epicgames.com/spt-assets/180018125def4cbabef241f199a79f35/havendock-r2ivl.png",
-    "link": "https://store.epicgames.com/p/havendock-64983e"
-  },
-  {
-    "platform": "Epic Games Store",
-    "title": "TOMAK : Save the Earth Regeneration",
+    "title": "TOMAK: Save the Earth Regeneration",
     "status": "Fresh Drop",
     "banner": "https://cdn1.epicgames.com/spt-assets/603c0097f96047c38bc199331b5cf95b/tomak--save-the-earth-regeneration-1cvou.png",
     "link": "https://store.epicgames.com/p/tomak-save-the-earth-regeneration-c1207c"
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Phantasie Memorial Set",
+    "link": "https://gaming.amazon.com/claims/phantasie-memorial-set-gog/dp/amzn1.pg.item.65303365-eba0-4a95-b10c-83c4303b9cba?g=s&ingress=amzn&ref_=SM_PhantasieMemorialSet_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
   },
   {
     "platform": "Prime Gaming",
@@ -92,15 +92,15 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "Captain Blood",
-    "link": "https://gaming.amazon.com/claims/captain-blood-gog/dp/amzn1.pg.item.8a0464ae-6ca1-4567-902f-ff1debdb42c8?g=s&ingress=amzn&ref_=SM_CaptainBlood_S01_FGWP_CRWN",
+    "title": "XCOM: Enemy Unknown Complete Pack",
+    "link": "https://gaming.amazon.com/claims/xcom-enemy-unknown-complete-pack-gog/dp/amzn1.pg.item.3674d591-5127-4b22-9cf4-16b42e63bc40?g=s&ingress=amzn&ref_=SM_XCOMEnemyUnknownCompletePack_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
   {
     "platform": "Prime Gaming",
-    "title": "Meganoid",
-    "link": "https://gaming.amazon.com/claims/meganoid-gog/dp/amzn1.pg.item.593601a3-507c-4235-befd-a62df5d73eed?g=s&ingress=amzn&ref_=SM_Meganoid_S01_FGWP_CRWN",
+    "title": "Total War: PHARAOH DYNASTIES",
+    "link": "https://gaming.amazon.com/claims/total-war-pharaoh-dynasties-epic/dp/amzn1.pg.item.3537f41b-c6e5-4d7b-a3c9-683253ce433f?g=s&ingress=amzn&ref_=SM_TotalWarPHARAOHDYNASTIES_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
@@ -120,14 +120,47 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "Phantasie Memorial Set",
-    "link": "https://gaming.amazon.com/claims/phantasie-memorial-set-gog/dp/amzn1.pg.item.65303365-eba0-4a95-b10c-83c4303b9cba?g=s&ingress=amzn&ref_=SM_PhantasieMemorialSet_S01_FGWP_CRWN",
+    "title": "Deep Sky Derelicts",
+    "link": "",
     "status": "Fresh Drop",
-    "banner": ""
+    "banner": "",
+    "cta": "Claim on Prime Gaming"
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Smurfs Kart",
+    "link": "",
+    "status": "Fresh Drop",
+    "banner": "",
+    "cta": "Claim on Prime Gaming"
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Bug Fables: The Everlasting Sapling",
+    "link": "",
+    "status": "Fresh Drop",
+    "banner": "",
+    "cta": "Claim on Prime Gaming"
   },
   {
     "platform": "Prime Gaming",
     "title": "The Game of Life 2",
+    "link": "",
+    "status": "Fresh Drop",
+    "banner": "",
+    "cta": "Claim on Prime Gaming"
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "WRC Generations Fully Loaded Edition",
+    "link": "",
+    "status": "Fresh Drop",
+    "banner": "",
+    "cta": "Claim on Prime Gaming"
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Letter Trek",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
@@ -160,6 +193,14 @@
   {
     "platform": "Prime Gaming",
     "title": "Bee Simulator",
+    "link": "",
+    "status": "Fresh Drop",
+    "banner": "",
+    "cta": "Claim on Prime Gaming"
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "A Little Golf Journey",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
@@ -200,54 +241,6 @@
   {
     "platform": "Prime Gaming",
     "title": "HOT WHEELS UNLEASHED™",
-    "link": "",
-    "status": "Fresh Drop",
-    "banner": "",
-    "cta": "Claim on Prime Gaming"
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Overcooked",
-    "link": "",
-    "status": "Fresh Drop",
-    "banner": "",
-    "cta": "Claim on Prime Gaming"
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "House of Golf 2",
-    "link": "",
-    "status": "Fresh Drop",
-    "banner": "",
-    "cta": "Claim on Prime Gaming"
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Control Ultimate Edition",
-    "link": "",
-    "status": "Fresh Drop",
-    "banner": "",
-    "cta": "Claim on Prime Gaming"
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Disney Planes",
-    "link": "",
-    "status": "Fresh Drop",
-    "banner": "",
-    "cta": "Claim on Prime Gaming"
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Alan Wake 2",
-    "link": "",
-    "status": "Fresh Drop",
-    "banner": "",
-    "cta": "Claim on Prime Gaming"
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Deep Sky Derelicts",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
