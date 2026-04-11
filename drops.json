@@ -64,13 +64,6 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "Veil of Darkness",
-    "link": "https://gaming.amazon.com/claims/veil-of-darkness-gog/dp/amzn1.pg.item.837b8893-53b0-4072-8f3f-24037351b77d?g=s&ingress=amzn&ref_=SM_VeilofDarkness_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
     "title": "Turmoil",
     "link": "https://gaming.amazon.com/claims/turmoil-epic/dp/amzn1.pg.item.d7d941e2-d63a-41cb-9ebb-1ca172de03b0?g=s&ingress=amzn&ref_=SM_Turmoil_S03_FGWP_CRWN",
     "status": "Fresh Drop",
@@ -87,6 +80,13 @@
     "platform": "Prime Gaming",
     "title": "Tattoo Tycoon",
     "link": "https://gaming.amazon.com/claims/tattoo-tycoon-epic/dp/amzn1.pg.item.4efdece7-33f4-40ae-88d6-f4a73e79bcb4?g=s&ingress=amzn&ref_=SM_TattooTycoon_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Rebel Galaxy Outlaw",
+    "link": "https://gaming.amazon.com/claims/rebel-galaxy-outlaw-gog/dp/amzn1.pg.item.adb93773-6c48-4660-b1ee-006818c6902b?g=s&ingress=amzn&ref_=SM_RebelGalaxyOutlaw_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
