@@ -4,18 +4,32 @@
       "platform": "Epic Games Store",
       "title": "Firestone Online Idle RPG",
       "status": "Fresh Drop",
-      "banner": "https://cdn1.epicgames.com/spt-assets/69576a28f7154fe9a0dce97508da5163/firestone-online-idle-rpg-101lx.png",
+      "banner": "https://cdn1.epicgames.com/spt-assets/69576a28f7154fe9a0dce97508da5163/firestone-online-idle-rpg-1vv9i.png",
       "link": "https://store.epicgames.com/p/firestone-online-idle-rpg-bfd04b"
     },
     {
       "platform": "Epic Games Store",
-      "title": "The Stone of Madness",
+      "title": "DOOMBLADE",
       "status": "Fresh Drop",
-      "banner": "https://cdn1.epicgames.com/spt-assets/8de621e8d91b473f892472024035dc22/the-stone-of-madness-hvdla.jpg",
-      "link": "https://store.epicgames.com/p/the-stone-of-madness-7b22f3"
+      "banner": "https://cdn1.epicgames.com/spt-assets/df87b66c9f3042ac83311bdc9b442884/doomblade-120wd.jpg",
+      "link": "https://store.epicgames.com/p/doomblade-afdf9a"
     }
   ],
   "Prime Gaming": [
+    {
+      "platform": "Prime Gaming",
+      "title": "Detective Agency: Gray Tie - CE",
+      "link": "https://gaming.amazon.com/claims/detective-agency-gray-tie-ce-legacy/dp/amzn1.pg.item.190edc63-f7f7-4a70-addc-7d56a0ca7efd?g=s&ingress=amzn&ref_=SM_DetectiveAgencyGrayTieCE_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "A Rat's Quest - The Way Back Home",
+      "link": "https://gaming.amazon.com/claims/a-rats-quest-the-way-back-home-epic/dp/amzn1.pg.item.34210f82-0bf5-4aa6-860e-87640c1caf50?g=s&ingress=amzn&ref_=SM_ARatsQuestTheWayBackHome_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
     {
       "platform": "Prime Gaming",
       "title": "King of Retail",
@@ -81,15 +95,15 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Tattoo Tycoon",
-      "link": "https://gaming.amazon.com/claims/tattoo-tycoon-epic/dp/amzn1.pg.item.4efdece7-33f4-40ae-88d6-f4a73e79bcb4?g=s&ingress=amzn&ref_=SM_TattooTycoon_S01_FGWP_CRWN",
+      "title": "Neo Cab",
+      "link": "https://gaming.amazon.com/claims/neo-cab-gog/dp/amzn1.pg.item.e2868d3e-ca75-4dd1-93ce-ef343e126305?g=s&ingress=amzn&ref_=SM_NeoCab_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
     {
       "platform": "Prime Gaming",
-      "title": "Rebel Galaxy Outlaw",
-      "link": "https://gaming.amazon.com/claims/rebel-galaxy-outlaw-gog/dp/amzn1.pg.item.adb93773-6c48-4660-b1ee-006818c6902b?g=s&ingress=amzn&ref_=SM_RebelGalaxyOutlaw_S01_FGWP_CRWN",
+      "title": "The Pale Beyond",
+      "link": "https://gaming.amazon.com/claims/the-pale-beyond-gog/dp/amzn1.pg.item.7791491d-6134-4109-b285-1b7f1b79f07a?g=s&ingress=amzn&ref_=SM_ThePaleBeyond_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
@@ -104,20 +118,6 @@
       "platform": "Prime Gaming",
       "title": "Snake Core",
       "link": "https://gaming.amazon.com/claims/snake-core-gog/dp/amzn1.pg.item.8dae30db-2cb3-4de1-99c4-9a1ce8700286?g=s&ingress=amzn&ref_=SM_SnakeCore_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Detective Agency: Gray Tie - CE",
-      "link": "https://gaming.amazon.com/claims/detective-agency-gray-tie-ce-legacy/dp/amzn1.pg.item.190edc63-f7f7-4a70-addc-7d56a0ca7efd?g=s&ingress=amzn&ref_=SM_DetectiveAgencyGrayTieCE_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "A Rat's Quest - The Way Back Home",
-      "link": "https://gaming.amazon.com/claims/a-rats-quest-the-way-back-home-epic/dp/amzn1.pg.item.34210f82-0bf5-4aa6-860e-87640c1caf50?g=s&ingress=amzn&ref_=SM_ARatsQuestTheWayBackHome_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
