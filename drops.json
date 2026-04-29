@@ -50,20 +50,6 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "Chimp Quest: Spirit Isle",
-    "link": "https://gaming.amazon.com/claims/chimp-quest-spirit-isle-legacy/dp/amzn1.pg.item.7a29f232-6382-4783-b5e0-dc09f2af4233?g=s&ingress=amzn&ref_=SM_ChimpQuestSpiritIsle_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Total War: THREE KINGDOMS",
-    "link": "https://gaming.amazon.com/claims/total-war-three-kingdoms-epic/dp/amzn1.pg.item.320652b9-ed39-4323-8f84-65c356de1bf3?g=s&ingress=amzn&ref_=SM_TotalWarTHREEKINGDOMS_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
     "title": "Rebel Galaxy",
     "link": "https://gaming.amazon.com/claims/rebel-galaxy-gog/dp/amzn1.pg.item.e1e1ec5b-0df4-4091-9c63-ede5a86cb9ed?g=s&ingress=amzn&ref_=SM_RebelGalaxy_S01_FGWP_CRWN",
     "status": "Fresh Drop",
@@ -87,6 +73,20 @@
     "platform": "Prime Gaming",
     "title": "Tattoo Tycoon",
     "link": "https://gaming.amazon.com/claims/tattoo-tycoon-epic/dp/amzn1.pg.item.4efdece7-33f4-40ae-88d6-f4a73e79bcb4?g=s&ingress=amzn&ref_=SM_TattooTycoon_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Rebel Galaxy Outlaw",
+    "link": "https://gaming.amazon.com/claims/rebel-galaxy-outlaw-gog/dp/amzn1.pg.item.adb93773-6c48-4660-b1ee-006818c6902b?g=s&ingress=amzn&ref_=SM_RebelGalaxyOutlaw_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Captain Blood",
+    "link": "https://gaming.amazon.com/claims/captain-blood-gog/dp/amzn1.pg.item.8a0464ae-6ca1-4567-902f-ff1debdb42c8?g=s&ingress=amzn&ref_=SM_CaptainBlood_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
