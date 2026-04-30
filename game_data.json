@@ -4,18 +4,39 @@
       "platform": "Epic Games Store",
       "title": "Firestone Online Idle RPG",
       "status": "Fresh Drop",
-      "banner": "https://cdn1.epicgames.com/spt-assets/69576a28f7154fe9a0dce97508da5163/firestone-online-idle-rpg-1vv9i.png",
+      "banner": "https://cdn1.epicgames.com/spt-assets/69576a28f7154fe9a0dce97508da5163/firestone-online-idle-rpg-1xeuq.png",
       "link": "https://store.epicgames.com/p/firestone-online-idle-rpg-bfd04b"
     },
     {
       "platform": "Epic Games Store",
-      "title": "DOOMBLADE",
+      "title": "Oddsparks: An Automation Adventure",
       "status": "Fresh Drop",
-      "banner": "https://cdn1.epicgames.com/spt-assets/df87b66c9f3042ac83311bdc9b442884/doomblade-120wd.jpg",
-      "link": "https://store.epicgames.com/p/doomblade-afdf9a"
+      "banner": "https://cdn1.epicgames.com/spt-assets/f09aaab3f10e4c18a2948a5b829bd84d/oddsparks-an-automation-adventure-117zi.png",
+      "link": "https://store.epicgames.com/p/oddsparks-58440c"
     }
   ],
   "Prime Gaming": [
+    {
+      "platform": "Prime Gaming",
+      "title": "The Pale Beyond",
+      "link": "https://gaming.amazon.com/claims/the-pale-beyond-gog/dp/amzn1.pg.item.7791491d-6134-4109-b285-1b7f1b79f07a?g=s&ingress=amzn&ref_=SM_ThePaleBeyond_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Monster Harvest",
+      "link": "https://gaming.amazon.com/claims/monster-harvest-epic/dp/amzn1.pg.item.299d6ca2-9dfa-4e26-b865-cca0d7117a3a?g=s&ingress=amzn&ref_=SM_MonsterHarvest_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Snake Core",
+      "link": "https://gaming.amazon.com/claims/snake-core-gog/dp/amzn1.pg.item.8dae30db-2cb3-4de1-99c4-9a1ce8700286?g=s&ingress=amzn&ref_=SM_SnakeCore_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
     {
       "platform": "Prime Gaming",
       "title": "Detective Agency: Gray Tie - CE",
@@ -74,22 +95,22 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Tattoo Tycoon",
-      "link": "https://gaming.amazon.com/claims/tattoo-tycoon-epic/dp/amzn1.pg.item.4efdece7-33f4-40ae-88d6-f4a73e79bcb4?g=s&ingress=amzn&ref_=SM_TattooTycoon_S01_FGWP_CRWN",
+      "title": "KinnikuNeko: SUPER MUSCLE CAT",
+      "link": "https://gaming.amazon.com/claims/kinnikuneko-super-muscle-cat-epic/dp/amzn1.pg.item.1ddb7652-affd-420e-a2af-9b0a2ba70ac1?g=s&ingress=amzn&ref_=SM_KinnikuNekoSUPERMUSCLECAT_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
     {
       "platform": "Prime Gaming",
-      "title": "Rebel Galaxy Outlaw",
-      "link": "https://gaming.amazon.com/claims/rebel-galaxy-outlaw-gog/dp/amzn1.pg.item.adb93773-6c48-4660-b1ee-006818c6902b?g=s&ingress=amzn&ref_=SM_RebelGalaxyOutlaw_S01_FGWP_CRWN",
+      "title": "Pinball Spire",
+      "link": "https://gaming.amazon.com/claims/pinball-spire-gog/dp/amzn1.pg.item.76919ab0-9718-4c3d-9433-9484478f32b0?g=s&ingress=amzn&ref_=SM_PinballSpire_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
     {
       "platform": "Prime Gaming",
-      "title": "Captain Blood",
-      "link": "https://gaming.amazon.com/claims/captain-blood-gog/dp/amzn1.pg.item.8a0464ae-6ca1-4567-902f-ff1debdb42c8?g=s&ingress=amzn&ref_=SM_CaptainBlood_S01_FGWP_CRWN",
+      "title": "Fantasy General",
+      "link": "https://gaming.amazon.com/claims/fantasy-general-gog/dp/amzn1.pg.item.9d4ded3f-a772-485b-8fb8-0868631044fb?g=s&ingress=amzn&ref_=SM_FantasyGeneral_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
@@ -97,27 +118,6 @@
       "platform": "Prime Gaming",
       "title": "Neo Cab",
       "link": "https://gaming.amazon.com/claims/neo-cab-gog/dp/amzn1.pg.item.e2868d3e-ca75-4dd1-93ce-ef343e126305?g=s&ingress=amzn&ref_=SM_NeoCab_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "The Pale Beyond",
-      "link": "https://gaming.amazon.com/claims/the-pale-beyond-gog/dp/amzn1.pg.item.7791491d-6134-4109-b285-1b7f1b79f07a?g=s&ingress=amzn&ref_=SM_ThePaleBeyond_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Monster Harvest",
-      "link": "https://gaming.amazon.com/claims/monster-harvest-epic/dp/amzn1.pg.item.299d6ca2-9dfa-4e26-b865-cca0d7117a3a?g=s&ingress=amzn&ref_=SM_MonsterHarvest_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Snake Core",
-      "link": "https://gaming.amazon.com/claims/snake-core-gog/dp/amzn1.pg.item.8dae30db-2cb3-4de1-99c4-9a1ce8700286?g=s&ingress=amzn&ref_=SM_SnakeCore_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
