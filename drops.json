@@ -165,7 +165,7 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "LEGO® Star Wars™ - The Complete Saga",
+    "title": "Alien: Isolation",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
@@ -173,7 +173,23 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "Letter Trek",
+    "title": "Middle-earth™: Shadow of War™",
+    "link": "",
+    "status": "Fresh Drop",
+    "banner": "",
+    "cta": "Claim on Prime Gaming"
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Resident Evil 2",
+    "link": "",
+    "status": "Fresh Drop",
+    "banner": "",
+    "cta": "Claim on Prime Gaming"
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "The Jackbox Party Pack 2",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
@@ -189,7 +205,7 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "Alien: Isolation",
+    "title": "Smurfs Kart",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
@@ -197,7 +213,7 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "Middle-earth™: Shadow of War™",
+    "title": "Bee Simulator",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
@@ -221,7 +237,7 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "Resident Evil 2",
+    "title": "LEGO® Star Wars™ - The Complete Saga",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
@@ -229,15 +245,7 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "Wobbly Life",
-    "link": "",
-    "status": "Fresh Drop",
-    "banner": "",
-    "cta": "Claim on Prime Gaming"
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "The Jackbox Party Pack 2",
+    "title": "Letter Trek",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
@@ -253,15 +261,7 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "Smurfs Kart",
-    "link": "",
-    "status": "Fresh Drop",
-    "banner": "",
-    "cta": "Claim on Prime Gaming"
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Bee Simulator",
+    "title": "Wobbly Life",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
