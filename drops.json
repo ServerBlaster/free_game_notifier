@@ -71,13 +71,6 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "King of Retail",
-    "link": "https://gaming.amazon.com/claims/king-of-retail-gog/dp/amzn1.pg.item.36296c26-8f00-4a21-987a-8dc131220c5a?g=s&ingress=amzn&ref_=SM_KingofRetail_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
     "title": "XCOM: Enemy Unknown Complete Pack",
     "link": "https://gaming.amazon.com/claims/xcom-enemy-unknown-complete-pack-gog/dp/amzn1.pg.item.3674d591-5127-4b22-9cf4-16b42e63bc40?g=s&ingress=amzn&ref_=SM_XCOMEnemyUnknownCompletePack_S01_FGWP_CRWN",
     "status": "Fresh Drop",
@@ -101,6 +94,13 @@
     "platform": "Prime Gaming",
     "title": "Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot",
     "link": "https://gaming.amazon.com/claims/tiny-tinas-assault-on-dragon-keep-a-wonderlands-one-shot-epic/dp/amzn1.pg.item.59929a8c-55be-4c60-9ffb-546ec4293e4c?g=s&ingress=amzn&ref_=SM_TinyTinasAssaultonDragonKeepAWonderlandsOneshot_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Tattoo Tycoon",
+    "link": "https://gaming.amazon.com/claims/tattoo-tycoon-epic/dp/amzn1.pg.item.4efdece7-33f4-40ae-88d6-f4a73e79bcb4?g=s&ingress=amzn&ref_=SM_TattooTycoon_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
