@@ -2,34 +2,62 @@
   "Epic Games Store": [
     {
       "platform": "Epic Games Store",
-      "title": "Arranger: A Role-Puzzling Adventure",
+      "title": "The Telltale Batman Shadows Edition",
       "status": "Fresh Drop",
-      "banner": "https://cdn1.epicgames.com/spt-assets/fee7dc25f12c4400a5182c864fd89c66/arranger-a-rolepuzzling-adventure-17mu3.jpg",
-      "link": "https://store.epicgames.com/p/arranger-a-rolepuzzling-adventure-dbfde7"
+      "banner": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/TheTelltaleBatmanShadowsEdition-2560x1440-1ababb36a948b5c732ab85a330787e85_2560x1440-a85c5724ba30499ba5a81a9f2125e5d4",
+      "link": "https://store.epicgames.com/p/the-telltale-batman"
     },
     {
       "platform": "Epic Games Store",
-      "title": "Trash Goblin",
+      "title": "Sunderfolk - Standard Edition",
       "status": "Fresh Drop",
-      "banner": "https://cdn1.epicgames.com/spt-assets/113ae486fe9040d89a7fc25a501dc3b9/trash-goblin-9bxry.png",
-      "link": "https://store.epicgames.com/p/trash-goblin-cd5fd7"
+      "banner": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/OfferImageWide_2560x1440-a500d7236c364c0bb373e3b6b9a6ee8b",
+      "link": "https://store.epicgames.com/p/sunderfolk-standard-edition-83c05e"
     },
     {
       "platform": "Epic Games Store",
-      "title": "Mystery Game 2",
+      "title": "Mystery Game Week 21 Game 2",
       "status": "Fresh Drop",
       "banner": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/image23_1920x1080-80a010b5958f4d898f9e454840c790a1",
       "link": "https://store.epicgames.com/p/[]"
     },
     {
       "platform": "Epic Games Store",
-      "title": "Mystery Game 1",
+      "title": "Mystery Game Week 21 Game 1",
       "status": "Fresh Drop",
       "banner": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/image23_1920x1080-80a010b5958f4d898f9e454840c790a1",
       "link": "https://store.epicgames.com/p/[]"
     }
   ],
   "Prime Gaming": [
+    {
+      "platform": "Prime Gaming",
+      "title": "Fruitbus",
+      "link": "https://gaming.amazon.com/claims/fruitbus-gog/dp/amzn1.pg.item.8c20e953-fecb-47ba-9824-89c72c69e7eb?g=s&ingress=amzn&ref_=SM_Fruitbus_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "KinnikuNeko: SUPER MUSCLE CAT",
+      "link": "https://gaming.amazon.com/claims/kinnikuneko-super-muscle-cat-epic/dp/amzn1.pg.item.1ddb7652-affd-420e-a2af-9b0a2ba70ac1?g=s&ingress=amzn&ref_=SM_KinnikuNekoSUPERMUSCLECAT_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Pinball Spire",
+      "link": "https://gaming.amazon.com/claims/pinball-spire-gog/dp/amzn1.pg.item.76919ab0-9718-4c3d-9433-9484478f32b0?g=s&ingress=amzn&ref_=SM_PinballSpire_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Fantasy General",
+      "link": "https://gaming.amazon.com/claims/fantasy-general-gog/dp/amzn1.pg.item.9d4ded3f-a772-485b-8fb8-0868631044fb?g=s&ingress=amzn&ref_=SM_FantasyGeneral_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
     {
       "platform": "Prime Gaming",
       "title": "Neo Cab",
@@ -81,29 +109,15 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Rebel Galaxy",
-      "link": "https://gaming.amazon.com/claims/rebel-galaxy-gog/dp/amzn1.pg.item.e1e1ec5b-0df4-4091-9c63-ede5a86cb9ed?g=s&ingress=amzn&ref_=SM_RebelGalaxy_S01_FGWP_CRWN",
+      "title": "60 Minutes to Extinction: Escape Room",
+      "link": "https://gaming.amazon.com/claims/60-minutes-to-extinction-escape-room-gog/dp/amzn1.pg.item.15f8ec7c-efc1-4422-846a-627acfd66b46?g=s&ingress=amzn&ref_=SM_60MinutestoExtinctionEscapeRoom_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
     {
       "platform": "Prime Gaming",
-      "title": "Sir Questionnaire",
-      "link": "https://gaming.amazon.com/claims/sir-questionnaire-gog/dp/amzn1.pg.item.6dd1d038-96ea-4b01-af91-64731bfa55ef?g=s&ingress=amzn&ref_=SM_SirQuestionnaire_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot",
-      "link": "https://gaming.amazon.com/claims/tiny-tinas-assault-on-dragon-keep-a-wonderlands-one-shot-epic/dp/amzn1.pg.item.59929a8c-55be-4c60-9ffb-546ec4293e4c?g=s&ingress=amzn&ref_=SM_TinyTinasAssaultonDragonKeepAWonderlandsOneshot_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Tattoo Tycoon",
-      "link": "https://gaming.amazon.com/claims/tattoo-tycoon-epic/dp/amzn1.pg.item.4efdece7-33f4-40ae-88d6-f4a73e79bcb4?g=s&ingress=amzn&ref_=SM_TattooTycoon_S01_FGWP_CRWN",
+      "title": "Lethal Honor - Order of the Apocalypse",
+      "link": "https://gaming.amazon.com/claims/lethal-honor-order-of-the-apocalypse-epic/dp/amzn1.pg.item.f610100a-1240-41f8-84dd-767c2df675b4?g=s&ingress=amzn&ref_=SM_LethalHonorOrderoftheApocalypse_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
@@ -111,34 +125,6 @@
       "platform": "Prime Gaming",
       "title": "Mafia II: Definitive Edition",
       "link": "https://gaming.amazon.com/claims/mafia-ii-definitive-edition-gog/dp/amzn1.pg.item.e604b1c9-c80d-48fb-8f08-db31ce376bb7?g=s&ingress=amzn&ref_=SM_MafiaIIDefinitiveEdition_S02_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Fruitbus",
-      "link": "https://gaming.amazon.com/claims/fruitbus-gog/dp/amzn1.pg.item.8c20e953-fecb-47ba-9824-89c72c69e7eb?g=s&ingress=amzn&ref_=SM_Fruitbus_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "KinnikuNeko: SUPER MUSCLE CAT",
-      "link": "https://gaming.amazon.com/claims/kinnikuneko-super-muscle-cat-epic/dp/amzn1.pg.item.1ddb7652-affd-420e-a2af-9b0a2ba70ac1?g=s&ingress=amzn&ref_=SM_KinnikuNekoSUPERMUSCLECAT_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Pinball Spire",
-      "link": "https://gaming.amazon.com/claims/pinball-spire-gog/dp/amzn1.pg.item.76919ab0-9718-4c3d-9433-9484478f32b0?g=s&ingress=amzn&ref_=SM_PinballSpire_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Fantasy General",
-      "link": "https://gaming.amazon.com/claims/fantasy-general-gog/dp/amzn1.pg.item.9d4ded3f-a772-485b-8fb8-0868631044fb?g=s&ingress=amzn&ref_=SM_FantasyGeneral_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
@@ -265,6 +251,14 @@
     {
       "platform": "Prime Gaming",
       "title": "Wobbly Life",
+      "link": "",
+      "status": "Fresh Drop",
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Survival: Fountain of Youth",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
