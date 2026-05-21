@@ -2,34 +2,48 @@
   "Epic Games Store": [
     {
       "platform": "Epic Games Store",
-      "title": "The Telltale Batman Shadows Edition",
+      "title": "Down in Bermuda",
       "status": "Fresh Drop",
-      "banner": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/TheTelltaleBatmanShadowsEdition-2560x1440-1ababb36a948b5c732ab85a330787e85_2560x1440-a85c5724ba30499ba5a81a9f2125e5d4",
-      "link": "https://store.epicgames.com/p/the-telltale-batman"
+      "banner": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Offer_wide_2560x1440-a5d54568f32d4df2a0700c89b56f00ae",
+      "link": "https://store.epicgames.com/p/down-in-bermuda"
     },
     {
       "platform": "Epic Games Store",
-      "title": "Sunderfolk - Standard Edition",
+      "title": "Tomb Raider I-III Remastered Starring Lara Croft",
       "status": "Fresh Drop",
-      "banner": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/OfferImageWide_2560x1440-a500d7236c364c0bb373e3b6b9a6ee8b",
-      "link": "https://store.epicgames.com/p/sunderfolk-standard-edition-83c05e"
+      "banner": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Wide_2560x1440-70744ab05bab4e6784a6b206eef2a94c",
+      "link": "https://store.epicgames.com/p/tomb-raider-iiii-remastered-538640"
     },
     {
       "platform": "Epic Games Store",
-      "title": "Mystery Game Week 21 Game 2",
+      "title": "Mystery Game Week 22 Game 1",
       "status": "Fresh Drop",
       "banner": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/image23_1920x1080-80a010b5958f4d898f9e454840c790a1",
       "link": "https://store.epicgames.com/p/[]"
     },
     {
       "platform": "Epic Games Store",
-      "title": "Mystery Game Week 21 Game 1",
+      "title": "Mystery Game Week 22 Game 2",
       "status": "Fresh Drop",
       "banner": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/image23_1920x1080-80a010b5958f4d898f9e454840c790a1",
       "link": "https://store.epicgames.com/p/[]"
     }
   ],
   "Prime Gaming": [
+    {
+      "platform": "Prime Gaming",
+      "title": "Lethal Honor - Order of the Apocalypse",
+      "link": "https://gaming.amazon.com/claims/lethal-honor-order-of-the-apocalypse-epic/dp/amzn1.pg.item.f610100a-1240-41f8-84dd-767c2df675b4?g=s&ingress=amzn&ref_=SM_LethalHonorOrderoftheApocalypse_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Mafia II: Definitive Edition",
+      "link": "https://gaming.amazon.com/claims/mafia-ii-definitive-edition-gog/dp/amzn1.pg.item.e604b1c9-c80d-48fb-8f08-db31ce376bb7?g=s&ingress=amzn&ref_=SM_MafiaIIDefinitiveEdition_S02_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
     {
       "platform": "Prime Gaming",
       "title": "Fruitbus",
@@ -95,15 +109,22 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Rebel Galaxy",
-      "link": "https://gaming.amazon.com/claims/rebel-galaxy-gog/dp/amzn1.pg.item.e1e1ec5b-0df4-4091-9c63-ede5a86cb9ed?g=s&ingress=amzn&ref_=SM_RebelGalaxy_S01_FGWP_CRWN",
+      "title": "Palindrome Syndrome: Escape Room",
+      "link": "https://gaming.amazon.com/claims/palindrome-syndrome-escape-room-gog/dp/amzn1.pg.item.2636d5ae-477e-4010-82f4-a3440c877f67?g=s&ingress=amzn&ref_=SM_PalindromeSyndromeEscapeRoom_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
     {
       "platform": "Prime Gaming",
-      "title": "Sir Questionnaire",
-      "link": "https://gaming.amazon.com/claims/sir-questionnaire-gog/dp/amzn1.pg.item.6dd1d038-96ea-4b01-af91-64731bfa55ef?g=s&ingress=amzn&ref_=SM_SirQuestionnaire_S01_FGWP_CRWN",
+      "title": "Space Grunts",
+      "link": "https://gaming.amazon.com/claims/space-grunts-gog/dp/amzn1.pg.item.d6b4b6c3-ad9d-4e5d-9914-48c500b7be97?g=s&ingress=amzn&ref_=SM_SpaceGrunts_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Hot Brass",
+      "link": "https://gaming.amazon.com/claims/hot-brass-gog/dp/amzn1.pg.item.cbedd50b-8e66-4f96-9d47-a9773837afe8?g=s&ingress=amzn&ref_=SM_HotBrass_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
@@ -116,21 +137,7 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Lethal Honor - Order of the Apocalypse",
-      "link": "https://gaming.amazon.com/claims/lethal-honor-order-of-the-apocalypse-epic/dp/amzn1.pg.item.f610100a-1240-41f8-84dd-767c2df675b4?g=s&ingress=amzn&ref_=SM_LethalHonorOrderoftheApocalypse_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Mafia II: Definitive Edition",
-      "link": "https://gaming.amazon.com/claims/mafia-ii-definitive-edition-gog/dp/amzn1.pg.item.e604b1c9-c80d-48fb-8f08-db31ce376bb7?g=s&ingress=amzn&ref_=SM_MafiaIIDefinitiveEdition_S02_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Deep Sky Derelicts",
+      "title": "Survival: Fountain of Youth",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
@@ -251,14 +258,6 @@
     {
       "platform": "Prime Gaming",
       "title": "Wobbly Life",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Survival: Fountain of Youth",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
