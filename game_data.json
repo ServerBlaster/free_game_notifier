@@ -74,20 +74,6 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Neo Cab",
-      "link": "https://gaming.amazon.com/claims/neo-cab-gog/dp/amzn1.pg.item.e2868d3e-ca75-4dd1-93ce-ef343e126305?g=s&ingress=amzn&ref_=SM_NeoCab_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "The Pale Beyond",
-      "link": "https://gaming.amazon.com/claims/the-pale-beyond-gog/dp/amzn1.pg.item.7791491d-6134-4109-b285-1b7f1b79f07a?g=s&ingress=amzn&ref_=SM_ThePaleBeyond_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
       "title": "Snake Core",
       "link": "https://gaming.amazon.com/claims/snake-core-gog/dp/amzn1.pg.item.8dae30db-2cb3-4de1-99c4-9a1ce8700286?g=s&ingress=amzn&ref_=SM_SnakeCore_S01_FGWP_CRWN",
       "status": "Fresh Drop",
@@ -104,6 +90,20 @@
       "platform": "Prime Gaming",
       "title": "XCOM: Enemy Unknown Complete Pack",
       "link": "https://gaming.amazon.com/claims/xcom-enemy-unknown-complete-pack-gog/dp/amzn1.pg.item.3674d591-5127-4b22-9cf4-16b42e63bc40?g=s&ingress=amzn&ref_=SM_XCOMEnemyUnknownCompletePack_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Rebel Galaxy",
+      "link": "https://gaming.amazon.com/claims/rebel-galaxy-gog/dp/amzn1.pg.item.e1e1ec5b-0df4-4091-9c63-ede5a86cb9ed?g=s&ingress=amzn&ref_=SM_RebelGalaxy_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Sir Questionnaire",
+      "link": "https://gaming.amazon.com/claims/sir-questionnaire-gog/dp/amzn1.pg.item.6dd1d038-96ea-4b01-af91-64731bfa55ef?g=s&ingress=amzn&ref_=SM_SirQuestionnaire_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
