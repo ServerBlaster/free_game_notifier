@@ -2,20 +2,41 @@
   "Epic Games Store": [
     {
       "platform": "Epic Games Store",
-      "title": "Rogue Waters",
+      "title": "The Ouroboros King",
       "status": "Fresh Drop",
-      "banner": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/rogue-waters-wide_2560x1440-81c0f87c8e7c4bb09e2d7d9c94213104",
-      "link": "https://store.epicgames.com/p/rogue-waters-9764d6"
+      "banner": "https://cdn1.epicgames.com/spt-assets/33630d7105014582a478094e89953f49/the-ouroboros-king-jwabx.jpg",
+      "link": "https://store.epicgames.com/p/the-ouroboros-king-e1d547"
     },
     {
       "platform": "Epic Games Store",
-      "title": "Songs of Conquest",
+      "title": "Warhammer 40K Speed Freeks",
       "status": "Fresh Drop",
-      "banner": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/s2_2560x1440-5c396b18c3e1460fb4a268cc6bbdfaa2",
-      "link": "https://store.epicgames.com/p/songs-of-conquest"
+      "banner": "https://cdn1.epicgames.com/spt-assets/a1af14251fb748fc9bda63bfc260f933/warhammer-40k-speed-freeks-1k4pq.jpg",
+      "link": "https://store.epicgames.com/p/warhammer-40k-speed-freeks-12879c"
     }
   ],
   "Prime Gaming": [
+    {
+      "platform": "Prime Gaming",
+      "title": "XCOM: Chimera Squad",
+      "link": "https://gaming.amazon.com/claims/xcom-chimera-squad-gog/dp/amzn1.pg.item.aa22d9f6-a898-4be7-a6df-50c3561b41b9?g=s&ingress=amzn&ref_=SM_XCOMChimeraSquad_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Mafia III: Definitive Edition",
+      "link": "https://gaming.amazon.com/claims/mafia-iii-definitive-edition-gog/dp/amzn1.pg.item.2d0579a0-585e-4cc9-be76-a5bdb057c440?g=s&ingress=amzn&ref_=SM_MafiaIIIDefinitiveEdition_S02_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Tomb Raider IV-VI Remastered",
+      "link": "https://gaming.amazon.com/claims/tomb-raider-iv-vi-remastered-epic/dp/amzn1.pg.item.cba06ec0-64d2-445b-a17b-c3dba13414fe?g=s&ingress=amzn&ref_=SM_TombRaiderIVVIRemastered_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
     {
       "platform": "Prime Gaming",
       "title": "Nordic Storm Solitaire",
@@ -67,52 +88,39 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Snake Core",
-      "link": "https://gaming.amazon.com/claims/snake-core-gog/dp/amzn1.pg.item.8dae30db-2cb3-4de1-99c4-9a1ce8700286?g=s&ingress=amzn&ref_=SM_SnakeCore_S01_FGWP_CRWN",
+      "title": "G.I. JOE: Wrath of Cobra",
+      "link": "https://gaming.amazon.com/claims/gi-joe-wrath-of-cobra-epic/dp/amzn1.pg.item.836bb0d3-ecce-4da0-b763-292ae3f9d362?g=s&ingress=amzn&ref_=SM_GIJOEWrathofCobra_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
     {
       "platform": "Prime Gaming",
-      "title": "A Rat's Quest - The Way Back Home",
-      "link": "https://gaming.amazon.com/claims/a-rats-quest-the-way-back-home-epic/dp/amzn1.pg.item.34210f82-0bf5-4aa6-860e-87640c1caf50?g=s&ingress=amzn&ref_=SM_ARatsQuestTheWayBackHome_S01_FGWP_CRWN",
+      "title": "Tested on Humans: Escape Room",
+      "link": "https://gaming.amazon.com/claims/tested-on-humans-escape-room-gog/dp/amzn1.pg.item.4773676b-c4df-4033-a1cb-df53ad7ce4ad?g=s&ingress=amzn&ref_=SM_TestedonHumansEscapeRoom_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
     {
       "platform": "Prime Gaming",
-      "title": "XCOM: Enemy Unknown Complete Pack",
-      "link": "https://gaming.amazon.com/claims/xcom-enemy-unknown-complete-pack-gog/dp/amzn1.pg.item.3674d591-5127-4b22-9cf4-16b42e63bc40?g=s&ingress=amzn&ref_=SM_XCOMEnemyUnknownCompletePack_S01_FGWP_CRWN",
+      "title": "Sin Slayers: Reign of The 8th",
+      "link": "https://gaming.amazon.com/claims/sin-slayers-reign-of-the-8th-gog/dp/amzn1.pg.item.ea8df5d6-3ac5-4fd2-9714-0b018f9009d3?g=s&ingress=amzn&ref_=SM_SinSlayersReignofThe8th_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
     {
       "platform": "Prime Gaming",
-      "title": "Rebel Galaxy",
-      "link": "https://gaming.amazon.com/claims/rebel-galaxy-gog/dp/amzn1.pg.item.e1e1ec5b-0df4-4091-9c63-ede5a86cb9ed?g=s&ingress=amzn&ref_=SM_RebelGalaxy_S01_FGWP_CRWN",
+      "title": "Paradise Killer",
+      "link": "https://gaming.amazon.com/claims/paradise-killer-gog/dp/amzn1.pg.item.e97c8537-f08d-4c4f-a5f9-ed4f45c718cb?g=s&ingress=amzn&ref_=SM_ParadiseKiller_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
     {
       "platform": "Prime Gaming",
-      "title": "XCOM: Chimera Squad",
-      "link": "https://gaming.amazon.com/claims/xcom-chimera-squad-gog/dp/amzn1.pg.item.aa22d9f6-a898-4be7-a6df-50c3561b41b9?g=s&ingress=amzn&ref_=SM_XCOMChimeraSquad_S01_FGWP_CRWN",
+      "title": "Pro Basketball Manager 2026",
+      "link": "",
       "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Mafia III: Definitive Edition",
-      "link": "https://gaming.amazon.com/claims/mafia-iii-definitive-edition-gog/dp/amzn1.pg.item.2d0579a0-585e-4cc9-be76-a5bdb057c440?g=s&ingress=amzn&ref_=SM_MafiaIIIDefinitiveEdition_S02_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Tomb Raider IV-VI Remastered",
-      "link": "https://gaming.amazon.com/claims/tomb-raider-iv-vi-remastered-epic/dp/amzn1.pg.item.cba06ec0-64d2-445b-a17b-c3dba13414fe?g=s&ingress=amzn&ref_=SM_TombRaiderIVVIRemastered_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
     },
     {
       "platform": "Prime Gaming",
@@ -237,14 +245,6 @@
     {
       "platform": "Prime Gaming",
       "title": "Wobbly Life",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Pro Basketball Manager 2026",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
