@@ -1,20 +1,4 @@
 {
-  "Epic Games Store": [
-    {
-      "platform": "Epic Games Store",
-      "title": "The Ouroboros King",
-      "status": "Fresh Drop",
-      "banner": "https://cdn1.epicgames.com/spt-assets/33630d7105014582a478094e89953f49/the-ouroboros-king-jwabx.jpg",
-      "link": "https://store.epicgames.com/p/the-ouroboros-king-e1d547"
-    },
-    {
-      "platform": "Epic Games Store",
-      "title": "Warhammer 40K Speed Freeks",
-      "status": "Fresh Drop",
-      "banner": "https://cdn1.epicgames.com/spt-assets/a1af14251fb748fc9bda63bfc260f933/warhammer-40k-speed-freeks-1k4pq.jpg",
-      "link": "https://store.epicgames.com/p/warhammer-40k-speed-freeks-12879c"
-    }
-  ],
   "Prime Gaming": [
     {
       "platform": "Prime Gaming",
@@ -74,15 +58,15 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "60 Minutes to Extinction: Escape Room",
-      "link": "https://gaming.amazon.com/claims/60-minutes-to-extinction-escape-room-gog/dp/amzn1.pg.item.15f8ec7c-efc1-4422-846a-627acfd66b46?g=s&ingress=amzn&ref_=SM_60MinutestoExtinctionEscapeRoom_S01_FGWP_CRWN",
+      "title": "Lethal Honor - Order of the Apocalypse",
+      "link": "https://gaming.amazon.com/claims/lethal-honor-order-of-the-apocalypse-epic/dp/amzn1.pg.item.f610100a-1240-41f8-84dd-767c2df675b4?g=s&ingress=amzn&ref_=SM_LethalHonorOrderoftheApocalypse_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
     {
       "platform": "Prime Gaming",
-      "title": "Lethal Honor - Order of the Apocalypse",
-      "link": "https://gaming.amazon.com/claims/lethal-honor-order-of-the-apocalypse-epic/dp/amzn1.pg.item.f610100a-1240-41f8-84dd-767c2df675b4?g=s&ingress=amzn&ref_=SM_LethalHonorOrderoftheApocalypse_S01_FGWP_CRWN",
+      "title": "Snake Core",
+      "link": "https://gaming.amazon.com/claims/snake-core-gog/dp/amzn1.pg.item.8dae30db-2cb3-4de1-99c4-9a1ce8700286?g=s&ingress=amzn&ref_=SM_SnakeCore_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
