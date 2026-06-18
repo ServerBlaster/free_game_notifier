@@ -1,4 +1,20 @@
 {
+  "Epic Games Store": [
+    {
+      "platform": "Epic Games Store",
+      "title": "The Ouroboros King",
+      "status": "Fresh Drop",
+      "banner": "https://cdn1.epicgames.com/spt-assets/33630d7105014582a478094e89953f49/the-ouroboros-king-jwabx.jpg",
+      "link": "https://store.epicgames.com/p/the-ouroboros-king-e1d547"
+    },
+    {
+      "platform": "Epic Games Store",
+      "title": "Warhammer 40K Speed Freeks",
+      "status": "Fresh Drop",
+      "banner": "https://cdn1.epicgames.com/spt-assets/a1af14251fb748fc9bda63bfc260f933/warhammer-40k-speed-freeks-1k4pq.jpg",
+      "link": "https://store.epicgames.com/p/warhammer-40k-speed-freeks-12879c"
+    }
+  ],
   "Prime Gaming": [
     {
       "platform": "Prime Gaming",
