@@ -85,13 +85,6 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "Hot Brass",
-    "link": "https://gaming.amazon.com/claims/hot-brass-gog/dp/amzn1.pg.item.cbedd50b-8e66-4f96-9d47-a9773837afe8?g=s&ingress=amzn&ref_=SM_HotBrass_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
     "title": "Between Time: Escape Room",
     "link": "https://gaming.amazon.com/claims/between-time-escape-room-gog/dp/amzn1.pg.item.07c10161-f6df-41bd-9beb-05824a06c78b?g=s&ingress=amzn&ref_=SM_BetweenTimeEscapeRoom_S01_FGWP_CRWN",
     "status": "Fresh Drop",
@@ -121,6 +114,14 @@
   {
     "platform": "Prime Gaming",
     "title": "Pro Basketball Manager 2026",
+    "link": "",
+    "status": "Fresh Drop",
+    "banner": "",
+    "cta": "Claim on Prime Gaming"
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Survival: Fountain of Youth",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
