@@ -1,17 +1,45 @@
 [
   {
     "platform": "Epic Games Store",
-    "title": "Citizen Sleeper",
+    "title": "RollerCoaster Tycoon 3 Complete Edition",
     "status": "Fresh Drop",
-    "banner": "https://cdn1.epicgames.com/spt-assets/919d5976f3804d4cabb8ca90ea43a956/citizen-sleeper-xudwg.jpg",
-    "link": "https://store.epicgames.com/p/citizen-sleeper-944858"
+    "banner": "https://cdn1.epicgames.com/f01b3e0178d448f0b93911e292d8e614/offer/EGS_RollerCoasterTycoon3CompleteEdition_FrontierDevelopments_S5-1920x1080-689d96ca4d5a4e8de183b7a928960c87.jpg",
+    "link": "https://store.epicgames.com/p/rollercoaster-tycoon-3-complete-edition"
   },
   {
     "platform": "Epic Games Store",
-    "title": "ROBOBEAT",
+    "title": "Voidwrought",
     "status": "Fresh Drop",
-    "banner": "https://cdn1.epicgames.com/spt-assets/91105717b53044ed8e384e5fada71db8/robobeat-1ojda.png",
-    "link": "https://store.epicgames.com/p/robobeat-5f084b"
+    "banner": "https://cdn1.epicgames.com/spt-assets/ae3f962fab4d42eba2dbefa4a1e76ff6/voidwrought-bio8j.jpg",
+    "link": "https://store.epicgames.com/p/voidwrought-ce8f4b"
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Between Time: Escape Room",
+    "link": "https://gaming.amazon.com/claims/between-time-escape-room-gog/dp/amzn1.pg.item.07c10161-f6df-41bd-9beb-05824a06c78b?g=s&ingress=amzn&ref_=SM_BetweenTimeEscapeRoom_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Sugardew Island",
+    "link": "https://gaming.amazon.com/claims/sugardew-island-gog/dp/amzn1.pg.item.108bde02-53dc-4d19-ba66-f89088a65f18?g=s&ingress=amzn&ref_=SM_SugardewIsland_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Space Grunts 2",
+    "link": "https://gaming.amazon.com/claims/space-grunts-2-gog/dp/amzn1.pg.item.f92a0c83-29ce-4767-819b-e417b1f238f8?g=s&ingress=amzn&ref_=SM_SpaceGrunts2_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Wargame Construction Set III: Age of Rifles 1846-1905",
+    "link": "https://gaming.amazon.com/claims/wargame-construction-set-iii-age-of-rifles-1846-1905-gog/dp/amzn1.pg.item.51552780-cfd7-4bf1-bbed-07dfa3060e0b?g=s&ingress=amzn&ref_=SM_WargameConstructionSetIIIAgeofRifles18461905_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
   },
   {
     "platform": "Prime Gaming",
@@ -64,64 +92,21 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "Nordic Storm Solitaire",
-    "link": "https://gaming.amazon.com/claims/nordic-storm-solitaire-legacy/dp/amzn1.pg.item.468f5c94-de63-4c8b-86c3-e22b5fc1510e?g=s&ingress=amzn&ref_=SM_NordicStormSolitaire_S01_FGWP_CRWN",
+    "title": "Space Grunts: Chrono Shard",
+    "link": "https://gaming.amazon.com/claims/space-grunts-chrono-shard-epic/dp/amzn1.pg.item.dbfe54c6-6298-46ec-808d-49d3915b9734?g=s&ingress=amzn&ref_=SM_SpaceGruntsChronoShard_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
   {
     "platform": "Prime Gaming",
-    "title": "Moon Mystery",
-    "link": "https://gaming.amazon.com/claims/moon-mystery-epic/dp/amzn1.pg.item.fa6ec78f-327e-4dcb-8afe-8eae11afea3b?g=s&ingress=amzn&ref_=SM_MoonMystery_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Space Grunts",
-    "link": "https://gaming.amazon.com/claims/space-grunts-gog/dp/amzn1.pg.item.d6b4b6c3-ad9d-4e5d-9914-48c500b7be97?g=s&ingress=amzn&ref_=SM_SpaceGrunts_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Between Time: Escape Room",
-    "link": "https://gaming.amazon.com/claims/between-time-escape-room-gog/dp/amzn1.pg.item.07c10161-f6df-41bd-9beb-05824a06c78b?g=s&ingress=amzn&ref_=SM_BetweenTimeEscapeRoom_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Sugardew Island",
-    "link": "https://gaming.amazon.com/claims/sugardew-island-gog/dp/amzn1.pg.item.108bde02-53dc-4d19-ba66-f89088a65f18?g=s&ingress=amzn&ref_=SM_SugardewIsland_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Space Grunts 2",
-    "link": "https://gaming.amazon.com/claims/space-grunts-2-gog/dp/amzn1.pg.item.f92a0c83-29ce-4767-819b-e417b1f238f8?g=s&ingress=amzn&ref_=SM_SpaceGrunts2_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Wargame Construction Set III: Age of Rifles 1846-1905",
-    "link": "https://gaming.amazon.com/claims/wargame-construction-set-iii-age-of-rifles-1846-1905-gog/dp/amzn1.pg.item.51552780-cfd7-4bf1-bbed-07dfa3060e0b?g=s&ingress=amzn&ref_=SM_WargameConstructionSetIIIAgeofRifles18461905_S01_FGWP_CRWN",
+    "title": "Please, Touch the Artwork",
+    "link": "https://gaming.amazon.com/claims/please-touch-the-artwork-legacy/dp/amzn1.pg.item.a0412a54-5c63-4afb-b444-2fbbd937c9da?g=s&ingress=amzn&ref_=SM_PleaseTouchtheArtwork_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
   {
     "platform": "Prime Gaming",
     "title": "Pro Basketball Manager 2026",
-    "link": "",
-    "status": "Fresh Drop",
-    "banner": "",
-    "cta": "Claim on Prime Gaming"
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Survival: Fountain of Youth",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
@@ -242,6 +227,22 @@
   {
     "platform": "Prime Gaming",
     "title": "Goat Simulator 3",
+    "link": "",
+    "status": "Fresh Drop",
+    "banner": "",
+    "cta": "Claim on Prime Gaming"
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Lost Eidolons: Veil of the Witch",
+    "link": "",
+    "status": "Fresh Drop",
+    "banner": "",
+    "cta": "Claim on Prime Gaming"
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Terraforming Mars",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
