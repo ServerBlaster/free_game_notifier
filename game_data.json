@@ -2,20 +2,27 @@
   "Epic Games Store": [
     {
       "platform": "Epic Games Store",
-      "title": "RollerCoaster Tycoon 3 Complete Edition",
+      "title": "River City Girls 2",
       "status": "Fresh Drop",
-      "banner": "https://cdn1.epicgames.com/f01b3e0178d448f0b93911e292d8e614/offer/EGS_RollerCoasterTycoon3CompleteEdition_FrontierDevelopments_S5-1920x1080-689d96ca4d5a4e8de183b7a928960c87.jpg",
-      "link": "https://store.epicgames.com/p/rollercoaster-tycoon-3-complete-edition"
+      "banner": "https://cdn1.epicgames.com/spt-assets/dfdcd48c05c6483284cb40b333dc71e4/river-city-girls-2-1hqkv.png",
+      "link": "https://store.epicgames.com/p/river-city-girls-2-77af3a"
     },
     {
       "platform": "Epic Games Store",
-      "title": "Voidwrought",
+      "title": "I Have No Mouth, and I Must Scream",
       "status": "Fresh Drop",
-      "banner": "https://cdn1.epicgames.com/spt-assets/ae3f962fab4d42eba2dbefa4a1e76ff6/voidwrought-bio8j.jpg",
-      "link": "https://store.epicgames.com/p/voidwrought-ce8f4b"
+      "banner": "https://cdn1.epicgames.com/spt-assets/b153ccd09d834353a8f27ffa9b41f5a2/i-have-no-mouth-and-i-must-scream-163j8.png",
+      "link": "https://store.epicgames.com/p/i-have-no-mouth-and-i-must-scream-95c5c2"
     }
   ],
   "Prime Gaming": [
+    {
+      "platform": "Prime Gaming",
+      "title": "Please, Touch the Artwork",
+      "link": "https://gaming.amazon.com/claims/please-touch-the-artwork-legacy/dp/amzn1.pg.item.a0412a54-5c63-4afb-b444-2fbbd937c9da?g=s&ingress=amzn&ref_=SM_PleaseTouchtheArtwork_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
     {
       "platform": "Prime Gaming",
       "title": "Between Time: Escape Room",
@@ -81,22 +88,22 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Mafia III: Definitive Edition",
-      "link": "https://gaming.amazon.com/claims/mafia-iii-definitive-edition-gog/dp/amzn1.pg.item.2d0579a0-585e-4cc9-be76-a5bdb057c440?g=s&ingress=amzn&ref_=SM_MafiaIIIDefinitiveEdition_S02_FGWP_CRWN",
+      "title": "CyClones",
+      "link": "https://gaming.amazon.com/claims/cyclones-gog/dp/amzn1.pg.item.34a07e29-18da-495f-9673-266fd4722390?g=s&ingress=amzn&ref_=SM_CyClones_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
     {
       "platform": "Prime Gaming",
-      "title": "Tomb Raider IV-VI Remastered",
-      "link": "https://gaming.amazon.com/claims/tomb-raider-iv-vi-remastered-epic/dp/amzn1.pg.item.cba06ec0-64d2-445b-a17b-c3dba13414fe?g=s&ingress=amzn&ref_=SM_TombRaiderIVVIRemastered_S01_FGWP_CRWN",
+      "title": "LONESTAR",
+      "link": "https://gaming.amazon.com/claims/lonestar-epic/dp/amzn1.pg.item.6c65c488-c2bc-4715-b90a-d364dd587581?g=s&ingress=amzn&ref_=SM_LONESTAR_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
     {
       "platform": "Prime Gaming",
-      "title": "Space Grunts",
-      "link": "https://gaming.amazon.com/claims/space-grunts-gog/dp/amzn1.pg.item.d6b4b6c3-ad9d-4e5d-9914-48c500b7be97?g=s&ingress=amzn&ref_=SM_SpaceGrunts_S01_FGWP_CRWN",
+      "title": "Symphony of War: The Nephilim Saga",
+      "link": "https://gaming.amazon.com/claims/symphony-of-war-the-nephilim-saga-epic/dp/amzn1.pg.item.db94348f-9423-423e-a707-aed5ebf07c0c?g=s&ingress=amzn&ref_=SM_SymphonyofWarTheNephilimSaga_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
@@ -109,10 +116,27 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Please, Touch the Artwork",
-      "link": "https://gaming.amazon.com/claims/please-touch-the-artwork-legacy/dp/amzn1.pg.item.a0412a54-5c63-4afb-b444-2fbbd937c9da?g=s&ingress=amzn&ref_=SM_PleaseTouchtheArtwork_S01_FGWP_CRWN",
+      "title": "Lost Eidolons: Veil of the Witch",
+      "link": "",
       "status": "Fresh Drop",
-      "banner": ""
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Terraforming Mars",
+      "link": "",
+      "status": "Fresh Drop",
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Youtubers Life OMG Edition",
+      "link": "",
+      "status": "Fresh Drop",
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
     },
     {
       "platform": "Prime Gaming",
@@ -133,6 +157,14 @@
     {
       "platform": "Prime Gaming",
       "title": "EA SPORTS FC™ 26",
+      "link": "",
+      "status": "Fresh Drop",
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Arcade Paradise",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
@@ -165,6 +197,14 @@
     {
       "platform": "Prime Gaming",
       "title": "Who Wants to Be a Millionaire?",
+      "link": "",
+      "status": "Fresh Drop",
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "LEGO® Indiana Jones™: The Original Adventures",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
@@ -205,46 +245,6 @@
     {
       "platform": "Prime Gaming",
       "title": "LEGO® Star Wars™ - The Complete Saga",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Letter Trek",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Goat Simulator 3",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Wobbly Life",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Lost Eidolons: Veil of the Witch",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Terraforming Mars",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
