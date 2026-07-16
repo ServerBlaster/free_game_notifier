@@ -1,17 +1,38 @@
 [
   {
     "platform": "Epic Games Store",
-    "title": "Nova Lands",
+    "title": "Luto",
     "status": "Fresh Drop",
-    "banner": "https://cdn1.epicgames.com/spt-assets/9a2764693c414ecda63d8f785452a4bb/nova-lands-offer-16wzy.png",
-    "link": "https://store.epicgames.com/p/nova-lands-4d1788"
+    "banner": "https://cdn1.epicgames.com/spt-assets/eda0432529164b29b8a659d627d660e4/luto-14zrp.png",
+    "link": "https://store.epicgames.com/p/luto-0a4ab3"
   },
   {
     "platform": "Epic Games Store",
-    "title": "Tattoo Tycoon",
+    "title": "Echo Generation: Midnight Edition",
     "status": "Fresh Drop",
-    "banner": "https://cdn1.epicgames.com/spt-assets/0b68dfc82a014fe2ac9971f13e0e3ce5/tattoo-tycoon-11qwx.jpg",
-    "link": "https://store.epicgames.com/p/tattoo-tycoon-b4352c"
+    "banner": "https://cdn1.epicgames.com/spt-assets/d85d8cbcd8bd43308d262ba62af5b5ce/echo-generation-midnight-edition-49ac1.jpg",
+    "link": "https://store.epicgames.com/p/echo-generation-midnight-edition-069026"
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Still There",
+    "link": "https://gaming.amazon.com/claims/still-there-gog/dp/amzn1.pg.item.67c6d7c2-3050-431b-ae6d-91f34ad7d313?g=s&ingress=amzn&ref_=SM_StillThere_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "CyClones",
+    "link": "https://gaming.amazon.com/claims/cyclones-gog/dp/amzn1.pg.item.34a07e29-18da-495f-9673-266fd4722390?g=s&ingress=amzn&ref_=SM_CyClones_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "LONESTAR",
+    "link": "https://gaming.amazon.com/claims/lonestar-epic/dp/amzn1.pg.item.6c65c488-c2bc-4715-b90a-d364dd587581?g=s&ingress=amzn&ref_=SM_LONESTAR_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
   },
   {
     "platform": "Prime Gaming",
@@ -64,22 +85,22 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "XCOM: Chimera Squad",
-    "link": "https://gaming.amazon.com/claims/xcom-chimera-squad-gog/dp/amzn1.pg.item.aa22d9f6-a898-4be7-a6df-50c3561b41b9?g=s&ingress=amzn&ref_=SM_XCOMChimeraSquad_S01_FGWP_CRWN",
+    "title": "Poly Vita",
+    "link": "https://gaming.amazon.com/claims/poly-vita-legacy/dp/amzn1.pg.item.54ad3d4e-b323-4092-a8d1-f64e5de67cbc?g=s&ingress=amzn&ref_=SM_PolyVita_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
   {
     "platform": "Prime Gaming",
-    "title": "Tomb Raider IV-VI Remastered",
-    "link": "https://gaming.amazon.com/claims/tomb-raider-iv-vi-remastered-epic/dp/amzn1.pg.item.cba06ec0-64d2-445b-a17b-c3dba13414fe?g=s&ingress=amzn&ref_=SM_TombRaiderIVVIRemastered_S01_FGWP_CRWN",
+    "title": "Escape Academy",
+    "link": "https://gaming.amazon.com/claims/escape-academy-epic/dp/amzn1.pg.item.b1e0afe5-c3f4-464b-8731-e174e110ae2d?g=s&ingress=amzn&ref_=SM_EscapeAcademy_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
   {
     "platform": "Prime Gaming",
-    "title": "Space Grunts",
-    "link": "https://gaming.amazon.com/claims/space-grunts-gog/dp/amzn1.pg.item.d6b4b6c3-ad9d-4e5d-9914-48c500b7be97?g=s&ingress=amzn&ref_=SM_SpaceGrunts_S01_FGWP_CRWN",
+    "title": "FRAMED Collection",
+    "link": "https://gaming.amazon.com/claims/framed-collection-gog/dp/amzn1.pg.item.a06a5d0e-0f33-4a10-82e2-8ed97d4a8f03?g=s&ingress=amzn&ref_=SM_FRAMEDCollection_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
@@ -87,27 +108,6 @@
     "platform": "Prime Gaming",
     "title": "Regular Factory: Escape Room",
     "link": "https://gaming.amazon.com/claims/regular-factory-escape-room-gog/dp/amzn1.pg.item.1b071387-e61c-48a3-bcdf-f3086b8d18ba?g=s&ingress=amzn&ref_=SM_RegularFactoryEscapeRoom_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Still There",
-    "link": "https://gaming.amazon.com/claims/still-there-gog/dp/amzn1.pg.item.67c6d7c2-3050-431b-ae6d-91f34ad7d313?g=s&ingress=amzn&ref_=SM_StillThere_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "CyClones",
-    "link": "https://gaming.amazon.com/claims/cyclones-gog/dp/amzn1.pg.item.34a07e29-18da-495f-9673-266fd4722390?g=s&ingress=amzn&ref_=SM_CyClones_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "LONESTAR",
-    "link": "https://gaming.amazon.com/claims/lonestar-epic/dp/amzn1.pg.item.6c65c488-c2bc-4715-b90a-d364dd587581?g=s&ingress=amzn&ref_=SM_LONESTAR_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
