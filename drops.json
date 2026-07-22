@@ -57,13 +57,6 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "Sugardew Island",
-    "link": "https://gaming.amazon.com/claims/sugardew-island-gog/dp/amzn1.pg.item.108bde02-53dc-4d19-ba66-f89088a65f18?g=s&ingress=amzn&ref_=SM_SugardewIsland_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
     "title": "Space Grunts 2",
     "link": "https://gaming.amazon.com/claims/space-grunts-2-gog/dp/amzn1.pg.item.f92a0c83-29ce-4767-819b-e417b1f238f8?g=s&ingress=amzn&ref_=SM_SpaceGrunts2_S01_FGWP_CRWN",
     "status": "Fresh Drop",
@@ -80,6 +73,13 @@
     "platform": "Prime Gaming",
     "title": "Space Grunts",
     "link": "https://gaming.amazon.com/claims/space-grunts-gog/dp/amzn1.pg.item.d6b4b6c3-ad9d-4e5d-9914-48c500b7be97?g=s&ingress=amzn&ref_=SM_SpaceGrunts_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Lethal Honor - Order of the Apocalypse",
+    "link": "https://gaming.amazon.com/claims/lethal-honor-order-of-the-apocalypse-epic/dp/amzn1.pg.item.f610100a-1240-41f8-84dd-767c2df675b4?g=s&ingress=amzn&ref_=SM_LethalHonorOrderoftheApocalypse_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
@@ -146,6 +146,14 @@
   {
     "platform": "Prime Gaming",
     "title": "Courtroom Chaos - Starring Arnold Schwarzenegger",
+    "link": "",
+    "status": "Fresh Drop",
+    "banner": "",
+    "cta": "Claim on Prime Gaming"
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "The Jackbox Party Pack 8",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
@@ -234,14 +242,6 @@
   {
     "platform": "Prime Gaming",
     "title": "Smurfs Kart",
-    "link": "",
-    "status": "Fresh Drop",
-    "banner": "",
-    "cta": "Claim on Prime Gaming"
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Alien: Isolation",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
