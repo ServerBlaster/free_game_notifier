@@ -1,17 +1,24 @@
 [
   {
     "platform": "Epic Games Store",
-    "title": "Luto",
+    "title": "Foretales",
     "status": "Fresh Drop",
-    "banner": "https://cdn1.epicgames.com/spt-assets/eda0432529164b29b8a659d627d660e4/luto-14zrp.png",
-    "link": "https://store.epicgames.com/p/luto-0a4ab3"
+    "banner": "https://cdn1.epicgames.com/spt-assets/2b593b82aea84695b1608d74d3850ceb/foretales-offer-urvzn.jpg",
+    "link": "https://store.epicgames.com/p/foretales-d6c5bd"
   },
   {
-    "platform": "Epic Games Store",
-    "title": "Echo Generation: Midnight Edition",
+    "platform": "Prime Gaming",
+    "title": "FRAMED Collection",
+    "link": "https://gaming.amazon.com/claims/framed-collection-gog/dp/amzn1.pg.item.a06a5d0e-0f33-4a10-82e2-8ed97d4a8f03?g=s&ingress=amzn&ref_=SM_FRAMEDCollection_S01_FGWP_CRWN",
     "status": "Fresh Drop",
-    "banner": "https://cdn1.epicgames.com/spt-assets/d85d8cbcd8bd43308d262ba62af5b5ce/echo-generation-midnight-edition-49ac1.jpg",
-    "link": "https://store.epicgames.com/p/echo-generation-midnight-edition-069026"
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Regular Factory: Escape Room",
+    "link": "https://gaming.amazon.com/claims/regular-factory-escape-room-gog/dp/amzn1.pg.item.1b071387-e61c-48a3-bcdf-f3086b8d18ba?g=s&ingress=amzn&ref_=SM_RegularFactoryEscapeRoom_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
   },
   {
     "platform": "Prime Gaming",
@@ -71,15 +78,8 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "Space Grunts",
-    "link": "https://gaming.amazon.com/claims/space-grunts-gog/dp/amzn1.pg.item.d6b4b6c3-ad9d-4e5d-9914-48c500b7be97?g=s&ingress=amzn&ref_=SM_SpaceGrunts_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Lethal Honor - Order of the Apocalypse",
-    "link": "https://gaming.amazon.com/claims/lethal-honor-order-of-the-apocalypse-epic/dp/amzn1.pg.item.f610100a-1240-41f8-84dd-767c2df675b4?g=s&ingress=amzn&ref_=SM_LethalHonorOrderoftheApocalypse_S01_FGWP_CRWN",
+    "title": "Mystic Academy: Escape Room",
+    "link": "https://gaming.amazon.com/claims/mystic-academy-escape-room-gog/dp/amzn1.pg.item.61f57a96-121c-443f-8432-652773456072?g=s&ingress=amzn&ref_=SM_MysticAcademyEscapeRoom_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
@@ -94,20 +94,6 @@
     "platform": "Prime Gaming",
     "title": "Escape Academy",
     "link": "https://gaming.amazon.com/claims/escape-academy-epic/dp/amzn1.pg.item.b1e0afe5-c3f4-464b-8731-e174e110ae2d?g=s&ingress=amzn&ref_=SM_EscapeAcademy_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "FRAMED Collection",
-    "link": "https://gaming.amazon.com/claims/framed-collection-gog/dp/amzn1.pg.item.a06a5d0e-0f33-4a10-82e2-8ed97d4a8f03?g=s&ingress=amzn&ref_=SM_FRAMEDCollection_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Regular Factory: Escape Room",
-    "link": "https://gaming.amazon.com/claims/regular-factory-escape-room-gog/dp/amzn1.pg.item.1b071387-e61c-48a3-bcdf-f3086b8d18ba?g=s&ingress=amzn&ref_=SM_RegularFactoryEscapeRoom_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
@@ -242,6 +228,14 @@
   {
     "platform": "Prime Gaming",
     "title": "Smurfs Kart",
+    "link": "",
+    "status": "Fresh Drop",
+    "banner": "",
+    "cta": "Claim on Prime Gaming"
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "In Sound Mind",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
