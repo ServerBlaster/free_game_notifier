@@ -57,13 +57,6 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "Please, Touch the Artwork",
-    "link": "https://gaming.amazon.com/claims/please-touch-the-artwork-legacy/dp/amzn1.pg.item.a0412a54-5c63-4afb-b444-2fbbd937c9da?g=s&ingress=amzn&ref_=SM_PleaseTouchtheArtwork_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
     "title": "Space Grunts 2",
     "link": "https://gaming.amazon.com/claims/space-grunts-2-gog/dp/amzn1.pg.item.f92a0c83-29ce-4767-819b-e417b1f238f8?g=s&ingress=amzn&ref_=SM_SpaceGrunts2_S01_FGWP_CRWN",
     "status": "Fresh Drop",
@@ -73,6 +66,20 @@
     "platform": "Prime Gaming",
     "title": "XCOM: Chimera Squad",
     "link": "https://gaming.amazon.com/claims/xcom-chimera-squad-gog/dp/amzn1.pg.item.aa22d9f6-a898-4be7-a6df-50c3561b41b9?g=s&ingress=amzn&ref_=SM_XCOMChimeraSquad_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Space Grunts",
+    "link": "https://gaming.amazon.com/claims/space-grunts-gog/dp/amzn1.pg.item.d6b4b6c3-ad9d-4e5d-9914-48c500b7be97?g=s&ingress=amzn&ref_=SM_SpaceGrunts_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Lethal Honor - Order of the Apocalypse",
+    "link": "https://gaming.amazon.com/claims/lethal-honor-order-of-the-apocalypse-epic/dp/amzn1.pg.item.f610100a-1240-41f8-84dd-767c2df675b4?g=s&ingress=amzn&ref_=SM_LethalHonorOrderoftheApocalypse_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
@@ -96,14 +103,6 @@
     "link": "https://gaming.amazon.com/claims/escape-academy-epic/dp/amzn1.pg.item.b1e0afe5-c3f4-464b-8731-e174e110ae2d?g=s&ingress=amzn&ref_=SM_EscapeAcademy_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Lost Eidolons: Veil of the Witch",
-    "link": "",
-    "status": "Fresh Drop",
-    "banner": "",
-    "cta": "Claim on Prime Gaming"
   },
   {
     "platform": "Prime Gaming",
