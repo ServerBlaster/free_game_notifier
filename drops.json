@@ -1,10 +1,31 @@
 [
   {
     "platform": "Epic Games Store",
-    "title": "Foretales",
+    "title": "OTXO",
     "status": "Fresh Drop",
-    "banner": "https://cdn1.epicgames.com/spt-assets/2b593b82aea84695b1608d74d3850ceb/foretales-offer-urvzn.jpg",
-    "link": "https://store.epicgames.com/p/foretales-d6c5bd"
+    "banner": "https://cdn1.epicgames.com/spt-assets/f6da0031691c4d94a6e21255b18c1710/otxo-wtcug.jpg",
+    "link": "https://store.epicgames.com/p/otxo-396b8b"
+  },
+  {
+    "platform": "Epic Games Store",
+    "title": "Sol Cesto",
+    "status": "Fresh Drop",
+    "banner": "https://cdn1.epicgames.com/spt-assets/30d70e74bab1498686aba69969a6c19e/sol-cesto-1ara2.png",
+    "link": "https://store.epicgames.com/p/sol-cesto-e9b803"
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Poly Vita",
+    "link": "https://gaming.amazon.com/claims/poly-vita-legacy/dp/amzn1.pg.item.54ad3d4e-b323-4092-a8d1-f64e5de67cbc?g=s&ingress=amzn&ref_=SM_PolyVita_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Escape Academy",
+    "link": "https://gaming.amazon.com/claims/escape-academy-epic/dp/amzn1.pg.item.b1e0afe5-c3f4-464b-8731-e174e110ae2d?g=s&ingress=amzn&ref_=SM_EscapeAcademy_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
   },
   {
     "platform": "Prime Gaming",
@@ -71,15 +92,15 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "Space Grunts",
-    "link": "https://gaming.amazon.com/claims/space-grunts-gog/dp/amzn1.pg.item.d6b4b6c3-ad9d-4e5d-9914-48c500b7be97?g=s&ingress=amzn&ref_=SM_SpaceGrunts_S01_FGWP_CRWN",
+    "title": "Weakless",
+    "link": "https://gaming.amazon.com/claims/weakless-gog/dp/amzn1.pg.item.35aae84a-f566-4890-8fd3-492318a39036?g=s&ingress=amzn&ref_=SM_Weakless_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
   {
     "platform": "Prime Gaming",
-    "title": "Lethal Honor - Order of the Apocalypse",
-    "link": "https://gaming.amazon.com/claims/lethal-honor-order-of-the-apocalypse-epic/dp/amzn1.pg.item.f610100a-1240-41f8-84dd-767c2df675b4?g=s&ingress=amzn&ref_=SM_LethalHonorOrderoftheApocalypse_S01_FGWP_CRWN",
+    "title": "Zoria: Age of Shattering",
+    "link": "https://gaming.amazon.com/claims/zoria-age-of-shattering-gog/dp/amzn1.pg.item.ec074069-a977-4885-b5b0-6f972d17abb7?g=s&ingress=amzn&ref_=SM_ZoriaAgeofShattering_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
@@ -87,20 +108,6 @@
     "platform": "Prime Gaming",
     "title": "Mystic Academy: Escape Room",
     "link": "https://gaming.amazon.com/claims/mystic-academy-escape-room-gog/dp/amzn1.pg.item.61f57a96-121c-443f-8432-652773456072?g=s&ingress=amzn&ref_=SM_MysticAcademyEscapeRoom_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Poly Vita",
-    "link": "https://gaming.amazon.com/claims/poly-vita-legacy/dp/amzn1.pg.item.54ad3d4e-b323-4092-a8d1-f64e5de67cbc?g=s&ingress=amzn&ref_=SM_PolyVita_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Escape Academy",
-    "link": "https://gaming.amazon.com/claims/escape-academy-epic/dp/amzn1.pg.item.b1e0afe5-c3f4-464b-8731-e174e110ae2d?g=s&ingress=amzn&ref_=SM_EscapeAcademy_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
