@@ -53,13 +53,6 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "CyClones",
-      "link": "https://gaming.amazon.com/claims/cyclones-gog/dp/amzn1.pg.item.34a07e29-18da-495f-9673-266fd4722390?g=s&ingress=amzn&ref_=SM_CyClones_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
       "title": "LONESTAR",
       "link": "https://gaming.amazon.com/claims/lonestar-epic/dp/amzn1.pg.item.6c65c488-c2bc-4715-b90a-d364dd587581?g=s&ingress=amzn&ref_=SM_LONESTAR_S01_FGWP_CRWN",
       "status": "Fresh Drop",
@@ -90,6 +83,13 @@
       "platform": "Prime Gaming",
       "title": "XCOM: Chimera Squad",
       "link": "https://gaming.amazon.com/claims/xcom-chimera-squad-gog/dp/amzn1.pg.item.aa22d9f6-a898-4be7-a6df-50c3561b41b9?g=s&ingress=amzn&ref_=SM_XCOMChimeraSquad_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Space Grunts",
+      "link": "https://gaming.amazon.com/claims/space-grunts-gog/dp/amzn1.pg.item.d6b4b6c3-ad9d-4e5d-9914-48c500b7be97?g=s&ingress=amzn&ref_=SM_SpaceGrunts_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
