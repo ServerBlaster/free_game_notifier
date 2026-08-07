@@ -1,17 +1,24 @@
 [
   {
     "platform": "Epic Games Store",
-    "title": "OTXO",
+    "title": "Beacon Pines",
     "status": "Fresh Drop",
-    "banner": "https://cdn1.epicgames.com/spt-assets/f6da0031691c4d94a6e21255b18c1710/otxo-wtcug.jpg",
-    "link": "https://store.epicgames.com/p/otxo-396b8b"
+    "banner": "https://cdn1.epicgames.com/spt-assets/c89a3b955d704c3c97ddd2aba5265a38/beacon-pines-offer-1l6ky.jpg",
+    "link": "https://store.epicgames.com/p/beacon-pines-629fc3"
   },
   {
     "platform": "Epic Games Store",
-    "title": "Sol Cesto",
+    "title": "We Were Here Together",
     "status": "Fresh Drop",
-    "banner": "https://cdn1.epicgames.com/spt-assets/30d70e74bab1498686aba69969a6c19e/sol-cesto-1ara2.png",
-    "link": "https://store.epicgames.com/p/sol-cesto-e9b803"
+    "banner": "https://cdn1.epicgames.com/spt-assets/f24f7e149dc64df18f14dfab4f6dae4d/we-were-here-together-1w9jc.png",
+    "link": "https://store.epicgames.com/p/we-were-here-together-6a6d66"
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Mystic Academy: Escape Room",
+    "link": "https://gaming.amazon.com/claims/mystic-academy-escape-room-gog/dp/amzn1.pg.item.61f57a96-121c-443f-8432-652773456072?g=s&ingress=amzn&ref_=SM_MysticAcademyEscapeRoom_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
   },
   {
     "platform": "Prime Gaming",
@@ -78,8 +85,15 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "Lethal Honor - Order of the Apocalypse",
-    "link": "https://gaming.amazon.com/claims/lethal-honor-order-of-the-apocalypse-epic/dp/amzn1.pg.item.f610100a-1240-41f8-84dd-767c2df675b4?g=s&ingress=amzn&ref_=SM_LethalHonorOrderoftheApocalypse_S01_FGWP_CRWN",
+    "title": "Right and Down",
+    "link": "https://gaming.amazon.com/claims/right-and-down-gog/dp/amzn1.pg.item.8fe59485-dd11-4558-9a36-8a9d367b10e9?g=s&ingress=amzn&ref_=SM_RightandDown_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Hiveswap Friendsim",
+    "link": "https://gaming.amazon.com/claims/hiveswap-friendsim-gog/dp/amzn1.pg.item.8e0d3ee4-446f-435e-bfb4-33fe97d25af8?g=s&ingress=amzn&ref_=SM_HiveswapFriendsim_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
@@ -99,10 +113,11 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "Mystic Academy: Escape Room",
-    "link": "https://gaming.amazon.com/claims/mystic-academy-escape-room-gog/dp/amzn1.pg.item.61f57a96-121c-443f-8432-652773456072?g=s&ingress=amzn&ref_=SM_MysticAcademyEscapeRoom_S01_FGWP_CRWN",
+    "title": "In Sound Mind",
+    "link": "",
     "status": "Fresh Drop",
-    "banner": ""
+    "banner": "",
+    "cta": "Claim on Prime Gaming"
   },
   {
     "platform": "Prime Gaming",
@@ -227,14 +242,6 @@
   {
     "platform": "Prime Gaming",
     "title": "Smurfs Kart",
-    "link": "",
-    "status": "Fresh Drop",
-    "banner": "",
-    "cta": "Claim on Prime Gaming"
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "In Sound Mind",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
