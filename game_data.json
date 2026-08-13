@@ -2,20 +2,41 @@
   "Epic Games Store": [
     {
       "platform": "Epic Games Store",
-      "title": "Beacon Pines",
+      "title": "Caravan SandWitch",
       "status": "Fresh Drop",
-      "banner": "https://cdn1.epicgames.com/spt-assets/c89a3b955d704c3c97ddd2aba5265a38/beacon-pines-offer-1l6ky.jpg",
-      "link": "https://store.epicgames.com/p/beacon-pines-629fc3"
+      "banner": "https://cdn1.epicgames.com/spt-assets/95b9a9a220e8483c8c1a70ad692de4b3/caravan-sandwitch-1uz0l.jpg",
+      "link": "https://store.epicgames.com/p/caravan-sandwitch-05ff58"
     },
     {
       "platform": "Epic Games Store",
-      "title": "We Were Here Together",
+      "title": "Epic Mage Bundle",
       "status": "Fresh Drop",
-      "banner": "https://cdn1.epicgames.com/spt-assets/f24f7e149dc64df18f14dfab4f6dae4d/we-were-here-together-1w9jc.png",
-      "link": "https://store.epicgames.com/p/we-were-here-together-6a6d66"
+      "banner": "https://cdn1.epicgames.com/spt-assets/92837229023341268267ff64cae425a5/albion-online-7k7df.png",
+      "link": "https://store.epicgames.com/p/albion-online-epic-mage-bundle-2ceb19"
     }
   ],
   "Prime Gaming": [
+    {
+      "platform": "Prime Gaming",
+      "title": "Hiveswap Friendsim",
+      "link": "https://gaming.amazon.com/claims/hiveswap-friendsim-gog/dp/amzn1.pg.item.8e0d3ee4-446f-435e-bfb4-33fe97d25af8?g=s&ingress=amzn&ref_=SM_HiveswapFriendsim_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Weakless",
+      "link": "https://gaming.amazon.com/claims/weakless-gog/dp/amzn1.pg.item.35aae84a-f566-4890-8fd3-492318a39036?g=s&ingress=amzn&ref_=SM_Weakless_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Zoria: Age of Shattering",
+      "link": "https://gaming.amazon.com/claims/zoria-age-of-shattering-gog/dp/amzn1.pg.item.ec074069-a977-4885-b5b0-6f972d17abb7?g=s&ingress=amzn&ref_=SM_ZoriaAgeofShattering_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
     {
       "platform": "Prime Gaming",
       "title": "Mystic Academy: Escape Room",
@@ -67,8 +88,22 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Space Grunts",
-      "link": "https://gaming.amazon.com/claims/space-grunts-gog/dp/amzn1.pg.item.d6b4b6c3-ad9d-4e5d-9914-48c500b7be97?g=s&ingress=amzn&ref_=SM_SpaceGrunts_S01_FGWP_CRWN",
+      "title": "Pyramids and Aliens: Escape Room",
+      "link": "https://gaming.amazon.com/claims/pyramids-and-aliens-escape-room-gog/dp/amzn1.pg.item.ea4a762d-4616-4f5d-af80-61c76ea1abd3?g=s&ingress=amzn&ref_=SM_PyramidsandAliensEscapeRoom_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Airship: Kingdoms Adrift",
+      "link": "https://gaming.amazon.com/claims/airship-kingdoms-adrift-epic/dp/amzn1.pg.item.aa62d067-6b98-4929-bc49-3ccdd11d888a?g=s&ingress=amzn&ref_=SM_AirshipKingdomsAdrift_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Steelrising",
+      "link": "https://gaming.amazon.com/claims/steelrising-epic/dp/amzn1.pg.item.2e34e997-a137-48b3-9b5c-ad2eb51c45f7?g=s&ingress=amzn&ref_=SM_Steelrising_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
@@ -76,27 +111,6 @@
       "platform": "Prime Gaming",
       "title": "Right and Down",
       "link": "https://gaming.amazon.com/claims/right-and-down-gog/dp/amzn1.pg.item.8fe59485-dd11-4558-9a36-8a9d367b10e9?g=s&ingress=amzn&ref_=SM_RightandDown_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Hiveswap Friendsim",
-      "link": "https://gaming.amazon.com/claims/hiveswap-friendsim-gog/dp/amzn1.pg.item.8e0d3ee4-446f-435e-bfb4-33fe97d25af8?g=s&ingress=amzn&ref_=SM_HiveswapFriendsim_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Weakless",
-      "link": "https://gaming.amazon.com/claims/weakless-gog/dp/amzn1.pg.item.35aae84a-f566-4890-8fd3-492318a39036?g=s&ingress=amzn&ref_=SM_Weakless_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Zoria: Age of Shattering",
-      "link": "https://gaming.amazon.com/claims/zoria-age-of-shattering-gog/dp/amzn1.pg.item.ec074069-a977-4885-b5b0-6f972d17abb7?g=s&ingress=amzn&ref_=SM_ZoriaAgeofShattering_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
@@ -214,23 +228,23 @@
     },
     {
       "platform": "Prime Gaming",
+      "title": "Disney/Pixar WALL-E",
+      "link": "",
+      "status": "Fresh Drop",
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Disney/Pixar Brave: The Video Game",
+      "link": "",
+      "status": "Fresh Drop",
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
+    },
+    {
+      "platform": "Prime Gaming",
       "title": "Who Wants to Be a Millionaire?",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "LEGO® Indiana Jones™: The Original Adventures",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Smurfs Kart",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
