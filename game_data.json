@@ -18,6 +18,27 @@
   "Prime Gaming": [
     {
       "platform": "Prime Gaming",
+      "title": "Airship: Kingdoms Adrift",
+      "link": "https://gaming.amazon.com/claims/airship-kingdoms-adrift-epic/dp/amzn1.pg.item.aa62d067-6b98-4929-bc49-3ccdd11d888a?g=s&ingress=amzn&ref_=SM_AirshipKingdomsAdrift_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Steelrising",
+      "link": "https://gaming.amazon.com/claims/steelrising-epic/dp/amzn1.pg.item.2e34e997-a137-48b3-9b5c-ad2eb51c45f7?g=s&ingress=amzn&ref_=SM_Steelrising_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Right and Down",
+      "link": "https://gaming.amazon.com/claims/right-and-down-gog/dp/amzn1.pg.item.8fe59485-dd11-4558-9a36-8a9d367b10e9?g=s&ingress=amzn&ref_=SM_RightandDown_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
       "title": "Hiveswap Friendsim",
       "link": "https://gaming.amazon.com/claims/hiveswap-friendsim-gog/dp/amzn1.pg.item.8e0d3ee4-446f-435e-bfb4-33fe97d25af8?g=s&ingress=amzn&ref_=SM_HiveswapFriendsim_S01_FGWP_CRWN",
       "status": "Fresh Drop",
@@ -67,29 +88,15 @@
     },
     {
       "platform": "Prime Gaming",
+      "title": "Royal Romances: Forbidden Magic",
+      "link": "https://gaming.amazon.com/claims/royal-romances-forbidden-magic-legacy/dp/amzn1.pg.item.727672b5-8661-4f8f-b4ed-a6c40a1248ee?g=s&ingress=amzn&ref_=SM_RoyalRomancesForbiddenMagic_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
       "title": "Pyramids and Aliens: Escape Room",
       "link": "https://gaming.amazon.com/claims/pyramids-and-aliens-escape-room-gog/dp/amzn1.pg.item.ea4a762d-4616-4f5d-af80-61c76ea1abd3?g=s&ingress=amzn&ref_=SM_PyramidsandAliensEscapeRoom_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Airship: Kingdoms Adrift",
-      "link": "https://gaming.amazon.com/claims/airship-kingdoms-adrift-epic/dp/amzn1.pg.item.aa62d067-6b98-4929-bc49-3ccdd11d888a?g=s&ingress=amzn&ref_=SM_AirshipKingdomsAdrift_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Steelrising",
-      "link": "https://gaming.amazon.com/claims/steelrising-epic/dp/amzn1.pg.item.2e34e997-a137-48b3-9b5c-ad2eb51c45f7?g=s&ingress=amzn&ref_=SM_Steelrising_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Right and Down",
-      "link": "https://gaming.amazon.com/claims/right-and-down-gog/dp/amzn1.pg.item.8fe59485-dd11-4558-9a36-8a9d367b10e9?g=s&ingress=amzn&ref_=SM_RightandDown_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
@@ -104,6 +111,22 @@
     {
       "platform": "Prime Gaming",
       "title": "Terraforming Mars",
+      "link": "",
+      "status": "Fresh Drop",
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Assassin’s Creed® Mirage",
+      "link": "",
+      "status": "Fresh Drop",
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Assassin's Creed Valhalla",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
@@ -215,15 +238,7 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Disney/Pixar Brave: The Video Game",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Who Wants to Be a Millionaire?",
+      "title": "Spray Paint Simulator",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
