@@ -2,20 +2,27 @@
   "Epic Games Store": [
     {
       "platform": "Epic Games Store",
-      "title": "Breathedge",
+      "title": "Alone With You",
       "status": "Fresh Drop",
-      "banner": "https://cdn1.epicgames.com/08ae29e4f70a4b62aa055e383381aa82/offer/egs-breathedge-redruinssoftworks-s1-2560x1440-76fd08cd9c2d-2560x1440-783424f6d4a7f32a0e75fc074f2f928e.jpg",
-      "link": "https://store.epicgames.com/p/breathedge"
-    },
-    {
-      "platform": "Epic Games Store",
-      "title": "Rival Stars Horse Racing : Desktop Edition",
-      "status": "Fresh Drop",
-      "banner": "https://cdn1.epicgames.com/spt-assets/3355791f5b4740618adac242cf0dd46c/rival-stars-horse-racing-scu1x.jpg",
-      "link": "https://store.epicgames.com/p/rival-stars-horse-racing-dd09de"
+      "banner": "https://cdn1.epicgames.com/spt-assets/04b7a1d78c904065b5c24f9e7816c99a/alone-with-you-cllc3.png",
+      "link": "https://store.epicgames.com/p/alone-with-you-028a15"
     }
   ],
   "Prime Gaming": [
+    {
+      "platform": "Prime Gaming",
+      "title": "Clash: Artifacts of Chaos",
+      "link": "https://gaming.amazon.com/claims/clash-artifacts-of-chaos-epic/dp/amzn1.pg.item.f156cdf9-2d60-465f-9977-b0fac64e9fc3?g=s&ingress=amzn&ref_=SM_ClashArtifactsofChaos_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Royal Romances: Forbidden Magic",
+      "link": "https://gaming.amazon.com/claims/royal-romances-forbidden-magic-legacy/dp/amzn1.pg.item.727672b5-8661-4f8f-b4ed-a6c40a1248ee?g=s&ingress=amzn&ref_=SM_RoyalRomancesForbiddenMagic_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
     {
       "platform": "Prime Gaming",
       "title": "Pyramids and Aliens: Escape Room",
@@ -74,22 +81,15 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Space Grunts 2",
-      "link": "https://gaming.amazon.com/claims/space-grunts-2-gog/dp/amzn1.pg.item.f92a0c83-29ce-4767-819b-e417b1f238f8?g=s&ingress=amzn&ref_=SM_SpaceGrunts2_S01_FGWP_CRWN",
+      "title": "Just Die Already",
+      "link": "https://gaming.amazon.com/claims/just-die-already-epic/dp/amzn1.pg.item.1197607b-4bcd-4aba-a43d-0103afdf7d76?g=s&ingress=amzn&ref_=SM_JustDieAlready_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
     {
       "platform": "Prime Gaming",
-      "title": "Clash: Artifacts of Chaos",
-      "link": "https://gaming.amazon.com/claims/clash-artifacts-of-chaos-epic/dp/amzn1.pg.item.f156cdf9-2d60-465f-9977-b0fac64e9fc3?g=s&ingress=amzn&ref_=SM_ClashArtifactsofChaos_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Royal Romances: Forbidden Magic",
-      "link": "https://gaming.amazon.com/claims/royal-romances-forbidden-magic-legacy/dp/amzn1.pg.item.727672b5-8661-4f8f-b4ed-a6c40a1248ee?g=s&ingress=amzn&ref_=SM_RoyalRomancesForbiddenMagic_S01_FGWP_CRWN",
+      "title": "War Hospital",
+      "link": "https://gaming.amazon.com/claims/war-hospital-epic/dp/amzn1.pg.item.77edd2b0-e0d7-41b2-87f7-8ef5541701e4?g=s&ingress=amzn&ref_=SM_WarHospital_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
