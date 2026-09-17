@@ -15,6 +15,27 @@
   },
   {
     "platform": "Prime Gaming",
+    "title": "DOOM + DOOM II",
+    "link": "https://gaming.amazon.com/claims/doom-doom-ii-gog/dp/amzn1.pg.item.db1d5024-9037-4d32-9543-37a9577e7d86?g=s&ingress=amzn&ref_=SM_DOOMDOOMII_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Drop Duchy",
+    "link": "https://gaming.amazon.com/claims/drop-duchy-epic/dp/amzn1.pg.item.2cb13abe-d709-4d5c-8d65-35bdc91d3b4d?g=s&ingress=amzn&ref_=SM_DropDuchy_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Just Die Already",
+    "link": "https://gaming.amazon.com/claims/just-die-already-epic/dp/amzn1.pg.item.1197607b-4bcd-4aba-a43d-0103afdf7d76?g=s&ingress=amzn&ref_=SM_JustDieAlready_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
     "title": "War Hospital",
     "link": "https://gaming.amazon.com/claims/war-hospital-epic/dp/amzn1.pg.item.77edd2b0-e0d7-41b2-87f7-8ef5541701e4?g=s&ingress=amzn&ref_=SM_WarHospital_S01_FGWP_CRWN",
     "status": "Fresh Drop",
@@ -57,29 +78,22 @@
   },
   {
     "platform": "Prime Gaming",
+    "title": "RiMS Racing",
+    "link": "https://gaming.amazon.com/claims/rims-racing-epic/dp/amzn1.pg.item.2cf2cac0-6b4d-4b5e-9064-2005dad4ede7?g=s&ingress=amzn&ref_=SM_RimsRacing_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "DOOM Eternal",
+    "link": "https://gaming.amazon.com/claims/doom-eternal-microsoft/dp/amzn1.pg.item.1c490f2e-c698-4077-94a6-6a69c98945e2?g=s&ingress=amzn&ref_=SM_DOOMEternal_S02_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
     "title": "Botany Manor",
     "link": "https://gaming.amazon.com/claims/botany-manor-epic/dp/amzn1.pg.item.fe9fbd08-590e-4d6d-9a94-f22f4548c09d?g=s&ingress=amzn&ref_=SM_BotanyManor_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "DOOM + DOOM II",
-    "link": "https://gaming.amazon.com/claims/doom-doom-ii-gog/dp/amzn1.pg.item.db1d5024-9037-4d32-9543-37a9577e7d86?g=s&ingress=amzn&ref_=SM_DOOMDOOMII_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Drop Duchy",
-    "link": "https://gaming.amazon.com/claims/drop-duchy-epic/dp/amzn1.pg.item.2cb13abe-d709-4d5c-8d65-35bdc91d3b4d?g=s&ingress=amzn&ref_=SM_DropDuchy_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Just Die Already",
-    "link": "https://gaming.amazon.com/claims/just-die-already-epic/dp/amzn1.pg.item.1197607b-4bcd-4aba-a43d-0103afdf7d76?g=s&ingress=amzn&ref_=SM_JustDieAlready_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
@@ -181,6 +195,14 @@
   },
   {
     "platform": "Prime Gaming",
+    "title": "Cranium Planet",
+    "link": "",
+    "status": "Fresh Drop",
+    "banner": "",
+    "cta": "Claim on Prime Gaming"
+  },
+  {
+    "platform": "Prime Gaming",
     "title": "Courtroom Chaos - Starring Arnold Schwarzenegger",
     "link": "",
     "status": "Fresh Drop",
@@ -205,6 +227,14 @@
   },
   {
     "platform": "Prime Gaming",
+    "title": "Bowling Mayhem",
+    "link": "",
+    "status": "Fresh Drop",
+    "banner": "",
+    "cta": "Claim on Prime Gaming"
+  },
+  {
+    "platform": "Prime Gaming",
     "title": "Goat Simulator 3",
     "link": "",
     "status": "Fresh Drop",
@@ -213,15 +243,7 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "Sonic Mania Plus",
-    "link": "",
-    "status": "Fresh Drop",
-    "banner": "",
-    "cta": "Claim on Prime Gaming"
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "The Game of Life 2",
+    "title": "Wall World 2",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
