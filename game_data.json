@@ -18,6 +18,20 @@
   "Prime Gaming": [
     {
       "platform": "Prime Gaming",
+      "title": "DOOM Eternal",
+      "link": "https://gaming.amazon.com/claims/doom-eternal-microsoft/dp/amzn1.pg.item.1c490f2e-c698-4077-94a6-6a69c98945e2?g=s&ingress=amzn&ref_=SM_DOOMEternal_S02_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Botany Manor",
+      "link": "https://gaming.amazon.com/claims/botany-manor-epic/dp/amzn1.pg.item.fe9fbd08-590e-4d6d-9a94-f22f4548c09d?g=s&ingress=amzn&ref_=SM_BotanyManor_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
       "title": "DOOM + DOOM II",
       "link": "https://gaming.amazon.com/claims/doom-doom-ii-gog/dp/amzn1.pg.item.db1d5024-9037-4d32-9543-37a9577e7d86?g=s&ingress=amzn&ref_=SM_DOOMDOOMII_S01_FGWP_CRWN",
       "status": "Fresh Drop",
@@ -67,6 +81,27 @@
     },
     {
       "platform": "Prime Gaming",
+      "title": "Hue",
+      "link": "https://gaming.amazon.com/claims/hue-epic/dp/amzn1.pg.item.d7de294d-c66d-4445-824d-ec9292fa1acb?g=s&ingress=amzn&ref_=SM_HUE_S03_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "High on Life",
+      "link": "https://gaming.amazon.com/claims/high-on-life-epic/dp/amzn1.pg.item.351cbaa9-ac70-4e47-93b6-1a4cb7dd38c8?g=s&ingress=amzn&ref_=SM_HighonLife_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "The Da Vinci Cryptex",
+      "link": "https://gaming.amazon.com/claims/the-da-vinci-cryptex-legacy/dp/amzn1.pg.item.6cd3cd34-9ede-48df-bf9a-cc154ed97525?g=s&ingress=amzn&ref_=SM_TheDaVinciCryptex_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
       "title": "RiMS Racing",
       "link": "https://gaming.amazon.com/claims/rims-racing-epic/dp/amzn1.pg.item.2cf2cac0-6b4d-4b5e-9064-2005dad4ede7?g=s&ingress=amzn&ref_=SM_RimsRacing_S01_FGWP_CRWN",
       "status": "Fresh Drop",
@@ -74,17 +109,11 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "DOOM Eternal",
-      "link": "https://gaming.amazon.com/claims/doom-eternal-microsoft/dp/amzn1.pg.item.1c490f2e-c698-4077-94a6-6a69c98945e2?g=s&ingress=amzn&ref_=SM_DOOMEternal_S02_FGWP_CRWN",
+      "title": "Wall World 2",
+      "link": "",
       "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Botany Manor",
-      "link": "https://gaming.amazon.com/claims/botany-manor-epic/dp/amzn1.pg.item.fe9fbd08-590e-4d6d-9a94-f22f4548c09d?g=s&ingress=amzn&ref_=SM_BotanyManor_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
     },
     {
       "platform": "Prime Gaming",
@@ -209,14 +238,6 @@
     {
       "platform": "Prime Gaming",
       "title": "Cranium Planet",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Wall World 2",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
