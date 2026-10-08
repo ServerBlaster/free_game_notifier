@@ -1,17 +1,31 @@
 [
   {
     "platform": "Epic Games Store",
-    "title": "System Shock 2: 25th Anniversary Remaster",
+    "title": "Out of Sight",
     "status": "Fresh Drop",
-    "banner": "https://cdn1.epicgames.com/spt-assets/690ff600d5134d9ab12c96862ed5257a/system-shock-2-25th-anniversary-remaster-1e28j.jpg",
-    "link": "https://store.epicgames.com/p/system-shock-2-25th-anniversary-remaster-cb94d9"
+    "banner": "https://cdn1.epicgames.com/spt-assets/6e1bf54cfa6344c89d41e4e7af036ac9/out-of-sight-1l12n.jpg",
+    "link": "https://store.epicgames.com/p/out-of-sight-b96ca8"
   },
   {
     "platform": "Epic Games Store",
-    "title": "BURIED STARS",
+    "title": "TerraScape",
     "status": "Fresh Drop",
-    "banner": "https://cdn1.epicgames.com/spt-assets/e2dc55c2709641a18fc37ef7ce32cfdd/buried-stars-1j9of.jpg",
-    "link": "https://store.epicgames.com/p/buried-stars-d7c88c"
+    "banner": "https://cdn1.epicgames.com/spt-assets/a740a2eed807469f88b9dff17e7cd3a3/terrascape-j7p8d.png",
+    "link": "https://store.epicgames.com/p/terrascape-2b12b1"
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Hue",
+    "link": "https://gaming.amazon.com/claims/hue-epic/dp/amzn1.pg.item.d7de294d-c66d-4445-824d-ec9292fa1acb?g=s&ingress=amzn&ref_=SM_HUE_S03_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "High on Life",
+    "link": "https://gaming.amazon.com/claims/high-on-life-epic/dp/amzn1.pg.item.351cbaa9-ac70-4e47-93b6-1a4cb7dd38c8?g=s&ingress=amzn&ref_=SM_HighonLife_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
   },
   {
     "platform": "Prime Gaming",
@@ -71,6 +85,20 @@
   },
   {
     "platform": "Prime Gaming",
+    "title": "WarBreeds",
+    "link": "https://gaming.amazon.com/claims/warbreeds-gog/dp/amzn1.pg.item.886d058d-6e68-4f53-8e58-3044de3e6bb4?g=s&ingress=amzn&ref_=SM_WarBreeds_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Conarium",
+    "link": "https://gaming.amazon.com/claims/conarium-gog/dp/amzn1.pg.item.82e258e7-827e-46e0-8228-25e9720b48b4?g=s&ingress=amzn&ref_=SM_Conarium_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
     "title": "Five Nights at Freddy's: Into the Pit",
     "link": "https://gaming.amazon.com/claims/five-nights-at-freddys-into-the-pit-epic/dp/amzn1.pg.item.9d2ad65c-0963-4e2d-93e6-75ad2a4bfc87?g=s&ingress=amzn&ref_=SM_FiveNightsatFreddysIntothePit_S01_FGWP_CRWN",
     "status": "Fresh Drop",
@@ -80,20 +108,6 @@
     "platform": "Prime Gaming",
     "title": "DOOM",
     "link": "https://gaming.amazon.com/claims/doom-gog/dp/amzn1.pg.item.b095156c-1207-49f0-801a-75ac03b74def?g=s&ingress=amzn&ref_=SM_DOOM_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Hue",
-    "link": "https://gaming.amazon.com/claims/hue-epic/dp/amzn1.pg.item.d7de294d-c66d-4445-824d-ec9292fa1acb?g=s&ingress=amzn&ref_=SM_HUE_S03_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "High on Life",
-    "link": "https://gaming.amazon.com/claims/high-on-life-epic/dp/amzn1.pg.item.351cbaa9-ac70-4e47-93b6-1a4cb7dd38c8?g=s&ingress=amzn&ref_=SM_HighonLife_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
