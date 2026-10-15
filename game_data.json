@@ -18,6 +18,20 @@
   "Prime Gaming": [
     {
       "platform": "Prime Gaming",
+      "title": "Five Nights at Freddy's: Into the Pit",
+      "link": "https://gaming.amazon.com/claims/five-nights-at-freddys-into-the-pit-epic/dp/amzn1.pg.item.9d2ad65c-0963-4e2d-93e6-75ad2a4bfc87?g=s&ingress=amzn&ref_=SM_FiveNightsatFreddysIntothePit_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "DOOM",
+      "link": "https://gaming.amazon.com/claims/doom-gog/dp/amzn1.pg.item.b095156c-1207-49f0-801a-75ac03b74def?g=s&ingress=amzn&ref_=SM_DOOM_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
       "title": "Hue",
       "link": "https://gaming.amazon.com/claims/hue-epic/dp/amzn1.pg.item.d7de294d-c66d-4445-824d-ec9292fa1acb?g=s&ingress=amzn&ref_=SM_HUE_S03_FGWP_CRWN",
       "status": "Fresh Drop",
@@ -67,6 +81,13 @@
     },
     {
       "platform": "Prime Gaming",
+      "title": "Vampire: The Masquerade - Swansong",
+      "link": "https://gaming.amazon.com/claims/vampire-the-masquerade-swansong-epic/dp/amzn1.pg.item.7885fee3-7dda-40c5-8642-596bb1f4a9b3?g=s&ingress=amzn&ref_=SM_VampireTheMasqueradeSwansong_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
       "title": "WarBreeds",
       "link": "https://gaming.amazon.com/claims/warbreeds-gog/dp/amzn1.pg.item.886d058d-6e68-4f53-8e58-3044de3e6bb4?g=s&ingress=amzn&ref_=SM_WarBreeds_S01_FGWP_CRWN",
       "status": "Fresh Drop",
@@ -76,20 +97,6 @@
       "platform": "Prime Gaming",
       "title": "Conarium",
       "link": "https://gaming.amazon.com/claims/conarium-gog/dp/amzn1.pg.item.82e258e7-827e-46e0-8228-25e9720b48b4?g=s&ingress=amzn&ref_=SM_Conarium_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Five Nights at Freddy's: Into the Pit",
-      "link": "https://gaming.amazon.com/claims/five-nights-at-freddys-into-the-pit-epic/dp/amzn1.pg.item.9d2ad65c-0963-4e2d-93e6-75ad2a4bfc87?g=s&ingress=amzn&ref_=SM_FiveNightsatFreddysIntothePit_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "DOOM",
-      "link": "https://gaming.amazon.com/claims/doom-gog/dp/amzn1.pg.item.b095156c-1207-49f0-801a-75ac03b74def?g=s&ingress=amzn&ref_=SM_DOOM_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
@@ -167,6 +174,14 @@
     },
     {
       "platform": "Prime Gaming",
+      "title": "Kingdomino",
+      "link": "",
+      "status": "Fresh Drop",
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
+    },
+    {
+      "platform": "Prime Gaming",
       "title": "Fortnite OG",
       "link": "",
       "status": "Fresh Drop",
@@ -223,7 +238,7 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Garfield Kart 2 - All You Can Drift",
+      "title": "Caravan SandWitch",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
