@@ -50,20 +50,6 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "RiMS Racing",
-    "link": "https://gaming.amazon.com/claims/rims-racing-epic/dp/amzn1.pg.item.2cf2cac0-6b4d-4b5e-9064-2005dad4ede7?g=s&ingress=amzn&ref_=SM_RimsRacing_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "DOOM Eternal",
-    "link": "https://gaming.amazon.com/claims/doom-eternal-microsoft/dp/amzn1.pg.item.1c490f2e-c698-4077-94a6-6a69c98945e2?g=s&ingress=amzn&ref_=SM_DOOMEternal_S02_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
     "title": "Weakless",
     "link": "https://gaming.amazon.com/claims/weakless-gog/dp/amzn1.pg.item.35aae84a-f566-4890-8fd3-492318a39036?g=s&ingress=amzn&ref_=SM_Weakless_S01_FGWP_CRWN",
     "status": "Fresh Drop",
@@ -96,14 +82,6 @@
     "link": "https://gaming.amazon.com/claims/conarium-gog/dp/amzn1.pg.item.82e258e7-827e-46e0-8228-25e9720b48b4?g=s&ingress=amzn&ref_=SM_Conarium_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Wall World 2",
-    "link": "",
-    "status": "Fresh Drop",
-    "banner": "",
-    "cta": "Claim on Prime Gaming"
   },
   {
     "platform": "Prime Gaming",
