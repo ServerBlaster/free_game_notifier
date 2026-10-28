@@ -46,41 +46,6 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "Hue",
-      "link": "https://gaming.amazon.com/claims/hue-epic/dp/amzn1.pg.item.d7de294d-c66d-4445-824d-ec9292fa1acb?g=s&ingress=amzn&ref_=SM_HUE_S03_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "High on Life",
-      "link": "https://gaming.amazon.com/claims/high-on-life-epic/dp/amzn1.pg.item.351cbaa9-ac70-4e47-93b6-1a4cb7dd38c8?g=s&ingress=amzn&ref_=SM_HighonLife_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "The Da Vinci Cryptex",
-      "link": "https://gaming.amazon.com/claims/the-da-vinci-cryptex-legacy/dp/amzn1.pg.item.6cd3cd34-9ede-48df-bf9a-cc154ed97525?g=s&ingress=amzn&ref_=SM_TheDaVinciCryptex_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Weakless",
-      "link": "https://gaming.amazon.com/claims/weakless-gog/dp/amzn1.pg.item.35aae84a-f566-4890-8fd3-492318a39036?g=s&ingress=amzn&ref_=SM_Weakless_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Zoria: Age of Shattering",
-      "link": "https://gaming.amazon.com/claims/zoria-age-of-shattering-gog/dp/amzn1.pg.item.ec074069-a977-4885-b5b0-6f972d17abb7?g=s&ingress=amzn&ref_=SM_ZoriaAgeofShattering_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
       "title": "Time Travel: Escape Room Game",
       "link": "https://gaming.amazon.com/claims/time-travel-escape-room-game-legacy/dp/amzn1.pg.item.c3af790f-8ce0-42b2-8c16-ebecb97303f5?g=s&ingress=amzn&ref_=SM_TimeTravelEscapeRoomGame_S01_FGWP_CRWN",
       "status": "Fresh Drop",
@@ -99,14 +64,6 @@
       "link": "https://gaming.amazon.com/claims/vampire-the-masquerade-swansong-epic/dp/amzn1.pg.item.7885fee3-7dda-40c5-8642-596bb1f4a9b3?g=s&ingress=amzn&ref_=SM_VampireTheMasqueradeSwansong_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Havendock",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
     },
     {
       "platform": "Prime Gaming",
