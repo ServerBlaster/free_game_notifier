@@ -15,6 +15,13 @@
   },
   {
     "platform": "Prime Gaming",
+    "title": "Vampire: The Masquerade - Swansong",
+    "link": "https://gaming.amazon.com/claims/vampire-the-masquerade-swansong-epic/dp/amzn1.pg.item.7885fee3-7dda-40c5-8642-596bb1f4a9b3?g=s&ingress=amzn&ref_=SM_VampireTheMasqueradeSwansong_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
     "title": "WarBreeds",
     "link": "https://gaming.amazon.com/claims/warbreeds-gog/dp/amzn1.pg.item.886d058d-6e68-4f53-8e58-3044de3e6bb4?g=s&ingress=amzn&ref_=SM_WarBreeds_S01_FGWP_CRWN",
     "status": "Fresh Drop",
@@ -43,6 +50,13 @@
   },
   {
     "platform": "Prime Gaming",
+    "title": "Trash Goblin",
+    "link": "https://gaming.amazon.com/claims/trash-goblin-epic/dp/amzn1.pg.item.1892b601-09dc-470b-9d62-7feac63376a3?g=s&ingress=amzn&ref_=SM_TrashGoblin_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
     "title": "Time Travel: Escape Room Game",
     "link": "https://gaming.amazon.com/claims/time-travel-escape-room-game-legacy/dp/amzn1.pg.item.c3af790f-8ce0-42b2-8c16-ebecb97303f5?g=s&ingress=amzn&ref_=SM_TimeTravelEscapeRoomGame_S01_FGWP_CRWN",
     "status": "Fresh Drop",
@@ -57,10 +71,11 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "Vampire: The Masquerade - Swansong",
-    "link": "https://gaming.amazon.com/claims/vampire-the-masquerade-swansong-epic/dp/amzn1.pg.item.7885fee3-7dda-40c5-8642-596bb1f4a9b3?g=s&ingress=amzn&ref_=SM_VampireTheMasqueradeSwansong_S01_FGWP_CRWN",
+    "title": "Caravan SandWitch",
+    "link": "",
     "status": "Fresh Drop",
-    "banner": ""
+    "banner": "",
+    "cta": "Claim on Prime Gaming"
   },
   {
     "platform": "Prime Gaming",
@@ -184,7 +199,7 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "Caravan SandWitch",
+    "title": "Kiborg",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
