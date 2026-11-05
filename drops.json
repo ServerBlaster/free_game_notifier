@@ -15,6 +15,13 @@
   },
   {
     "platform": "Prime Gaming",
+    "title": "Trash Goblin",
+    "link": "https://gaming.amazon.com/claims/trash-goblin-epic/dp/amzn1.pg.item.1892b601-09dc-470b-9d62-7feac63376a3?g=s&ingress=amzn&ref_=SM_TrashGoblin_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
     "title": "Time Travel: Escape Room Game",
     "link": "https://gaming.amazon.com/claims/time-travel-escape-room-game-legacy/dp/amzn1.pg.item.c3af790f-8ce0-42b2-8c16-ebecb97303f5?g=s&ingress=amzn&ref_=SM_TimeTravelEscapeRoomGame_S01_FGWP_CRWN",
     "status": "Fresh Drop",
@@ -52,13 +59,6 @@
     "platform": "Prime Gaming",
     "title": "WRC Generations",
     "link": "https://gaming.amazon.com/claims/wrc-generations-epic/dp/amzn1.pg.item.59a0703f-be28-476e-9160-8e56e257dee5?g=s&ingress=amzn&ref_=SM_WRCGenerations_S01_FGWP_CRWN",
-    "status": "Fresh Drop",
-    "banner": ""
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Trash Goblin",
-    "link": "https://gaming.amazon.com/claims/trash-goblin-epic/dp/amzn1.pg.item.1892b601-09dc-470b-9d62-7feac63376a3?g=s&ingress=amzn&ref_=SM_TrashGoblin_S01_FGWP_CRWN",
     "status": "Fresh Drop",
     "banner": ""
   },
@@ -128,6 +128,14 @@
   },
   {
     "platform": "Prime Gaming",
+    "title": "EA SPORTS™ Madden NFL 27",
+    "link": "",
+    "status": "Fresh Drop",
+    "banner": "",
+    "cta": "Claim on Prime Gaming"
+  },
+  {
+    "platform": "Prime Gaming",
     "title": "Police Simulator: Patrol Officers",
     "link": "",
     "status": "Fresh Drop",
@@ -177,14 +185,6 @@
   {
     "platform": "Prime Gaming",
     "title": "A Quiet Place: The Road Ahead",
-    "link": "",
-    "status": "Fresh Drop",
-    "banner": "",
-    "cta": "Claim on Prime Gaming"
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Fortnite OG",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
