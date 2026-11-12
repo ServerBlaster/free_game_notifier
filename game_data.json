@@ -2,20 +2,20 @@
   "Epic Games Store": [
     {
       "platform": "Epic Games Store",
-      "title": "Idle Champions of the Forgotten Realms",
+      "title": "Knightica",
       "status": "Fresh Drop",
-      "banner": "https://cdn1.epicgames.com/spt-assets/a53f91e55c6840018cb5de0b204f1ad9/idle-champions-of-the-forgotten-realms-1cv5z.jpg",
-      "link": "https://store.epicgames.com/p/idle-champions-of-the-forgotten-realms"
-    },
-    {
-      "platform": "Epic Games Store",
-      "title": "Flotsam",
-      "status": "Fresh Drop",
-      "banner": "https://cdn1.epicgames.com/spt-assets/5c36b876e80d4285b9993947efeeaf2b/flotsam-1yczl.jpg",
-      "link": "https://store.epicgames.com/p/flotsam-266287"
+      "banner": "https://cdn1.epicgames.com/spt-assets/357100ca5613420e98208c5f14585e9d/knightica-1nuxm.png",
+      "link": "https://store.epicgames.com/p/knightica-3be45c"
     }
   ],
   "Prime Gaming": [
+    {
+      "platform": "Prime Gaming",
+      "title": "WRC Generations",
+      "link": "https://gaming.amazon.com/claims/wrc-generations-epic/dp/amzn1.pg.item.59a0703f-be28-476e-9160-8e56e257dee5?g=s&ingress=amzn&ref_=SM_WRCGenerations_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
     {
       "platform": "Prime Gaming",
       "title": "Trash Goblin",
@@ -53,10 +53,25 @@
     },
     {
       "platform": "Prime Gaming",
-      "title": "WRC Generations",
-      "link": "https://gaming.amazon.com/claims/wrc-generations-epic/dp/amzn1.pg.item.59a0703f-be28-476e-9160-8e56e257dee5?g=s&ingress=amzn&ref_=SM_WRCGenerations_S01_FGWP_CRWN",
+      "title": "Jurassic World Evolution 2",
+      "link": "https://gaming.amazon.com/claims/jurassic-world-evolution-2-epic/dp/amzn1.pg.item.208bb96b-9ae6-4538-a1ff-c1831794f1b5?g=s&ingress=amzn&ref_=SM_JurassicWorldEvolution2_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Radiolight",
+      "link": "https://gaming.amazon.com/claims/radiolight-epic/dp/amzn1.pg.item.828a67e3-e1ec-4968-9719-afa81008da16?g=s&ingress=amzn&ref_=SM_Radiolight_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Kiborg",
+      "link": "",
+      "status": "Fresh Drop",
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
     },
     {
       "platform": "Prime Gaming",
@@ -189,14 +204,6 @@
     {
       "platform": "Prime Gaming",
       "title": "Squirrel with a Gun",
-      "link": "",
-      "status": "Fresh Drop",
-      "banner": "",
-      "cta": "Claim on Prime Gaming"
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Kiborg",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
