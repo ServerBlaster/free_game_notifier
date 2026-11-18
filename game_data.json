@@ -2,6 +2,13 @@
   "Epic Games Store": [
     {
       "platform": "Epic Games Store",
+      "title": "Firestone – Idle Clicker Online RPG",
+      "status": "Fresh Drop",
+      "banner": "https://cdn1.epicgames.com/spt-assets/69576a28f7154fe9a0dce97508da5163/firestone-online-idle-rpg-i52vr.jpg",
+      "link": "https://store.epicgames.com/p/firestone-online-idle-rpg-bfd04b"
+    },
+    {
+      "platform": "Epic Games Store",
       "title": "Knightica",
       "status": "Fresh Drop",
       "banner": "https://cdn1.epicgames.com/spt-assets/357100ca5613420e98208c5f14585e9d/knightica-1nuxm.png",
@@ -34,13 +41,6 @@
       "platform": "Prime Gaming",
       "title": "Ad Infinitum",
       "link": "https://gaming.amazon.com/claims/ad-infinitum-epic/dp/amzn1.pg.item.69de011b-6575-41ab-9964-971e59cf7457?g=s&ingress=amzn&ref_=SM_AdInfinitum_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Vampire: The Masquerade - Swansong",
-      "link": "https://gaming.amazon.com/claims/vampire-the-masquerade-swansong-epic/dp/amzn1.pg.item.7885fee3-7dda-40c5-8642-596bb1f4a9b3?g=s&ingress=amzn&ref_=SM_VampireTheMasqueradeSwansong_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
