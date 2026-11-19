@@ -3,15 +3,22 @@
     "platform": "Epic Games Store",
     "title": "Firestone – Idle Clicker Online RPG",
     "status": "Fresh Drop",
-    "banner": "https://cdn1.epicgames.com/spt-assets/69576a28f7154fe9a0dce97508da5163/firestone-online-idle-rpg-i52vr.jpg",
+    "banner": "https://cdn1.epicgames.com/spt-assets/69576a28f7154fe9a0dce97508da5163/firestone-online-idle-rpg-1inmf.jpg",
     "link": "https://store.epicgames.com/p/firestone-online-idle-rpg-bfd04b"
   },
   {
     "platform": "Epic Games Store",
-    "title": "Knightica",
+    "title": "Mark of the Deep",
     "status": "Fresh Drop",
-    "banner": "https://cdn1.epicgames.com/spt-assets/357100ca5613420e98208c5f14585e9d/knightica-1nuxm.png",
-    "link": "https://store.epicgames.com/p/knightica-3be45c"
+    "banner": "https://cdn1.epicgames.com/spt-assets/83a240506a884c10ad8fb99694e57a0d/mark-of-the-deep-w1ygr.png",
+    "link": "https://store.epicgames.com/p/mark-of-the-deep-f7dc08"
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "Radiolight",
+    "link": "https://gaming.amazon.com/claims/radiolight-epic/dp/amzn1.pg.item.828a67e3-e1ec-4968-9719-afa81008da16?g=s&ingress=amzn&ref_=SM_Radiolight_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
   },
   {
     "platform": "Prime Gaming",
@@ -50,6 +57,20 @@
   },
   {
     "platform": "Prime Gaming",
+    "title": "Werewolf: The Apocalypse - Earthblood",
+    "link": "https://gaming.amazon.com/claims/werewolf-the-apocalypse-earthblood-epic/dp/amzn1.pg.item.51cac85b-21fe-4e69-b048-3c70dfaf50d3?g=s&ingress=amzn&ref_=SM_WerewolfTheApocalypseEarthblood_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "CLeM",
+    "link": "https://gaming.amazon.com/claims/clem-epic/dp/amzn1.pg.item.a5c7d537-4c60-4940-86b8-0d1c13db9163?g=s&ingress=amzn&ref_=SM_CLeM_S01_FGWP_CRWN",
+    "status": "Fresh Drop",
+    "banner": ""
+  },
+  {
+    "platform": "Prime Gaming",
     "title": "Jurassic World Evolution 2",
     "link": "https://gaming.amazon.com/claims/jurassic-world-evolution-2-epic/dp/amzn1.pg.item.208bb96b-9ae6-4538-a1ff-c1831794f1b5?g=s&ingress=amzn&ref_=SM_JurassicWorldEvolution2_S01_FGWP_CRWN",
     "status": "Fresh Drop",
@@ -57,10 +78,11 @@
   },
   {
     "platform": "Prime Gaming",
-    "title": "Radiolight",
-    "link": "https://gaming.amazon.com/claims/radiolight-epic/dp/amzn1.pg.item.828a67e3-e1ec-4968-9719-afa81008da16?g=s&ingress=amzn&ref_=SM_Radiolight_S01_FGWP_CRWN",
+    "title": "Squirrel with a Gun",
+    "link": "",
     "status": "Fresh Drop",
-    "banner": ""
+    "banner": "",
+    "cta": "Claim on Prime Gaming"
   },
   {
     "platform": "Prime Gaming",
@@ -120,6 +142,14 @@
   },
   {
     "platform": "Prime Gaming",
+    "title": "Sushi Go Party!",
+    "link": "",
+    "status": "Fresh Drop",
+    "banner": "",
+    "cta": "Claim on Prime Gaming"
+  },
+  {
+    "platform": "Prime Gaming",
     "title": "Marbles On Stream",
     "link": "",
     "status": "Fresh Drop",
@@ -129,6 +159,14 @@
   {
     "platform": "Prime Gaming",
     "title": "Police Simulator: Patrol Officers",
+    "link": "",
+    "status": "Fresh Drop",
+    "banner": "",
+    "cta": "Claim on Prime Gaming"
+  },
+  {
+    "platform": "Prime Gaming",
+    "title": "The Man with the Bag - Naughty or Nice",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
@@ -177,30 +215,6 @@
   {
     "platform": "Prime Gaming",
     "title": "STAR WARS: Galactic Racer™",
-    "link": "",
-    "status": "Fresh Drop",
-    "banner": "",
-    "cta": "Claim on Prime Gaming"
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Space Metal Mania",
-    "link": "",
-    "status": "Fresh Drop",
-    "banner": "",
-    "cta": "Claim on Prime Gaming"
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Kingdomino",
-    "link": "",
-    "status": "Fresh Drop",
-    "banner": "",
-    "cta": "Claim on Prime Gaming"
-  },
-  {
-    "platform": "Prime Gaming",
-    "title": "Squirrel with a Gun",
     "link": "",
     "status": "Fresh Drop",
     "banner": "",
