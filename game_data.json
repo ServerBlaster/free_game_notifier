@@ -18,6 +18,13 @@
   "Prime Gaming": [
     {
       "platform": "Prime Gaming",
+      "title": "Jurassic World Evolution 2",
+      "link": "https://gaming.amazon.com/claims/jurassic-world-evolution-2-epic/dp/amzn1.pg.item.208bb96b-9ae6-4538-a1ff-c1831794f1b5?g=s&ingress=amzn&ref_=SM_JurassicWorldEvolution2_S01_FGWP_CRWN",
+      "status": "Fresh Drop",
+      "banner": ""
+    },
+    {
+      "platform": "Prime Gaming",
       "title": "Radiolight",
       "link": "https://gaming.amazon.com/claims/radiolight-epic/dp/amzn1.pg.item.828a67e3-e1ec-4968-9719-afa81008da16?g=s&ingress=amzn&ref_=SM_Radiolight_S01_FGWP_CRWN",
       "status": "Fresh Drop",
@@ -69,13 +76,6 @@
       "platform": "Prime Gaming",
       "title": "CLeM",
       "link": "https://gaming.amazon.com/claims/clem-epic/dp/amzn1.pg.item.a5c7d537-4c60-4940-86b8-0d1c13db9163?g=s&ingress=amzn&ref_=SM_CLeM_S01_FGWP_CRWN",
-      "status": "Fresh Drop",
-      "banner": ""
-    },
-    {
-      "platform": "Prime Gaming",
-      "title": "Jurassic World Evolution 2",
-      "link": "https://gaming.amazon.com/claims/jurassic-world-evolution-2-epic/dp/amzn1.pg.item.208bb96b-9ae6-4538-a1ff-c1831794f1b5?g=s&ingress=amzn&ref_=SM_JurassicWorldEvolution2_S01_FGWP_CRWN",
       "status": "Fresh Drop",
       "banner": ""
     },
@@ -218,6 +218,14 @@
     {
       "platform": "Prime Gaming",
       "title": "Police Simulator: Patrol Officers",
+      "link": "",
+      "status": "Fresh Drop",
+      "banner": "",
+      "cta": "Claim on Prime Gaming"
+    },
+    {
+      "platform": "Prime Gaming",
+      "title": "Arcadia Fallen",
       "link": "",
       "status": "Fresh Drop",
       "banner": "",
